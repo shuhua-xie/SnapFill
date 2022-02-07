@@ -54,7 +54,7 @@ class InputDataGraph:
         """
         # don't label with id since id can be implied by position in list
         for i in range(0, len(in_str) + 3):
-            self.nodes.add((i))
+            self.nodes.add((i,))
         # set ^ and $ first
         self.edges[((0,), (1,))] = set()
         self.edges[((0,), (1,))].add((-2, 1))

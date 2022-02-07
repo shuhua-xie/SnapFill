@@ -17,6 +17,19 @@ class DAG_Edge:
     c_str: const string expression
     """
     def __init__(self, substr, input_graph, input_string, str_ind):
+        """
+        learn the DAG edge label for some substring
+
+        substr: the string to learn programs for
+        input_graph: IDG of all inputs
+        input_str: the input for the given output substring
+        str_ind: index of the input output pair in question
+        """
+
+    def intersect(self, other):
+        """
+        intersect this DAG_Edge with another
+        """
 
 class DAG:
     """
@@ -25,10 +38,36 @@ class DAG:
     nodes: set of node labels
     edges: dictionary mapping pairs of node labels to DAG_Edge objects
     """
-    def __init__(self, out_str, input_graph, pre_DAG = None):
+    def __init__(self, out_str, str_ind, input_graph, input_strings, prev_DAG = None):
+        """
+        create DAG for output string given and intersect with previous DAG
 
-    def __generate_graph__():
+        out_str: output string
+        str_ind: index of the output string (used to find correct position in IDG)
+        input_graph: IDG of all inputs
+        input_strings: list of strings
+        prev_DAG: intersected DAG of all previous inputs
+        """
+        self.nodes = set()
+        self.edges = dict()
+        self.__generate_graph__()
+        if prev_DAG:
+            self.intersect(prev_DAG)
+
+    def __generate_graph__(self, out_str, str_ind, input_graph, input_strings):
+        """
+        generate DAG for 1 output
+        """
+        for i in range(0, len(out_str) + 1):
+            self.nodes.add((i,))
+        # generate edges
+        for i in range(0, len(out_str)):
+            for j in range(i, len(out_str) + 1):
+                self.edges[((i,), (j,))] = DAG_Edge(outstr[i:j], input_graph, input_strings[str_ind], str_ind)
 
     def intersect(self, other):
+        """
+        intersect this DAG with 'other' DAG
+        """
 
 
