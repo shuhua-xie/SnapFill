@@ -1,5 +1,6 @@
 import InputDataGraph as IDG
 from InputDataGraph import re
+from InputDataGraph import T
 
 class SubstrExprVSA:
     """
@@ -8,7 +9,7 @@ class SubstrExprVSA:
 
     constant: bool representing whether it's the constant string expression
     if constant == TRUE
-        s: the value of the constant substring
+        val: the value of the constant substring
     if constant == FALSE
         pl: set of positions representing the left
         pr: set of positions representing the right
@@ -29,17 +30,76 @@ class SubstrExprVSA:
         self.pl = pl
         self.pr = pr
 
+    def print_progs(self, idg):
+        """
+        Print the programs represented by this SubstrExpr
+
+        requires:
+        idg: Input Data Graph used to construct the DAG that this SubstrExpr appears in
+        """
+        if self.constant:
+            print("ConstantStr(\"" + self.val + "\")")
+            return
+#        print("Substrings (where regex tokens are represented as (regex, match number, direction))\n")
+        for l in self.pl:
+            for r in self.pr:
+                l_pos_li = [l] if (type(l) == int) else self.__get_regexes(l, idg)
+                r_pos_li = [r] if (type(r) == int) else self.__get_regexes(r, idg)
+                for l_pos in l_pos_li:
+                    for r_pos in r_pos_li:
+                        print("SubStr(input, " + 
+                                self.__pos_to_str(l_pos) + 
+                                ", " + 
+                                self.__pos_to_str(r_pos) + ")")
+    
+    def __get_regexes(self, node_label, idg):
+        """
+        get regexes matching node label
+
+        assumes: node_label is valid, idg is the IDG used for the DAG this SubstrExpr is a part of
+        returns: list of tuples of form (regex id OR literal, position, Dir [True for Start, False for End])
+        """
+        ret = []
+        for e_key in idg.edges.keys():
+            if e_key[0] == node_label or e_key[1] == node_label:
+                dir = e_key[0] == node_label
+                for (r, num) in idg.edges[e_key]:
+                    ret.append( (r, num, dir) )
+        return ret
+
+    @staticmethod
+    def __pos_to_str(pos):
+        """
+        input: either an int or a position as returned in __get_regexes()
+        returns: the string for of the int
+              OR a string form of the tuple
+        """
+        if type(pos) == int:
+            return str(pos)
+        ret = "input.match("
+        if type(pos[0]) == str:
+            ret += "\"" + pos[0] + "\", "
+        else:
+            ret += T.TOKENS[pos[0]] + ", "
+        ret += str(pos[1]) + ", "
+        if pos[2]:
+            ret += "Start)"
+        else:
+            ret += "End)"
+        return ret
+
+
     @staticmethod
     def intersect(obj1, obj2):
         if (not isinstance(obj1, SubstrExprVSA) or
             not isinstance(obj2, SubstrExprVSA) or
-             self.constant != other.constant      ):
+             obj2.constant != obj2.constant      ):
             return None
 
         # both are constant values
-        if obj1.constant and sbj1.val == obj2.val:
+        if obj1.constant and obj1.val == obj2.val:
             return SubstrExprVSA(obj1.constant, obj1.val, None, None)
-        if not self.constant:
+        if not obj1.constant and not obj2.constant:
             new_pl = obj1.pl.intersection(obj2.pl)
             new_pr = obj1.pr.intersection(obj2.pr)
             if new_pl and new_pr:
@@ -104,7 +164,7 @@ class DAG:
             for j in range(i + 1, len(output_str) + 1):
                 label = ((i+1,), (j+1,))
                 self.edges.setdefault(label, set())
-                substr = input_str[i:j]
+                substr = output_str[i:j]
                 
                 # add constant expr
                 self.edges[label].add(SubstrExprVSA(True, substr, None, None))
@@ -170,7 +230,7 @@ class DAG:
                 common = set()
                 # for correctness, must attempt to intersect every substr expr with every other
                 for substr_expr1 in self.edges[s_edge_key]:
-                    for substr_expr2 in other.edges[s_edge_key]:
+                    for substr_expr2 in other.edges[o_edge_key]:
                         intersection = SubstrExprVSA.intersect(substr_expr1, substr_expr2) 
                         if intersection:
                             common.add(intersection)
