@@ -42,10 +42,17 @@ if ".csv" in sys.argv[1]:
 elif ".sl" in sys.argv[1]:
     in_arr, out_arr = getBenchmarkConstraints(sys.argv[1])
 
+print("--debug info-- inputs: " + str(in_arr))
+print("--debug info-- outputs: " + str(out_arr))
+print()
+
 snap_fill = Synth.Synthesizer(in_arr, out_arr)
+
 for k in snap_fill.synth_DAG.edges.keys():
-    print("Programs represented by edge " + str(k) + ":")
+    print("Programs represented by edge (" + str(k[0]) + " -->\n" + str(k[1]) + "):")
     substr_set = snap_fill.synth_DAG.edges[k]
     for s in substr_set:
         s.print_progs(snap_fill.synth_IDG)
+if (not snap_fill.synth_DAG.edges.keys()):
+    print("No program could be synthesized")
 sys.exit()

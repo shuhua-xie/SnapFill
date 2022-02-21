@@ -1,3 +1,6 @@
+#for info statments only:
+import sys
+
 import InputDataGraph as IDG
 import DAG
 
@@ -21,12 +24,18 @@ class Synthesizer:
         """
         Build the DAG (do the synthesis)
         """
+        print("---info--- building InputDataGraph", file=sys.stderr)
         for i in self.inputs:
             self.synth_IDG = IDG.InputDataGraph(i, self.synth_IDG)
-        for ind in range(len(self.outputs)):
-            self.synth_DAG = DAG.DAG(self.inputs[ind], 
-                                     self.outputs[ind],
-                                     ind, self.synth_IDG, self.synth_DAG)
+        print("---info--- InputDataGraph built", file=sys.stderr)
+        print("---info--- Building DAG", file=sys.stderr)
+        for i in range(len(self.outputs)):
+            # check for NaN values (when the output wasn't specified)
+            if (self.outputs[i] == self.outputs[i]):
+                self.synth_DAG = DAG.DAG(self.inputs[i], 
+                                         self.outputs[i],
+                                         i, self.synth_IDG, self.synth_DAG)
+        print("---info--- DAG built", file=sys.stderr)
 
 class SubstrExprEvaluator:
     """

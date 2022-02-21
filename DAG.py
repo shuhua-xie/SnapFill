@@ -1,3 +1,5 @@
+import bisect
+
 import InputDataGraph as IDG
 from InputDataGraph import re
 from InputDataGraph import T
@@ -106,12 +108,82 @@ class SubstrExprVSA:
                 return SubstrExprVSA(obj1.constant, None, new_pl, new_pr)
         return None
 
+class DAGNodeLabel:
+    """
+    represents the label of a DAG node
+    is a tuple of tuples, the outer one maintains a sorted property
+        inner ones are pairs, representing (id, index)
+
+    label: tuple of tuples
+
+    supported operations: 
+    DAGNodeLabel.join(), joins two node labels into 1, assumes the two label's ids are disjoint
+    self.indexof(), given id, returns the index or None
+    """
+    def __init__(self, label):
+        self.label = label
+
+    def __eq__(self, other):
+        if isinstance(other, DAGNodeLabel):
+            return self.label == other.label
+        return False
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
+
+    def __str__(self):
+        return self.label.__str__()
+
+    def __hash__(self):
+        return hash(self.label)
+
+    def indexof(self, ind):
+        """
+        input: an id (int)
+        output: corresponding id's index (or None if it isn't present)
+        """
+        ids, inds = tuple(zip(*self.label))
+        expect_i = bisect.bisect_left(ids, ind)
+        if (expect_i == len(ids) or ids[expect_i] != ind):
+            return None
+        return inds[expect_i]
+
+    @staticmethod
+    def join(label1, label2):
+        """
+        assumes, label1 and label2 are valid
+        returns: new label containing all pairs in both original labels
+        """
+        if (len(label1.label) == 0):
+            return label2
+        if (len(label2.label) == 0):
+            return label1
+
+        l1 = label1.label
+        l2 = label2.label
+        i1, i2 = 0, 0
+        res_li = []
+        while (i1 < len(l1) and i2 < len(l2)):
+            if (l1[i1][0] <= l2[i2][0]):
+                res_li.append(l1[i1])
+                i1 += 1
+            else:
+                res_li.append(l2[i2])
+                i2 += 1
+        while (i1 < len(l1)):
+            res_li.append(l1[i1])
+            i1 += 1
+        while (i2 < len(l2)):
+            res_li.append(l2[i2])
+            i2 += 1
+        return DAGNodeLabel(tuple(res_li))
+
 class DAG:
     """
     DAG generation class
 
-    nodes: set of tuples representing the labels of each node
-    edges: dictionary mapping from (node1, node2) to a set of substring expressions
+    nodes: set of DAGNodeLabels representing the labels of each node
+    edges: dictionary mapping from (DAGNodeLabel1, DAGNodeLabel2) to a set of substring expressions
                 where each substring expression is (v_l, v_r, constant string)
                 v_l, v_r = independent sets of position expressions
     """
@@ -131,6 +203,7 @@ class DAG:
         input_str: input example as string
         output_str: corresponding output example as substring
         example_ind: the index of the example, for looking up indices in IDG node labels
+                    (serves as id for DAG node labels)
         input_graph: InputDataGraph generated from the whole dataset
         prev_DAG: intersection of the DAGs of all previous examples, defaults to None
         """
@@ -149,20 +222,18 @@ class DAG:
         returns:  nothing
         modifies: fills in nodes and edges as specified
         """
-        # get start index and end index of output string in input string
-#        match = re.finditer(output_str, input_str)
-#        start_index = match.start()
-#        end_index = match.end()
-
         # create len(output_str) + 1 number of nodes and a start node with label 0
         # since nodes are the spaces between letters
+        nodes_li = []
         for i in range(1, len(output_str) + 2):
-            self.nodes.add((i,))
+            nodes_li.append(DAGNodeLabel( ((example_ind ,i),) ))
+#            self.nodes.add((i,))
+        self.nodes = set(nodes_li)
 
         # Iterate over all substrings output_str[i..j] of the output string and add an edge (i,j) between the labels i and j
-        for i in range(0, len(output_str)):
-            for j in range(i + 1, len(output_str) + 1):
-                label = ((i+1,), (j+1,))
+        for i in range(0, len(nodes_li) - 1):
+            for j in range(i + 1, len(nodes_li)):
+                label = (nodes_li[i], nodes_li[j])
                 self.edges.setdefault(label, set())
                 substr = output_str[i:j]
                 
@@ -185,22 +256,6 @@ class DAG:
                             vr.add(v)
                     self.edges[label].add(SubstrExprVSA(False, None, vl, vr))
 
-                # create two independent sets of position expressions v_l and v_r
-                # a set of position expression consists of a set of IDG nodes and a constant position
-#                v_l, v_r = set()
-#                for v in input_graph.nodes:
-#                    if i in v:
-#                        v_l.add(v)
-#                    if j in v:
-#                        v_r.add(v)
-
-                # add constant position to v_l and v_r
-#                v_l.add(i)
-#                v_r.add(j)
-
-                # add independent sets of IDG nodes and constant string for given substring
-#                self.edges[label].add(v_l, v_r, substr)
-
     def intersect(self,other):
         """
         calculates the intersection between this graph and other, storing the result in this graph
@@ -220,13 +275,6 @@ class DAG:
             for o_edge_key in other.edges.keys():
 
                 # find common nodes of both independent sets respectively
-#                common = set.intersection(self.edges[s_edge_key][0], other.edges[o_edge_key][0])
-#                common_vr = set.intersection(self.edges[s_edge_key][1], other.edges[o_edge_key][1])
-#                if common_vr:
-#                    common.add(common_vr)
-#                common_str = set.intersection(self.edges[s_edge_key][2], other.edges[o_edge_key][2])
-#                if common_str:
-#                    common.add(common_str)
                 common = set()
                 # for correctness, must attempt to intersect every substr expr with every other
                 for substr_expr1 in self.edges[s_edge_key]:
@@ -236,8 +284,8 @@ class DAG:
                             common.add(intersection)
 
                 if common:
-                    n1 = o_edge_key[0] + s_edge_key[0]
-                    n2 = o_edge_key[1] + s_edge_key[1]
+                    n1 = DAGNodeLabel.join(o_edge_key[0], s_edge_key[0])
+                    n2 = DAGNodeLabel.join(o_edge_key[1], s_edge_key[1])
                     new_nodes.add(n1)
                     new_nodes.add(n2)
                     new_edges[(n1, n2)] = common
