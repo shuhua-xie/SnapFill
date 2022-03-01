@@ -1,4 +1,5 @@
 import bisect
+from copy import copy
 
 import InputDataGraph as IDG
 from InputDataGraph import re
@@ -148,6 +149,22 @@ class DAGNodeLabel:
             return None
         return inds[expect_i]
 
+    def ids(self):
+        """
+        returns: tuple of ids represented in this DAG label
+        note: it's in sorted order
+        """
+        ids, inds = tuple(zip(*self.label))
+        return ids
+
+    def inds(self):
+        """
+        returns: tuple of ids represented in this DAG label
+        note: it's in sorted order
+        """
+        ids, inds = tuple(zip(*self.label))
+        return inds
+
     @staticmethod
     def join(label1, label2):
         """
@@ -264,11 +281,12 @@ class DAG:
 
         assumes: neither self nor other are empty 
             ^ actually, it should work just fine even if they are
-        returns: nothing
+        returns:  a new DAG
         modifies: self.nodes and self.edges to intersect with other.nodes and other.edges
             - the index labels of self.nodes will be at the end of the intersected node labels
             - ^^^ is important for ordering
         """
+        ret = copy(self)
         new_nodes = set()
         new_edges = dict()
         for s_edge_key in self.edges.keys():
@@ -289,5 +307,36 @@ class DAG:
                     new_nodes.add(n1)
                     new_nodes.add(n2)
                     new_edges[(n1, n2)] = common
-        self.nodes = new_nodes
-        self.edges = new_edges
+        ret.nodes = new_nodes
+        ret.edges = new_edges
+        return ret
+
+    def has_solution(self, outputs):
+        """
+        returns whether or not there is a path through the DAG 
+
+        outputs: list of ALL outputs in consideration (will be used to look up based on index)
+        """
+        if (not self.nodes):
+            return false
+        ids = next(iter(self.nodes)).ids()
+        lengths = [len(s) + 1 for s in outputs]
+        goal = tuple( [l for (i,l) in set(zip(range(len(lengths)), lengths)) if i in ids] )
+        start = tuple(1 for x in range(len(ids)))
+
+        e = dict()
+        for (in_l, out_l) in self.edges.keys():
+            e.setdefault(in_l.inds(), set())
+            e[in_l.inds()].add(out_l.inds())
+        reach = set()
+        reach.add(start)
+        horizon = e[start]
+        while not horizon <= reach:
+            reach = set.union(reach, horizon)
+            new_horizon = set()
+            for item in horizon:
+                if item in e:
+                    new_horizon = set.union(new_horizon, e[item])
+            horizon = new_horizon
+        return goal in reach
+
