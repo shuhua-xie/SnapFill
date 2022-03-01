@@ -1,4 +1,5 @@
 import re
+from copy import copy
 import Tokens as T
 
 #NOTE: current implementation limitations:
@@ -102,6 +103,7 @@ class InputDataGraph:
         #   create temporary edge and node variables to store intersection
         #   intersect edge labels
         #   if non-empty, then add the nodes and the edge
+        temp = copy(self)
         new_nodes = set()
         new_edges = dict()
         for s_edge_key in self.edges.keys():
@@ -114,6 +116,23 @@ class InputDataGraph:
                     new_nodes.add(n2)
                     # TODO: is this correct? Are nodes guaranteed not to repeat?
                     new_edges[(n1, n2)] = common
-        self.nodes = new_nodes
-        self.edges = new_edges
-
+        temp.nodes = new_nodes
+        temp.edges = new_edges
+        return temp
+    
+    def size(self):
+        return len(self.edges.keys())
+    
+    @staticmethod
+    def get_similarity(IDG1, IDG2):
+        """
+        returns similarity of two IDGs
+        assumes: IDG1 and IDG2 are in fact IDGs
+        """
+        size1 = IDG1.size()
+        size2 = IDG2.size()
+        tempIDG = IDG1.intersect(IDG2)
+    
+        sizeNew = tempIDG.size()
+    
+        return float(sizeNew)/(size1+size2)
