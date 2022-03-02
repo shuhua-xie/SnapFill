@@ -33,7 +33,7 @@ class InputDataGraph:
             ret += "\n" + k.__str__() + ": " + li
         return ret
 
-    def __init__(self, in_str, ind, prev_graph = None):
+    def __init__(self, in_str, ind):
         """
         Create a InputDataGraph based on one input string and intersect with the graph of all previous strings
     
@@ -43,8 +43,6 @@ class InputDataGraph:
         self.nodes = set()
         self.edges = dict()
         self.__generate_graph__(in_str, ind)
-        if (prev_graph):
-            self.intersect(prev_graph)
 
     def __generate_graph__(self, in_str, ind):
         """
@@ -70,7 +68,8 @@ class InputDataGraph:
         for i in range(0, len(T.MATCHERS)):
             ind = 0
             total_matches = len(T.MATCHERS[i].findall(in_str))
-            for m in T.MATCHERS[i].finditer(in_str):
+            for m in T.MATCHERS[i].find
+            (in_str):
                 ind += 1
                 s = NodeLabel( ((ind, m.start() + 1),) )
                 f = NodeLabel( ((ind, m.end()   + 1),) )
@@ -131,6 +130,9 @@ class InputDataGraph:
     
     def size(self):
         return len(self.edges.keys())
+    
+    def __lt__(self, other):
+        return (self.size() < other.size())
     
     @staticmethod
     def get_similarity(IDG1, IDG2):
