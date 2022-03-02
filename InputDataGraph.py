@@ -1,6 +1,7 @@
 import re
 from copy import copy
 import Tokens as T
+from common import *
 
 #NOTE: current implementation limitations:
 #       - only considering single column inputs
@@ -32,7 +33,7 @@ class InputDataGraph:
             ret += "\n" + k.__str__() + ": " + li
         return ret
 
-    def __init__(self, in_str, prev_graph = None):
+    def __init__(self, in_str, ind, prev_graph = None):
         """
         Create a InputDataGraph based on one input string and intersect with the graph of all previous strings
     
@@ -41,11 +42,11 @@ class InputDataGraph:
         """
         self.nodes = set()
         self.edges = dict()
-        self.__generate_graph__(in_str)
+        self.__generate_graph__(in_str, ind)
         if (prev_graph):
             self.intersect(prev_graph)
 
-    def __generate_graph__(self, in_str):
+    def __generate_graph__(self, in_str, ind):
         """
         first function called when generating an InputDataGraph, creates the graph for a single input
 
@@ -53,14 +54,17 @@ class InputDataGraph:
         returns:  nothing
         modifies: fills in nodes and edges as specified
         """
-        # don't label with id since id can be implied by position in list
         for i in range(0, len(in_str) + 3):
-            self.nodes.add((i,))
+            self.nodes.add(NodeLabel( ((ind, i),) ))
+        fst_node  = NodeLabel( ((ind, 0),) )
+        snd_node  = NodeLabel( ((ind, 1),) )
+        snd_last_node  = NodeLabel( ((ind, len(in_str) + 1),) )
+        last_node = NodeLabel( ((ind, len(in_str) + 2),) )
         # set ^ and $ first
-        self.edges[((0,), (1,))] = set()
-        self.edges[((0,), (1,))].add((-2, 1))
-        self.edges[((len(in_str) + 1,), (len(in_str) + 2,))] = set()
-        self.edges[((len(in_str) + 1,), (len(in_str) + 2,))].add((-1, 1))
+        self.edges[(fst_node, snd_node)] = set()
+        self.edges[(fst_node, snd_node)].add((-2, 1))
+        self.edges.setdefault((snd_last_node, last_node), set())
+        self.edges[(snd_last_node, last_node)].add((-1, 1))
 
         # attempt to match each regex on the input
         for i in range(0, len(T.MATCHERS)):
@@ -68,7 +72,10 @@ class InputDataGraph:
             total_matches = len(T.MATCHERS[i].findall(in_str))
             for m in T.MATCHERS[i].finditer(in_str):
                 ind += 1
-                label = ((m.start() + 1,), (m.end() + 1,))
+                s = NodeLabel( ((ind, m.start() + 1),) )
+                f = NodeLabel( ((ind, m.end()   + 1),) )
+                label = (s, f)
+                #label = ((m.start() + 1,), (m.end() + 1,))
                 self.edges.setdefault(label, set())
                 # add (regex pattern number, match number)
                 self.edges[label].add((i, ind))
@@ -78,7 +85,10 @@ class InputDataGraph:
         # add constant labels
         for i in range(1, len(in_str) + 1):
             for j in range (i + 1, len(in_str) + 2):
-                label = ((i,), (j,))
+                s = NodeLabel( ((ind, i),) )
+                f = NodeLabel( ((ind, j),) )
+                label = (s, f)
+                #label = ((i,), (j,))
                 self.edges.setdefault(label, set())
                 c_str = in_str[i - 1: j - 1]
                 # find the match number of this constant string
@@ -110,11 +120,10 @@ class InputDataGraph:
             for o_edge_key in other.edges.keys():
                 common = set.intersection(self.edges[s_edge_key], other.edges[o_edge_key])
                 if common:
-                    n1 = o_edge_key[0] + s_edge_key[0]
-                    n2 = o_edge_key[1] + s_edge_key[1]
+                    n1 = NodeLabel.join(o_edge_key[0], s_edge_key[0])
+                    n2 = NodeLabel.join(o_edge_key[1], s_edge_key[1])
                     new_nodes.add(n1)
                     new_nodes.add(n2)
-                    # TODO: is this correct? Are nodes guaranteed not to repeat?
                     new_edges[(n1, n2)] = common
         temp.nodes = new_nodes
         temp.edges = new_edges
