@@ -8,15 +8,14 @@ class Synthesizer:
     """
     Synthesizer using IDG and DAG
 
-    self.synth_IDG     = input data graph using all of the inputs
-    self.synth_DAG     = DAG using the IDG and all outputs
+    self.pairs   = list of (idg, dag) pairs
     self.inputs  = list of strings
     self.outputs = list of strings, length <= inputs
     """
     def __init__(self, inputs, outputs):
         self.inputs = inputs
         self.outputs = outputs
-        self.PAIRS = []
+        self.pairs = []
         self.synthesize()
 
     def synthesize(self):
@@ -24,71 +23,80 @@ class Synthesizer:
         Build the DAG (do the synthesis)
         """
         
-        print("---info--- building InputDataGraph", file=sys.stderr)
         for i in range(len(self.inputs)):
             currIDG = IDG.InputDataGraph(self.inputs[i],i)
+            currDAG = None
             if (self.outputs[i] == self.outputs[i]):
                 currDAG = DAG.DAG(self.inputs[i],self.outputs[i],i, currIDG)
-                self.PAIRS.append((currIDG, currDAG))
-            else:
-                self.PAIRS.append((currIDG, None))
-        
+            self.pairs.append((currIDG, currDAG))
         
         # combining IDG without outputs to those with outputs
-        while(None in list(zip(*self.PAIRS))[1]):
-            
-            IDGWithOutput = [self.PAIRS[i] for i in range(len(self.PAIRS)) if self.PAIRS[i][1] != None]
-            IDGWithoutOutput = [self.PAIRS[i] for i in range(len(self.PAIRS)) if self.PAIRS[i][1] == None]
+        while(None in list(zip(*self.pairs))[1]):
+            PairsWithOutput = [self.pairs[i] for i in range(len(self.pairs)) if self.pairs[i][1] != None]
+            PairsWithoutOutput = [self.pairs[i] for i in range(len(self.pairs)) if self.pairs[i][1] == None]
             
             ranking_list = []
-            
-            for i in IDGWithoutOutput:
-                for j in IDGWithOutput:
-                    ranking_list.append((IDG.get_similarity(i,j),i[0],j[0]))
-                    
+            for i in PairsWithoutOutput:
+                for j in PairsWithOutput:
+                    # ranking_list = list of (similarity: float, IDG1, IDG2) tuples
+                    ranking_list.append((IDG.InputDataGraph.get_similarity(i,j),i[0],j[0]))
             ranking_list.sort()
-            
             merged = False
             
             for pair in ranking_list:
-                
-                newIDG = pair[1].intesect(pair[2])
-                
+                newIDG = pair[1].intersect(pair[2])
                 if newIDG.size() == 0:
                     continue
                 
                 ids = next(iter(newIDG.nodes)).ids()
-                
-                newDAGS = []
-                
-                for i in ids:
-                    if self.outputs[i] == self.outputs[i]:
-                        newDAGS.append(DAG.DAG(self.inputs[i],self.outputs[i],i, newIDG))
-                
+                newDAGS = [DAG.DAG(self.inputs[i], self.outputs[i], i , newIDG) for i in ids if self.outputs[i] == self.outputs[i]]
                 newDAG = newDAGS[0]
                 for dag in newDAGS[1:-1]:
                     newDAG = newDAG.intersect(dag)
-                
-                
                 if newDAG.has_solution(self.outputs):
-                    tempPairs = []
-                    for i in self.PAIRS:
-                        if idFirst != next(iter(i[0].nodes)).ids() and idSecond != next(iter(i[0].nodes)).ids():
-                            tempPairs.append(i)
-
+                    tempPairs = [p for p in self.pairs if (p[0] != pair[1] and p[0] != pair[2])]
                     tempPairs.append((newIDG, newDAG))
-
-                    self.PAIRS = tempPairs
-                    
+                    self.pairs = tempPairs
                     merged = True
-                    
                     break
-                    
             if not merged:
-                return None
+                self.pairs = None
+                return
+        # End while loop 1
+
+        merged = True
+        while(merged):
+            print("---debug(Synthesizer.py:69)--- " + str(self.pairs) + "\n")
+            merged = False
+            
+            ranking_list = []
+            for i in range(len(self.pairs) - 1):
+                for j in range(i+1, len(self.pairs)):
+                    idg1 = self.pairs[i][0]
+                    idg2 = self.pairs[j][0]
+                    ranking_list.append((IDG.InputDataGraph.get_similarity(idg1, idg2), idg1, idg2))
+            ranking_list.sort()
+            print("---debug(Synthesizer.py:79)--- " + str(ranking_list) + "\n")
+            
+            for pair in ranking_list:
+                newIDG = pair[1].intersect(pair[2])
+                if newIDG.size() == 0:
+                    continue
                 
-                             
-        print("---info--- DAG built", file=sys.stderr)
+                ids = next(iter(newIDG.nodes)).ids()
+                print("---debug(Synthesizer.py:87)--- " + str(ids) + "\n")
+                newDAGS = [DAG.DAG(self.inputs[i], self.outputs[i], i , newIDG) for i in ids if self.outputs[i] == self.outputs[i]]
+                newDAG = newDAGS[0]
+                for dag in newDAGS[1:-1]:
+                    newDAG = newDAG.intersect(dag)
+                if newDAG.has_solution(self.outputs):
+                    tempPairs = [p for p in self.pairs if (p[0] != pair[1] and p[0] != pair[2])]
+                    tempPairs.append((newIDG, newDAG))
+                    self.pairs = tempPairs
+                    merged = True
+                    print("---debug(Synthesizer.py:96)--- merged \n")
+                    break
+        # End while loop 2
 
 class SubstrExprEvaluator:
     """

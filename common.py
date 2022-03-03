@@ -2,6 +2,7 @@
 common.py
 used for both IDG and DAG
 """
+import bisect
 
 class NodeLabel:
     """
@@ -27,12 +28,12 @@ class NodeLabel:
         return not self.__eq__(other)
 
     def __str__(self):
-        return self.label.__str__()
+        return "label<<" + self.label.__str__() + ">>"
 
     def __hash__(self):
         return hash(self.label)
 
-    def indexof(self, ind):
+    def __getitem__(self, ind):
         """
         input: an id (int)
         output: corresponding id's index (or None if it isn't present)

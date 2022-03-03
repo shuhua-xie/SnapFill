@@ -47,12 +47,11 @@ print("--debug info-- outputs: " + str(out_arr))
 print()
 
 snap_fill = Synth.Synthesizer(in_arr, out_arr)
-
-for k in snap_fill.synth_DAG.edges.keys():
-    print("Programs represented by edge (" + str(k[0]) + " -->\n" + str(k[1]) + "):")
-    substr_set = snap_fill.synth_DAG.edges[k]
-    for s in substr_set:
-        s.print_progs(snap_fill.synth_IDG)
-if (not snap_fill.synth_DAG.edges.keys()):
+if (not snap_fill.pairs):
     print("No program could be synthesized")
-sys.exit()
+    sys.exit()
+
+for i in range(len(snap_fill.pairs)):
+    print("Branch " + str(i) + "----------")
+    print(snap_fill.pairs[i][1])
+    print("Branch " + str(i) + " end------\n")

@@ -1,4 +1,3 @@
-import bisect
 from copy import copy
 
 import InputDataGraph as IDG
@@ -24,8 +23,16 @@ class SubstrExprVSA:
         if self.constant:
             return "ConstantStr(\"" + self.val + "\")\n"
         ret  = "Substr(left, right)\n"
-        ret += "left = "  + self.pl.__str__() + "\n"
-        ret += "right = " + self.pr.__str__() + "\n"
+        lset = "set("
+        for p in self.pl:
+            lset += p.__str__() + ", "
+        lset += ")"
+        rset = "set("
+        for p in self.pr:
+            rset += p.__str__() + ", "
+        rset += ")"
+        ret += "left = "  + lset + "\n"
+        ret += "right = " + rset + "\n"
         return ret
 
     def __init__(self, cons, val = None, pl = None, pr = None):
@@ -120,15 +127,19 @@ class DAG:
                 v_l, v_r = independent sets of position expressions
     """
     def __str__(self):
-        ret = "nodes: " + self.nodes.__str__() + "\n"
+        nodestr = "set("
+        for n in self.nodes:
+            nodestr += n.__str__() + ", "
+        nodestr += ")"
+        ret = "nodes: " + nodestr + "\n"
         for k in self.edges.keys():
             li = ""
             for substr in self.edges[k]:
                 li += substr.__str__() + "\n"
-            ret += ">>>" + k.__str__() + ":\n{" + li + "}" + "\n\n"
+            ret += "---" + k[0].__str__() +  " to " + k[1].__str__() + ":\n{" + li + "}" + "\n\n"
         return ret
 
-    def __init__(self, input_str, output_str, example_ind, input_graph, prev_DAG = None):
+    def __init__(self, input_str, output_str, example_ind, input_graph):
         """
         create a DAG for each input-output example and intersect with the DAG of all previous examples
 
@@ -143,8 +154,6 @@ class DAG:
         self.nodes = set()
         self.edges = dict()
         self.generate_DAG(input_str, output_str, example_ind, input_graph)
-        if prev_DAG:
-            self.intersect(prev_DAG)
 
     def generate_DAG(self, input_str, output_str, example_ind, input_graph):
         """
@@ -233,7 +242,7 @@ class DAG:
         outputs: list of ALL outputs in consideration (will be used to look up based on index)
         """
         if (not self.nodes):
-            return false
+            return False
         ids = next(iter(self.nodes)).ids()
         lengths = [len(s) + 1 for s in outputs]
         goal = tuple( [l for (i,l) in set(zip(range(len(lengths)), lengths)) if i in ids] )
