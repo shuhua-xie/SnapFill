@@ -48,7 +48,7 @@ class InputDataGraph:
         self.edges = dict()
         self.__generate_graph__(in_str, ind)
 
-    def __generate_graph__(self, in_str, ind):
+    def __generate_graph__(self, in_str, example_ind):
         """
         first function called when generating an InputDataGraph, creates the graph for a single input
 
@@ -57,11 +57,11 @@ class InputDataGraph:
         modifies: fills in nodes and edges as specified
         """
         for i in range(0, len(in_str) + 3):
-            self.nodes.add(NodeLabel( ((ind, i),) ))
-        fst_node  = NodeLabel( ((ind, 0),) )
-        snd_node  = NodeLabel( ((ind, 1),) )
-        snd_last_node  = NodeLabel( ((ind, len(in_str) + 1),) )
-        last_node = NodeLabel( ((ind, len(in_str) + 2),) )
+            self.nodes.add(NodeLabel( ((example_ind, i),) ))
+        fst_node  = NodeLabel( ((example_ind, 0),) )
+        snd_node  = NodeLabel( ((example_ind, 1),) )
+        snd_last_node  = NodeLabel( ((example_ind, len(in_str) + 1),) )
+        last_node = NodeLabel( ((example_ind, len(in_str) + 2),) )
         # set ^ and $ first
         self.edges[(fst_node, snd_node)] = set()
         self.edges[(fst_node, snd_node)].add((-2, 1))
@@ -74,8 +74,8 @@ class InputDataGraph:
             total_matches = len(T.MATCHERS[i].findall(in_str))
             for m in T.MATCHERS[i].finditer(in_str):
                 ind += 1
-                s = NodeLabel( ((ind, m.start() + 1),) )
-                f = NodeLabel( ((ind, m.end()   + 1),) )
+                s = NodeLabel( ((example_ind, m.start() + 1),) )
+                f = NodeLabel( ((example_ind, m.end()   + 1),) )
                 label = (s, f)
                 #label = ((m.start() + 1,), (m.end() + 1,))
                 self.edges.setdefault(label, set())
@@ -87,8 +87,8 @@ class InputDataGraph:
         # add constant labels
         for i in range(1, len(in_str) + 1):
             for j in range (i + 1, len(in_str) + 2):
-                s = NodeLabel( ((ind, i),) )
-                f = NodeLabel( ((ind, j),) )
+                s = NodeLabel( ((example_ind, i),) )
+                f = NodeLabel( ((example_ind, j),) )
                 label = (s, f)
                 #label = ((i,), (j,))
                 self.edges.setdefault(label, set())
@@ -120,6 +120,9 @@ class InputDataGraph:
         new_edges = dict()
         for s_edge_key in self.edges.keys():
             for o_edge_key in other.edges.keys():
+                print("---debug(IDG.py:123)--- ")
+                print(s_edge_key[0].__str__() + " to " + s_edge_key[1].__str__())
+                print(o_edge_key[0].__str__() + " to " + o_edge_key[1].__str__())
                 common = set.intersection(self.edges[s_edge_key], other.edges[o_edge_key])
                 if common:
                     n1 = NodeLabel.join(o_edge_key[0], s_edge_key[0])
@@ -127,6 +130,8 @@ class InputDataGraph:
                     new_nodes.add(n1)
                     new_nodes.add(n2)
                     new_edges[(n1, n2)] = common
+                    print("---debug(IDG.py:133)--- ")
+                    print(n1.__str__() + " to " + n2.__str__())
         temp.nodes = new_nodes
         temp.edges = new_edges
         return temp

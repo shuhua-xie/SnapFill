@@ -40,7 +40,7 @@ class Synthesizer:
                 for j in PairsWithOutput:
                     # ranking_list = list of (similarity: float, IDG1, IDG2) tuples
                     ranking_list.append((IDG.InputDataGraph.get_similarity(i,j),i[0],j[0]))
-            ranking_list.sort()
+            ranking_list.sort(reverse=True)
             merged = False
             
             for pair in ranking_list:
@@ -75,16 +75,17 @@ class Synthesizer:
                     idg1 = self.pairs[i][0]
                     idg2 = self.pairs[j][0]
                     ranking_list.append((IDG.InputDataGraph.get_similarity(idg1, idg2), idg1, idg2))
-            ranking_list.sort()
+            ranking_list.sort(reverse=True)
             print("---debug(Synthesizer.py:79)--- " + str(ranking_list) + "\n")
             
             for pair in ranking_list:
+                print("---debug(Synthesizer.py:82)--- " + str( next(iter(pair[1].nodes)).ids() ) + " and " + str( next(iter(pair[2].nodes)).ids() ) + "\n")
                 newIDG = pair[1].intersect(pair[2])
                 if newIDG.size() == 0:
                     continue
                 
                 ids = next(iter(newIDG.nodes)).ids()
-                print("---debug(Synthesizer.py:87)--- " + str(ids) + "\n")
+                print("---debug(Synthesizer.py:88)--- " + str(ids) + "\n")
                 newDAGS = [DAG.DAG(self.inputs[i], self.outputs[i], i , newIDG) for i in ids if self.outputs[i] == self.outputs[i]]
                 newDAG = newDAGS[0]
                 for dag in newDAGS[1:-1]:
@@ -94,7 +95,7 @@ class Synthesizer:
                     tempPairs.append((newIDG, newDAG))
                     self.pairs = tempPairs
                     merged = True
-                    print("---debug(Synthesizer.py:96)--- merged \n")
+                    print("---debug(Synthesizer.py:98)--- merged \n")
                     break
         # End while loop 2
 
