@@ -4,6 +4,37 @@ used for both IDG and DAG
 """
 import bisect
 
+def topsort(nodes, edge_keys):
+    """
+    input: input data graph
+    output: list of topologically sorted nodes
+    """
+    # dict for indegree of each node in IDG
+    indeg = dict()
+    for n in nodes:
+        indeg[n] = 0
+    for edge_key in edge_keys:
+        indeg[edge_key[1]] += 1
+
+    # create a queue and enqueue all vertices with indegree 0
+    queue = [node for node in indeg.keys() if indeg[node] == 0]
+
+    # list to store the topological ordering of the vertices
+    topsort = []
+    while queue:
+        # Taking front node of the queue and adding it into the topsort list.
+        node = queue.pop(0)
+        topsort.append(node)
+        # Iterate through all the neighbouring nodes of dequeued node and decrease their in-degree by 1
+        for edge_key in edge_keys:
+            if edge_key[0] == node:
+                indeg[edge_key[1]] -= 1
+                # If the indegree of the neighbour becomes 0 add it to the queue.
+                if indeg[edge_key[1]] == 0:
+                    queue.append(edge_key[1])
+    return topsort
+
+
 class NodeLabel:
     """
     represents the label of a DAG node
@@ -23,6 +54,9 @@ class NodeLabel:
         if isinstance(other, NodeLabel):
             return self.label == other.label
         return False
+
+    def __lt__(self, other):
+        return self.label.__lt__(other.label)
 
     def __ne__(self, other):
         return not self.__eq__(other)

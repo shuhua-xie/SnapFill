@@ -46,6 +46,7 @@ class InputDataGraph:
         """
         self.nodes = set()
         self.edges = dict()
+        self.ranked = None
         self.__generate_graph__(in_str, ind)
 
     def __generate_graph__(self, in_str, example_ind):
@@ -94,7 +95,7 @@ class InputDataGraph:
                 self.edges.setdefault(label, set())
                 c_str = in_str[i - 1: j - 1]
                 # find the match number of this constant string
-                c_match = re.compile(c_str)
+                c_match = re.compile(re.escape(c_str))
                 ind = len(c_match.findall(in_str, 0, i - 1 + len(c_str)))
                 neg_ind = -1 * len(c_match.findall(in_str, i - 1))
                 self.edges[label].add((c_str, ind))
@@ -120,9 +121,6 @@ class InputDataGraph:
         new_edges = dict()
         for s_edge_key in self.edges.keys():
             for o_edge_key in other.edges.keys():
-                print("---debug(IDG.py:123)--- ")
-                print(s_edge_key[0].__str__() + " to " + s_edge_key[1].__str__())
-                print(o_edge_key[0].__str__() + " to " + o_edge_key[1].__str__())
                 common = set.intersection(self.edges[s_edge_key], other.edges[o_edge_key])
                 if common:
                     n1 = NodeLabel.join(o_edge_key[0], s_edge_key[0])
@@ -130,12 +128,63 @@ class InputDataGraph:
                     new_nodes.add(n1)
                     new_nodes.add(n2)
                     new_edges[(n1, n2)] = common
-                    print("---debug(IDG.py:133)--- ")
-                    print(n1.__str__() + " to " + n2.__str__())
-        temp.nodes = new_nodes
         temp.edges = new_edges
+        temp.nodes = new_nodes
         return temp
-    
+
+    def rank_nodes(self):
+        """
+        input: input data graph
+        output: list of node in rank order
+        """
+        # dictionary for v.in score, v.out score and total score of each node in IDG
+        v_in = dict()
+        v_out = dict()
+        v_score = dict()
+
+        # initialize to 0
+        for v in self.nodes:
+            v_in[v] = 0
+            v_out[v] = 0
+            v_score[v] = 0
+
+        sorted_nodes = topsort(self.nodes, self.edges.keys())
+
+        # calculate v.out score of each node in IDG
+        for v in sorted_nodes:
+            for edge_key in self.edges.keys():
+                if edge_key[0] == v:
+                    v_out[v] = max(v_out[v], v_out[edge_key[1]] + InputDataGraph.node_distance(edge_key[0],edge_key[1]))
+
+        # calculate v.in score of each node in IDG
+        sorted_nodes.reverse()
+        for v in sorted_nodes:
+            for edge_key in self.edges.keys():
+                if edge_key[1] == v:
+                    v_in[v] = max(v_in[v], v_in[edge_key[0]] + InputDataGraph.node_distance(edge_key[0],edge_key[1]))
+        sorted_nodes.reverse()
+
+        # add v.in score and v.out score
+        for v in sorted_nodes:
+            v_score[v] = v_in[v] + v_out[v]
+
+        li = [(v_score[k], k) for k in v_score]
+        li.sort(reverse=True)
+
+        # get node with highest score
+        self.ranked = [k for (score, k) in li]
+
+    @staticmethod
+    def node_distance(v1,v2):
+        """
+        input: nodes of the given edge
+        output: distance between them i.e. sum of the length of the string given edge represents for each id
+        """
+        sum = 0
+        for i in v1.ids():
+            sum += abs(v2[i] - v1[i])
+        return sum
+
     def size(self):
         return len(self.edges.keys())
     

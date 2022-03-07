@@ -153,6 +153,7 @@ class DAG:
 
         self.nodes = set()
         self.edges = dict()
+        self.weights = None
         self.generate_DAG(input_str, output_str, example_ind, input_graph)
 
     def generate_DAG(self, input_str, output_str, example_ind, input_graph):
@@ -168,7 +169,6 @@ class DAG:
         nodes_li = []
         for i in range(1, len(output_str) + 2):
             nodes_li.append(NodeLabel( ((example_ind ,i),) ))
-#            self.nodes.add((i,))
         self.nodes = set(nodes_li)
 
         # Iterate over all substrings output_str[i..j] of the output string and add an edge (i,j) between the labels i and j
@@ -245,7 +245,7 @@ class DAG:
             return False
         ids = next(iter(self.nodes)).ids()
         lengths = [len(s) + 1 for s in outputs]
-        goal = tuple( [l for (i,l) in set(zip(range(len(lengths)), lengths)) if i in ids] )
+        goal = tuple( [l for (i,l) in list(zip(range(len(lengths)), lengths)) if i in ids] )
         start = tuple(1 for x in range(len(ids)))
 
         e = dict()
@@ -254,8 +254,10 @@ class DAG:
             e[in_l.inds()].add(out_l.inds())
         reach = set()
         reach.add(start)
+        if start not in e:
+            return False
         horizon = e[start]
-        while not horizon <= reach:
+        while horizon:
             reach = set.union(reach, horizon)
             new_horizon = set()
             for item in horizon:
@@ -264,3 +266,62 @@ class DAG:
             horizon = new_horizon
         return goal in reach
 
+    def assign_weights(self):
+        """
+        initialize dict to store edge weights
+        weights correspond to a constant string only if the edge has no substring exprs
+        for substring, the left and right ends are constant only if no regex matches
+
+        for the weight, instead of |s|^2 * magic number, we will use 
+            SUM(|s|^2) * magic number for all s (i.e. for each output example string)
+        """
+        weights = dict()
+        for k in self.edges:
+            c = [expr for expr in self.edges[k] if expr.constant]
+            length = 0
+            for i in k[0].ids():
+                length += (k[1][i] - k[0][i]) ** 2
+            if len(c) > 0:
+                weights[k] = 0.1 * length
+            else:
+                weights[k] = 1.5 * length
+        self.weights = weights
+
+    def best_solution(self, idg, outputs):
+        """
+        returns best solution
+
+        assumes: a solution exists
+        """
+        if (idg.ranked == None):
+            print("Unexpected Error, attempting to find solution when IDG nodes are not ranked")
+            return None
+        
+        self.assign_weights()
+        sorted_nodes = topsort(self.nodes, self.edges.keys())
+
+        # note: the start and goal contain only the indices of the nodes
+        ids = next(iter(self.nodes)).ids()
+        lengths = [len(s) + 1 for s in outputs]
+        goal_inds = tuple( [l for (i,l) in set(zip(range(len(lengths)), lengths)) if i in ids] )
+        start_inds = tuple(1 for x in range(len(ids)))
+        goal = None
+        start = None
+
+        dist = dict()
+        for n in self.nodes:
+            dist[n] = (float('-inf'), None)
+            if (n.inds() == start_inds):
+                start = n
+            elif n.inds() == goal_inds:
+                goal = n
+        dist[start] = (0, None)
+
+        for n in sorted_nodes:
+            for e in self.edges:
+                if e[0] == n and dist[e[1]][0] < dist[n][0] + self.weights[e]:
+                    dist[e[1]] = (dist[n][0] + self.weights[e], n)
+        path = [goal]
+        while path[0] != start:
+            path.insert(0, dist[path[0]][1])
+        return [(path[i], path[i+1]) for i in range(len(path) - 1)]
