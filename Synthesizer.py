@@ -8,14 +8,18 @@ class Synthesizer:
     """
     Synthesizer using IDG and DAG
 
-    self.pairs   = list of (idg, dag) pairs
-    self.inputs  = list of strings
-    self.outputs = list of strings, length <= inputs
+    self.pairs      = list of (idg, dag) pairs
+    self.inputs     = list of strings
+    self.outputs    = list of strings
+    self.pairs      = pairs of IDG and DAGs that cover the entire spec
+    self.conditions = conditions to separate pairs (for now, just in the order that pairs originally is)
     """
     def __init__(self, inputs, outputs):
         self.inputs = inputs
         self.outputs = outputs
         self.pairs = []
+        self.conditions = []
+        self.original_idgs = None
         self.synthesize()
 
     def synthesize(self):
@@ -28,6 +32,7 @@ class Synthesizer:
             if (self.outputs[i] == self.outputs[i]):
                 currDAG = DAG.DAG(self.inputs[i],self.outputs[i],i, currIDG)
             self.pairs.append((currIDG, currDAG))
+        self.original_idgs = [idg for (idg, dag) in self.pairs]
         
         # combining IDG without outputs to those with outputs
         while(None in list(zip(*self.pairs))[1]):
@@ -92,6 +97,56 @@ class Synthesizer:
                     merged = True
                     break
         # End while loop 2
+
+    def learn_conditions(self):
+        """
+        learn condition pairs for the branches (sorts the branches, so conditions match with branches in order)
+
+        self.conditions = list of (>= conditions, < conditions)
+            patterns in the branch IDG and not in any of the original idgs of ids not in the branch are >= conditions
+            patterns not in any original idg of ids in the branch but in all other branches are < conditions
+
+        conditions can be simplified:
+            >= conditions: only keep the positive ones, and only keep the patterns with the largest match number
+            <  conditions: only keep the positive ones, and only keep the patterns with the smallest match number
+        """
+        self.pairs.sort(key=lambda p: len( next(iter(p[0].nodes)).ids() ) )
+        covered = set()
+        for i in range(len(self.pairs) - 1):
+            idg = self.pairs[i][0]
+            ids = next(iter(idg.nodes)).ids()
+            positive_union = set()
+            for pos_id in ids:
+                positive_union = positive_union.union(self.original_idgs[pos_id].patterns)
+            covered = covered.union(set(ids))
+            negative_union = set()
+            for neg_id in range(len(self.original_idgs)):
+                if neg_id not in covered:
+                    negative_union = negative_union.union(self.original_idgs[neg_id].patterns)
+            geq_conds = idg.patterns.difference(negative_union)
+
+            negative_idgs = [self.pairs[j][0] for j in range(i+1, len(self.pairs))]
+            negative_intersection = negative_idgs[0].patterns
+            for neg_idg in negative_idgs[1:]:
+                negative_intersection = negative_intersection.intersection(neg_idg.patterns)
+            lt_conds = negative_intersection.difference(positive_union)
+
+            # simplify conditions
+            geq_conds = {(pat, num) for (pat, num) in geq_conds if num > 0}
+            tmp = dict()
+            for pat, num in geq_conds:
+                tmp.setdefault(pat, num)
+                if tmp[pat] < num:
+                    tmp[pat] = num
+            geq_conds = set(tmp.items())
+            lt_conds  = {(pat, num) for (pat, num) in lt_conds  if num > 0}
+            tmp = dict()
+            for pat, num in lt_conds:
+                tmp.setdefault(pat, num)
+                if tmp[pat] > num:
+                    tmp[pat] = num
+            lt_conds = set(tmp.items())
+            self.conditions.append((geq_conds, lt_conds))
 
 class SubstrExprEvaluator:
     """

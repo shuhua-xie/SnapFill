@@ -17,6 +17,8 @@ class InputDataGraph:
                 pattern: a string literal or an integer constant indicating the pattern type
         - dictionary for fast lookup
         - tuples since it is a dictionary
+    ranked: dictionary of nodes vs their rank
+    patterns: set of (pattern, match_number) that occur in this IDG
     """
 
     def __str__(self):
@@ -47,6 +49,7 @@ class InputDataGraph:
         self.nodes = set()
         self.edges = dict()
         self.ranked = None
+        self.patterns = set()
         self.__generate_graph__(in_str, ind)
 
     def __generate_graph__(self, in_str, example_ind):
@@ -68,6 +71,8 @@ class InputDataGraph:
         self.edges[(fst_node, snd_node)].add((-2, 1))
         self.edges.setdefault((snd_last_node, last_node), set())
         self.edges[(snd_last_node, last_node)].add((-1, 1))
+        self.patterns.add((-2, 1))
+        self.patterns.add((-1, 1))
 
         # attempt to match each regex on the input
         for i in range(0, len(T.MATCHERS)):
@@ -84,6 +89,8 @@ class InputDataGraph:
                 self.edges[label].add((i, ind))
                 # add negative match number as well
                 self.edges[label].add((i, -1 * total_matches + ind - 1))
+                self.patterns.add((i, ind))
+                self.patterns.add((i, -1 * total_matches + ind - 1))
 
         # add constant labels
         for i in range(1, len(in_str) + 1):
@@ -100,6 +107,8 @@ class InputDataGraph:
                 neg_ind = -1 * len(c_match.findall(in_str, i - 1))
                 self.edges[label].add((c_str, ind))
                 self.edges[label].add((c_str, neg_ind))
+                self.patterns.add((c_str, ind))
+                self.patterns.add((c_str, neg_ind))
 
     def intersect(self, other):
         """
@@ -119,6 +128,7 @@ class InputDataGraph:
         temp = copy(self)
         new_nodes = set()
         new_edges = dict()
+        new_patterns = set()
         for s_edge_key in self.edges.keys():
             for o_edge_key in other.edges.keys():
                 common = set.intersection(self.edges[s_edge_key], other.edges[o_edge_key])
@@ -128,8 +138,10 @@ class InputDataGraph:
                     new_nodes.add(n1)
                     new_nodes.add(n2)
                     new_edges[(n1, n2)] = common
+                    new_patterns = new_patterns.union(common)
         temp.edges = new_edges
         temp.nodes = new_nodes
+        temp.patterns = new_patterns
         return temp
 
     def rank_nodes(self):
