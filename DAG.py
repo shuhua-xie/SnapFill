@@ -41,6 +41,43 @@ class SubstrExprVSA:
         self.pl = pl
         self.pr = pr
 
+    def get_top_ranking(self, idg):
+        """
+        assumes idg nodes are ranked
+        should only be called on non-constant VSAs!
+
+        returns: (ranking, lnode, rnode)
+            where ranking = sum of the idg node weights
+        """
+        if self.constant:
+            return None
+
+        lnode = None
+        lrank = 0
+        for n in self.pl:
+            if not lnode:
+                lnode = n
+                if type(n) == int:
+                    lrank = 0
+                else:
+                    lrank = idg.ranked[n]
+            elif type(n) != int and idg.ranked[n] > lrank:
+                lnode = n
+                lrank = idg.ranked[n]
+        rnode = None
+        rrank = 0
+        for n in self.pr:
+            if not rnode:
+                rnode = n
+                if type(n) == int:
+                    rrank = 0
+                else:
+                    rrank = idg.ranked[n]
+            elif type(n) != int and idg.ranked[n] > rrank:
+                rnode = n
+                rrank = idg.ranked[n]
+        return (lrank + rrank, lnode, rnode)
+
     def print_progs(self, idg):
         """
         Print the programs represented by this SubstrExpr
@@ -54,8 +91,8 @@ class SubstrExprVSA:
 #        print("Substrings (where regex tokens are represented as (regex, match number, direction))\n")
         for l in self.pl:
             for r in self.pr:
-                l_pos_li = [l] if (type(l) == int) else self.__get_regexes(l, idg)
-                r_pos_li = [r] if (type(r) == int) else self.__get_regexes(r, idg)
+                l_pos_li = [l] if (type(l) == int) else idg.get_regexes(l)
+                r_pos_li = [r] if (type(r) == int) else idg.get_regexes(r)
                 for l_pos in l_pos_li:
                     for r_pos in r_pos_li:
                         print("SubStr(input, " + 
@@ -63,8 +100,11 @@ class SubstrExprVSA:
                                 ", " + 
                                 self.__pos_to_str(r_pos) + ")")
     
+    # moved to InputDataGraph.py
     def __get_regexes(self, node_label, idg):
         """
+        NOTE: moved to InputDataGraph.py, where it makes more sense
+            this one kept here just in case something breaks
         get regexes matching node label
 
         assumes: node_label is valid, idg is the IDG used for the DAG this SubstrExpr is a part of
@@ -289,7 +329,9 @@ class DAG:
 
     def best_solution(self, idg, outputs):
         """
-        returns best solution
+        returns best solutions (a rather deceptive name... it returns an entire set of programs)
+        intuition behind this: didn't have enough time to figure out how to rank between regexes
+            so why not return them all, and potentially allow the user to see them?
 
         assumes: a solution exists
         """
@@ -324,4 +366,20 @@ class DAG:
         path = [goal]
         while path[0] != start:
             path.insert(0, dist[path[0]][1])
-        return [(path[i], path[i+1]) for i in range(len(path) - 1)]
+
+        substr_exprs = []
+        for vsa_set in [self.edges[ (path[i], path[i+1]) ] for i in range(len(path) - 1)]:
+            # vsa_set can contain at most 1 constant string expr, and many substr exprs 
+            # (vsa_set is nonempty)
+            # between substr exprs, choose the substring that has the largest ranking
+            # rank of substr: sum of endpoint node weights
+            re_li = [vsa for vsa in vsa_set if not vsa.constant]
+            if not re_li:
+                const_li = [vsa for vsa in vsa_set if vsa.constant]
+                substr_exprs.append(const_li[0].val)
+                continue
+            top_substrs = [vsa.get_top_ranking(idg) for vsa in re_li]
+            top_substrs.sort(key=lambda t: t[0], reverse=True)
+            substr_exprs.append( (top_substrs[0][1], top_substrs[0][2]) )
+
+        return substr_exprs

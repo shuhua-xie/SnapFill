@@ -183,8 +183,24 @@ class InputDataGraph:
         li = [(v_score[k], k) for k in v_score]
         li.sort(reverse=True)
 
-        # get node with highest score
-        self.ranked = [k for (score, k) in li]
+        self.ranked = dict()
+        for (score, k) in li:
+            self.ranked[k] = score
+    
+    def get_regexes(self, node_label):
+        """
+        get regexes matching node label
+
+        assumes: node_label is valid, idg is the IDG used for the DAG this SubstrExpr is a part of
+        returns: list of tuples of form (regex id OR literal, position, Dir [True for Start, False for End])
+        """
+        ret = []
+        for e_key in self.edges.keys():
+            if e_key[0] == node_label or e_key[1] == node_label:
+                direction = e_key[0] == node_label
+                for (r, num) in self.edges[e_key]:
+                    ret.append( (r, num, direction) )
+        return ret
 
     @staticmethod
     def node_distance(v1,v2):

@@ -3,24 +3,70 @@ import sys
 
 import InputDataGraph as IDG
 import DAG
+import Tokens as T
+
+class Program:
+    """
+    for representing a singular program, i.e. the one that the Synthesizer generated
+
+    self.conditions = conditions for each branch
+        condition: (geq, pattern, num)
+            geq     = True if the condition is >=, False if it is <
+            pattern = regex pattern number, or string literal
+            num     = match number
+    self.progs      = program for each branch
+    """
+    def __init__(self, conds, ps):
+        self.conditions = conds
+        self.progs      = ps
+
+    def __str__(self):
+        """
+        print DSL version of self
+        """
+        prog = ""
+        if not self.conditions:
+            prog = __prog_to_str(self.progs[0])
+        pass
+
+    @staticmethod
+    def __prog_to_str(prog):
+        pass
+
+    def to_python(self):
+        """
+        returns string representing python program that can convert inputs
+        """
+        pass
+
+    def eval_input(self, in_str):
+        pass
 
 class Synthesizer:
     """
     Synthesizer using IDG and DAG
 
+    self.error      = error string
     self.pairs      = list of (idg, dag) pairs
     self.inputs     = list of strings
     self.outputs    = list of strings
     self.pairs      = pairs of IDG and DAGs that cover the entire spec
     self.conditions = conditions to separate pairs (for now, just in the order that pairs originally is)
+    self.progs      = list of ( list of SubStrVSAs that represent what to concat )
+    self.best_prog  = Program instance
     """
     def __init__(self, inputs, outputs):
         self.inputs = inputs
         self.outputs = outputs
         self.pairs = []
         self.conditions = []
+        self.progs = None
+        self.best_prog = None
         self.original_idgs = None
+        self.error = None
         self.synthesize()
+        if not self.error:
+            self.gen_program()
 
     def synthesize(self):
         """
@@ -65,6 +111,7 @@ class Synthesizer:
                     break
             if not merged:
                 self.pairs = None
+                self.error = "Some inputs could not be taken into account\n"
                 return
         # End while loop 1
 
@@ -146,24 +193,55 @@ class Synthesizer:
                 if tmp[pat] > num:
                     tmp[pat] = num
             lt_conds = set(tmp.items())
+            if not geq_conds and not lt_conds:
+                self.error = "Conditions could not be generated\n"
+                return
             self.conditions.append((geq_conds, lt_conds))
 
-class SubstrExprEvaluator:
-    """
-    evaluator for a synthesized SubstrExpr
-
-    self.left = start position
-    self.right = end position
-    -- position: an int (for a constant position) OR
-            a tuple (regex index, count, Start/End [True = start, False = end])
-    """
-    def __init__(self, l, r):
-        self.left = l
-        self.right = r
-
-    def eval(self, in_str):
+    def gen_program(self):
         """
-        TODO: but basically just evaluate the substring
+        Generate and print the program
         """
-        pass
-    
+        self.progs = []
+        for idg, dag in self.pairs:
+            idg.rank_nodes()
+            self.progs.append(dag.best_solution(idg, self.outputs))
+
+        self.learn_conditions()
+        conds = []
+        for geq, lt in self.conditions:
+            c_set = geq
+            geq = True
+            if not c_set:
+                c_set = lt
+                geq = False
+            re_li = [(pat, num) for (pat, num) in c_set if type(pat) == int]
+            if not re_li:
+                re_li = [(pat, num) for (pat, num) in c_set if type(pat) == str]
+                re_li.sort(key=lambda p: len(p[0]), reverse=True)
+            else:
+                re_li.sort(key=lambda p: p[0], reverse=True)
+            conds.append((geq, re_li[0][0], re_li[0][1]))
+
+        chosen_ps = []
+        for i in range(len(self.progs)):
+            # p is a result of dag.best_solution(), i.e. a list of constants and node pairs
+            p = self.progs[i]
+            chosen = []
+            for expr in p:
+                if type(expr) == str:
+                    chosen.append(expr)
+                    continue
+                lpos = expr[0]
+                if type(lpos) != int:
+                    l_res = self.pairs[i][0].get_regexes(lpos)
+                    l_res.sort(key=lambda t: t[0] if type(t[0]) == int else -3, reverse=True)
+                    lpos = l_res[0]
+                rpos = expr[1]
+                if type(rpos) != int:
+                    r_res = self.pairs[i][0].get_regexes(rpos)
+                    r_res.sort(key=lambda t: t[0] if type(t[0]) == int else -3, reverse=True)
+                    rpos = r_res[0]
+                chosen.append( (lpos, rpos) )
+            chosen_ps.append(chosen)
+        self.best_prog = Program(conds, chosen_ps)
