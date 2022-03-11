@@ -24,23 +24,167 @@ class Program:
         """
         print DSL version of self
         """
-        prog = ""
-        if not self.conditions:
-            prog = __prog_to_str(self.progs[0])
-        pass
-
-    @staticmethod
-    def __prog_to_str(prog):
-        pass
+        prog = "Switch{\n"
+        for i in range(len(self.conditions)):
+            cond = Program.cond_to_DSL(self.conditions[i])
+            p    = Program.prog_to_DSL(self.progs[i])
+            prog += "\t(" + cond + ", " + p + ")\n"
+        p = Program.prog_to_DSL(self.progs[-1])
+        prog += "\t(True, " + p + ")\n"
+        prog += "}"
+        return prog
 
     def to_python(self):
         """
         returns string representing python program that can convert inputs
+
+        returned program may fail if the input can't match as needed (index out of range errors)
         """
-        pass
+        prog  = "import sys\nimport re\nimport pandas as pd\nimport numpy as np\n\n"
+        prog += "def snap(in_str):\n"
+        x = "in_str"
+        for i in range(len(self.conditions)):
+            prog += Program.__cond_to_py(self.conditions[i]) + "\n"
+            prog += Program.__prog_to_py(self.progs[i])
+        prog += "\tif True:\n"
+        prog += Program.__prog_to_py(self.progs[-1]) + "\n"
+
+        # now write script part
+        # input: will take a csv and fill in missing values
+        help_str1  = "Useage: python3 snap.py [filename].csv"
+        help_str2  = "Assumes: each line has at most 2 columns, optionally quoted by \\'s"
+        help_str3  = "Output: file called snap-[filename].csv where each empty output column is filled"
+
+        err  = "if len(sys.argv) < 2 or '.csv' not in sys.argv[1]:\n"
+        err += "\tprint(\'" + help_str1 + "\')\n"
+        err += "\tprint(\'" + help_str2 + "\')\n"
+        err += "\tprint(\'" + help_str3 + "\')\n"
+        err += "\tsys.exit()\n"
+
+        iofunc  = "def getIO(path):\n"
+        iofunc += "\tdata = pd.read_csv(path, dtype=str, header=None, quotechar=\"'\")\n"
+        iofunc += "\tins = np.array(data[0]).tolist()\n"
+        iofunc += "\tif len(list(data.columns)) < 2:\n"
+        iofunc += "\t\touts = [float(\'NaN\')] * len(ins)\n"
+        iofunc += "\telse:\n"
+        iofunc += "\t\touts = np.array(data[1]).tolist()\n"
+        iofunc += "\treturn ins, outs\n\n"
+
+        prog += iofunc + err
+
+        script  = "ins, outs = getIO(sys.argv[1])\n"
+        script += "for i in range(len(outs)):\n"
+        script += "\tif outs[i] != outs[i]:\n"
+        script += "\t\touts[i] = snap(ins[i])\n"
+        script += "\t\touts[i] = '---SynthError---' if not outs[i] else outs[i]\n\n"
+        script += "file = open('snap-' + sys.argv[1], mode='w')\n"
+        script += "for i in range(len(outs)):\n"
+        script += "\tfile.write('\\\'' + ins[i]  + '\\\',')\n"
+        script += "\tfile.write('\\\'' + outs[i] + '\\\'\\n')\n"
+        script += "file.close()"
+        return prog + script
 
     def eval_input(self, in_str):
         pass
+
+    @staticmethod
+    def prog_to_DSL(prog):
+        """
+        converts a program in to DSL string
+        prog: list of substr/const string expressions
+            if it's a string, it's a const string
+            if it's a tuple, it's a substr
+        """
+        dsl = "Concat("
+        for expr in prog:
+            if type(expr) == str:
+                dsl += "ConstStr(\"" + expr + "\"), "
+                continue
+            lpos = expr[0]
+            rpos = expr[1]
+            lstr = DAG.SubstrExprVSA.pos_to_str(lpos)
+            rstr = DAG.SubstrExprVSA.pos_to_str(rpos)
+            dsl += "Substr(" + lstr + ", " + rstr + "), "
+        dsl += ")"
+        return dsl
+
+    @staticmethod
+    def cond_to_DSL(cond):
+        """
+        converts a condition to DSL string
+        """
+        dsl = "Match(input, "
+        if type(cond[1]) == str:
+            dsl += "\"" + cond[1] + "\") "
+        else:
+            dsl += T.TOKENS[cond[1]] + ") "
+        if cond[0]:
+            dsl += ">= "
+        else:
+            dsl += "< "
+        dsl += str(cond[2])
+        return dsl
+
+    @staticmethod
+    def __prog_to_py(prog):
+        """
+        converts it to python
+        note: each line is indented twice, there IS a newline at the end
+        """
+        py = "\t\tout_str = \"\"\n"
+        for i in range(len(prog)):
+            if type(prog[i]) == str:
+                py += "\t\tout_str += \"" + prog[i] + "\"\n"
+                continue
+            left  = prog[i][0]
+            right = prog[i][1]
+            py += Program.__pos_to_safe_py(left, "l")
+            py += Program.__pos_to_safe_py(right, "r")
+            py += "\t\tout_str += in_str[l:r]\n"
+        py += "\t\treturn out_str\n"
+        return py
+
+    @staticmethod
+    def __pos_to_safe_py(pos, varname):
+        """
+        returns a program fragment, each line starts with 2 tabs, IS newline at end
+        """
+        if type(pos) == int:
+            return str(pos - 1)
+        li = ""
+        if type(pos[0]) == str:
+            li += "list( re.compile(\"" + pos[0] + "\")"
+        else:
+            li += "list( " + str(T.MATCHERS[pos[0]])
+        li += ".finditer(in_str) )"
+        num = pos[1] - 1 if pos[1] > 0 else pos[1]
+        length_req = pos[1] if pos[1] > 0 else abs(pos[1])
+        py =  "\t\tli = " + li + "\n"
+        py += "\t\tif len(li) < " + str(length_req) + ":\n\t\t\treturn None\n" 
+        py += "\t\t" + varname + " = " + li + "[" + str(num) + "]"
+        if pos[2]:
+            py += ".start()\n"
+        else:
+            py += ".end()\n"
+        return py
+
+    @staticmethod
+    def __cond_to_py(cond):
+        """
+        converts condition to python
+        note: line indented once, no newline at the end
+        """
+        py = "\tif "
+        if type(cond[1])== str:
+            py += "len( re.compile(\"" + cond[1] + "\").findall(in_str) )"
+        else:
+            py += "len( " + str(T.MATCHERS[cond[1]]) + ".findall(in_str) )"
+        if cond[0]:
+            py += " >= "
+        else:
+            py += " < "
+        py += str(cond[2]) + ":"
+        return py
 
 class Synthesizer:
     """
@@ -200,7 +344,7 @@ class Synthesizer:
 
     def gen_program(self):
         """
-        Generate and print the program
+        Generate the program
         """
         self.progs = []
         for idg, dag in self.pairs:

@@ -96,9 +96,9 @@ class SubstrExprVSA:
                 for l_pos in l_pos_li:
                     for r_pos in r_pos_li:
                         print("SubStr(input, " + 
-                                self.__pos_to_str(l_pos) + 
+                                self.pos_to_str(l_pos) + 
                                 ", " + 
-                                self.__pos_to_str(r_pos) + ")")
+                                self.pos_to_str(r_pos) + ")")
     
     # moved to InputDataGraph.py
     def __get_regexes(self, node_label, idg):
@@ -119,7 +119,7 @@ class SubstrExprVSA:
         return ret
 
     @staticmethod
-    def __pos_to_str(pos):
+    def pos_to_str(pos):
         """
         input: either an int or a position as returned in __get_regexes()
         returns: the string for of the int
