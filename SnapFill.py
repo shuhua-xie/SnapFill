@@ -51,16 +51,17 @@ def shell_help():
 
 # For demo purposes only!
 help_str  = "Usage: python3 SnapFill.py [input_file].csv [options]\n"
-help_str += "options: -dghops\n"
+help_str += "options: -dfghops\n"
 help_str += "\t-d: print synthesized program in FlashFill DSL (a variant of it)\n"
-help_str += "\t-g: print debug info (inputs and outputs passed to the program)"
+help_str += "\t-f: synthesize as FlashFill did (without branches), not compatible with -s\n"
+help_str += "\t-g: print debug info (inputs and outputs passed to the program)\n"
 help_str += "\t-h: prints this help message\n"
 help_str += "\t-o <output_file>: print python program into output_file\n"
 help_str += "\t-p: print synthesized program in python\n"
 help_str += "\t-s: shell mode (NOT implemented yet)\n"
 
 try:
-    opts, args = getopt.gnu_getopt(sys.argv[1:], "dho:ps")
+    opts, args = getopt.gnu_getopt(sys.argv[1:], "dfgho:ps")
 except getopt.GetoptError as err:
     print(err)
     print(help_str)
@@ -85,7 +86,7 @@ if (debug):
     print("--debug info-- outputs: " + str(out_arr))
     print()
 
-snap_fill = Synth.Synthesizer(in_arr, out_arr)
+snap_fill = Synth.Synthesizer(in_arr, out_arr, "-f" in opts)
 if  snap_fill.error:
     print(snap_fill.error)
     print("No program could be synthesized")
@@ -101,7 +102,7 @@ if ("-o" in opts):
     f = open(fname, 'w')
     f.write(bp.to_python())
     f.close()
-if ("-s" in opts):
+if ("-s" in opts and not "-f" in opts):
     print("Work In Progress")
     branch = None
     conds = None

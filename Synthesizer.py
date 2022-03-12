@@ -199,7 +199,7 @@ class Synthesizer:
     self.progs      = list of ( list of SubStrVSAs that represent what to concat )
     self.best_prog  = Program instance
     """
-    def __init__(self, inputs, outputs):
+    def __init__(self, inputs, outputs, flash):
         self.inputs = inputs
         self.outputs = outputs
         self.pairs = []
@@ -208,7 +208,26 @@ class Synthesizer:
         self.best_prog = None
         self.original_idgs = None
         self.error = None
-        self.synthesize()
+
+        if flash:
+            idgs = [IDG.InputDataGraph(self.inputs[i], i) for i in range(len(inputs))]
+            idg_all = idgs[0]
+            for i in idgs[1:]:
+                idg_all = idg_all.intersect(i)
+            dags = [DAG.DAG(self.inputs[i], self.outputs[i], i, idg_all) for i in range(len(outputs)) if self.outputs[i] == self.outputs[i]]
+            if len(dags) == 0:
+                self.error = "No valid examples"
+                return
+            dag_all = dags[0]
+            for d in dags[1:]:
+                dag_all = dag_all.intersect(d)
+            if not dag_all.has_solution(self.outputs):
+                self.error = "No solution found"
+                return
+            self.pairs = [(idg_all, dag_all)]
+            self.conditions = []
+        else:
+            self.synthesize()
         if not self.error:
             self.gen_program()
 
