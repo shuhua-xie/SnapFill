@@ -80,7 +80,7 @@ def main():
         sys.exit(1)
     
     debug = "-g" in opts
-    in_arr, out_arr = getInputOutput(sys.argv[1])
+    in_arr, out_arr = getInputOutput(args[0])
     if (debug):
         print("--debug info-- inputs: " + str(in_arr))
         print("--debug info-- outputs: " + str(out_arr))
