@@ -284,7 +284,8 @@ class DAG:
         if (not self.nodes):
             return False
         ids = next(iter(self.nodes)).ids()
-        lengths = [len(s) + 1 for s in outputs]
+        outputs_mod = [s if s == s else "" for s in outputs]
+        lengths = [len(s) + 1 for s in outputs_mod]
         goal = tuple( [l for (i,l) in list(zip(range(len(lengths)), lengths)) if i in ids] )
         start = tuple(1 for x in range(len(ids)))
 
@@ -344,7 +345,8 @@ class DAG:
 
         # note: the start and goal contain only the indices of the nodes
         ids = next(iter(self.nodes)).ids()
-        lengths = [len(s) + 1 for s in outputs]
+        outputs_mod = [s if s == s else "" for s in outputs]
+        lengths = [len(s) + 1 for s in outputs_mod]
         goal_inds = tuple( [l for (i,l) in list(zip(range(len(lengths)), lengths)) if i in ids] )
         start_inds = tuple(1 for x in range(len(ids)))
         goal = None

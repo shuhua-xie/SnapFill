@@ -42,23 +42,25 @@ def shell_help():
     print("commands available:")
     print("help: displays this message")
     print("exit: exit shell")
+    print("print: print the current program in SnapFill DSL")
     print("list [branch | substring | cond | start_pat | end_pat]: lists the options available for each")
     print("\t(note that branch must be set to list substring and substring must be set to list patterns)")
     print("set [branch | substring] n: set the branch or substring to work on, n must be a nonnegative integer")
     print("change [cond | start_pat | end_pat] n: change the branching condition or regex pattern")
     print("where: print set branch and substring")
     print("output <optional name with no spaces>: output current program in python to the specified file or snap.py by default")
+    print()
 
 def main():
     help_str  = "Usage: python3 SnapFill.py [input_file].csv [options]\n"
     help_str += "options: -dfghops\n"
-    help_str += "\t-d: print synthesized program in FlashFill DSL (a variant of it)\n"
-    help_str += "\t-f: synthesize as FlashFill did (without branches), not compatible with -s\n"
+    help_str += "\t-d: print synthesized program in FlashFill DSL (a variant of it)\n\t\tdefault if no options specified\n"
+    help_str += "\t-f: synthesize as FlashFill did (without branches)\n"
     help_str += "\t-g: print debug info (inputs and outputs passed to the program)\n"
     help_str += "\t-h: prints this help message\n"
     help_str += "\t-o <output_file>: print python program into output_file\n"
     help_str += "\t-p: print synthesized program in python\n"
-    help_str += "\t-s: shell mode (NOT implemented yet)\n"
+    help_str += "\t-s: shell mode (Not very tested)\n"
     
     try:
         opts, args = getopt.gnu_getopt(sys.argv[1:], "dfgho:ps")
@@ -93,7 +95,7 @@ def main():
         sys.exit()
     
     bp = snap_fill.best_prog
-    if ("-d" in opts):
+    if ("-d" in opts or not opts or (len(opts) == 1 and "-f" in opts)):
         print(bp)
     if ("-p" in opts):
         print(bp.to_python())
@@ -104,6 +106,7 @@ def main():
         f.close()
     if ("-s" in opts and not "-f" in opts):
         print("Work In Progress")
+        print("Welcome to SnapFill shell!")
         branch = None
         conds = None
         substr = None
@@ -115,7 +118,7 @@ def main():
             if len(line) == 0:
                 continue
             if line[0] == "exit":
-                print("Thanks for using SnapFill!")
+                print("Thanks for using SnapFill shell!")
                 sys.exit()
             elif line[0] == "help":
                 shell_help()

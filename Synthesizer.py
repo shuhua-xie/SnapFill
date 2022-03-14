@@ -256,7 +256,7 @@ class Synthesizer:
             for i in PairsWithoutOutput:
                 for j in PairsWithOutput:
                     # ranking_list = list of (similarity: float, IDG1, IDG2) tuples
-                    ranking_list.append((IDG.InputDataGraph.get_similarity(i,j),i[0],j[0]))
+                    ranking_list.append((IDG.InputDataGraph.get_similarity(i[0], j[0]),i[0],j[0]))
             ranking_list.sort(reverse=True)
             merged = False
             
