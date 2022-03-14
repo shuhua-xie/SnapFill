@@ -71,8 +71,6 @@ def main():
     
     if len(args) != 1 or ".csv" not in args[0]:
         print("Error: exactly 1 input file expected (in csv form)")
-        print(args)
-        print(opts)
         print(help_str)
         sys.exit(1)
     
