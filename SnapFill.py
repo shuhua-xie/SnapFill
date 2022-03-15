@@ -54,8 +54,8 @@ def shell_help():
 def main():
     help_str  = "Usage: python3 SnapFill.py [input_file].csv [options]\n"
     help_str += "options: -dfghops\n"
-    help_str += "\t-d: print synthesized program in FlashFill DSL (a variant of it)\n\t\tdefault if no options specified\n"
-    help_str += "\t-f: synthesize as FlashFill did (without branches)\n"
+    help_str += "\t-d: print synthesized program in BlinkFill DSL (a variant of it)\n\t\tdefault if no options specified\n"
+    help_str += "\t-f: synthesize as BlinkFill did (without branches)\n"
     help_str += "\t-g: print debug info (inputs and outputs passed to the program)\n"
     help_str += "\t-h: prints this help message\n"
     help_str += "\t-o <output_file>: print python program into output_file\n"

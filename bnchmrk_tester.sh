@@ -9,7 +9,7 @@ fi
 for f in $1/*.csv
 do
   echo "----- $f start -----"
-  echo "FlashFill (Our Impl)"
+  echo "BlinkFill (Our Impl)"
   time timeout --foreground 20m python3 SnapFill.py $f -fd
   echo "SnapFill"
   time timeout --foreground 20m python3 SnapFill.py $f -d

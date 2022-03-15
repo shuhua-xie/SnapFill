@@ -1,5 +1,5 @@
 ----- benchmarks_short/11440431.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, -1, End)), ))
 }
@@ -18,7 +18,7 @@ sys	0m1.000s
 ----- benchmarks_short/11440431.csv end -----
 
 ----- benchmarks_short/bikes.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(as, -1, Start), input.match(as, -1, End)), ))
 }
@@ -37,7 +37,7 @@ sys	0m1.013s
 ----- benchmarks_short/bikes.csv end -----
 
 ----- benchmarks_short/bikes-long.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(as, -1, Start), input.match(as, -1, End)), ))
 }
@@ -56,7 +56,7 @@ sys	0m1.070s
 ----- benchmarks_short/bikes-long.csv end -----
 
 ----- benchmarks_short/bikes-long-repeat.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(as, -1, Start), input.match(as, -1, End)), ))
 }
@@ -75,7 +75,7 @@ sys	0m0.970s
 ----- benchmarks_short/bikes-long-repeat.csv end -----
 
 ----- benchmarks_short/bikes_small.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(as, -1, Start), input.match(as, -1, End)), ))
 }
@@ -94,7 +94,7 @@ sys	0m0.540s
 ----- benchmarks_short/bikes_small.csv end -----
 
 ----- benchmarks_short/dr-name.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(ConstStr("Dr. "), Substr(input.match(as, -1, Start), input.match(ls, 1, End)), ))
 }
@@ -113,7 +113,7 @@ sys	0m0.987s
 ----- benchmarks_short/dr-name.csv end -----
 
 ----- benchmarks_short/dr-name_small.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(ConstStr("Dr. "), Substr(input.match(as, -1, Start), input.match(ls, 1, End)), ))
 }
@@ -132,7 +132,7 @@ sys	0m0.920s
 ----- benchmarks_short/dr-name_small.csv end -----
 
 ----- benchmarks_short/firstname.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, 1, End)), ))
 }
@@ -151,7 +151,7 @@ sys	0m0.870s
 ----- benchmarks_short/firstname.csv end -----
 
 ----- benchmarks_short/firstname_small.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, 1, End)), ))
 }
@@ -170,7 +170,7 @@ sys	0m0.916s
 ----- benchmarks_short/firstname_small.csv end -----
 
 ----- benchmarks_short/initials.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, 1, Start)), ConstStr("."), Substr(input.match(Cs, 2, Start), input.match(ls, 2, Start)), ConstStr("."), ))
 }
@@ -189,7 +189,7 @@ sys	0m0.919s
 ----- benchmarks_short/initials.csv end -----
 
 ----- benchmarks_short/initials_small.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, 1, Start)), ConstStr("."), Substr(input.match(Cs, 2, Start), input.match(ls, 2, Start)), ConstStr("."), ))
 }
@@ -208,7 +208,7 @@ sys	0m0.840s
 ----- benchmarks_short/initials_small.csv end -----
 
 ----- benchmarks_short/lastname.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(Cs, 2, Start), input.match(as, -1, End)), ))
 }
@@ -227,7 +227,7 @@ sys	0m0.861s
 ----- benchmarks_short/lastname.csv end -----
 
 ----- benchmarks_short/lastname_small.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(Cs, 2, Start), input.match(as, -1, End)), ))
 }
@@ -246,7 +246,7 @@ sys	0m0.881s
 ----- benchmarks_short/lastname_small.csv end -----
 
 ----- benchmarks_short/phone-10.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(^, 1, End), input.match(an, -3, Start)), ConstStr("("), Substr(input.match(an, -3, Start), input.match(an, -3, End)), ))
 }
@@ -265,7 +265,7 @@ sys	0m0.929s
 ----- benchmarks_short/phone-10.csv end -----
 
 ----- benchmarks_short/phone-10_short.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(^, 1, End), input.match(an, -3, Start)), ConstStr("("), Substr(input.match(an, -3, Start), input.match(an, -3, End)), ))
 }
@@ -284,7 +284,7 @@ sys	0m0.869s
 ----- benchmarks_short/phone-10_short.csv end -----
 
 ----- benchmarks_short/phone-1.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, 2, Start), input.match(an, 2, End)), ))
 }
@@ -303,7 +303,7 @@ sys	0m0.894s
 ----- benchmarks_short/phone-1.csv end -----
 
 ----- benchmarks_short/phone-1_short.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, 2, Start), input.match(an, 2, End)), ))
 }
@@ -322,7 +322,7 @@ sys	0m1.039s
 ----- benchmarks_short/phone-1_short.csv end -----
 
 ----- benchmarks_short/phone-2.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
 }
@@ -341,7 +341,7 @@ sys	0m0.792s
 ----- benchmarks_short/phone-2.csv end -----
 
 ----- benchmarks_short/phone-2_short.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
 }
@@ -360,7 +360,7 @@ sys	0m0.842s
 ----- benchmarks_short/phone-2_short.csv end -----
 
 ----- benchmarks_short/phone-3.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(ConstStr("("), Substr(input.match(an, 1, Start), input.match(an, 1, End)), ))
 }
@@ -379,7 +379,7 @@ sys	0m1.001s
 ----- benchmarks_short/phone-3.csv end -----
 
 ----- benchmarks_short/phone-3_short.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(ConstStr("("), Substr(input.match(an, 1, Start), input.match(an, 1, End)), ))
 }
@@ -398,7 +398,7 @@ sys	0m0.965s
 ----- benchmarks_short/phone-3_short.csv end -----
 
 ----- benchmarks_short/phone-4.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, 1, Start), input.match(an, 1, End)), ConstStr("."), Substr(input.match(an, 2, Start), input.match(an, 2, End)), ConstStr("."), Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
 }
@@ -417,7 +417,7 @@ sys	0m0.658s
 ----- benchmarks_short/phone-4.csv end -----
 
 ----- benchmarks_short/phone-4_short.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, 1, Start), input.match(an, 1, End)), ConstStr("."), Substr(input.match(an, 2, Start), input.match(an, 2, End)), ConstStr("."), Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
 }
@@ -436,7 +436,7 @@ sys	0m0.899s
 ----- benchmarks_short/phone-4_short.csv end -----
 
 ----- benchmarks_short/phone-5.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, -4, Start), input.match(an, -4, End)), ))
 }
@@ -455,7 +455,7 @@ sys	0m0.809s
 ----- benchmarks_short/phone-5.csv end -----
 
 ----- benchmarks_short/phone-5_short.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, -4, Start), input.match(an, -4, End)), ))
 }
@@ -474,7 +474,7 @@ sys	0m0.924s
 ----- benchmarks_short/phone-5_short.csv end -----
 
 ----- benchmarks_short/phone-6.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, -3, Start), input.match(an, -3, End)), ))
 }
@@ -493,7 +493,7 @@ sys	0m0.921s
 ----- benchmarks_short/phone-6.csv end -----
 
 ----- benchmarks_short/phone-6_short.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, -3, Start), input.match(an, -3, End)), ))
 }
@@ -512,7 +512,7 @@ sys	0m0.783s
 ----- benchmarks_short/phone-6_short.csv end -----
 
 ----- benchmarks_short/phone-7.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, -2, Start), input.match(an, -2, End)), ))
 }
@@ -531,7 +531,7 @@ sys	0m0.876s
 ----- benchmarks_short/phone-7.csv end -----
 
 ----- benchmarks_short/phone-7_short.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, -2, Start), input.match(an, -2, End)), ))
 }
@@ -550,7 +550,7 @@ sys	0m0.909s
 ----- benchmarks_short/phone-7_short.csv end -----
 
 ----- benchmarks_short/phone-8.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
 }
@@ -569,7 +569,7 @@ sys	0m0.842s
 ----- benchmarks_short/phone-8.csv end -----
 
 ----- benchmarks_short/phone-8_short.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
 }
@@ -588,7 +588,7 @@ sys	0m0.733s
 ----- benchmarks_short/phone-8_short.csv end -----
 
 ----- benchmarks_short/phone-9.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, -4, Start), input.match(an, -4, End)), ConstStr("."), Substr(input.match(an, -3, Start), input.match(an, -3, End)), ConstStr("."), Substr(input.match(an, -2, Start), input.match(an, -2, End)), ConstStr("."), Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
 }
@@ -607,7 +607,7 @@ sys	0m1.046s
 ----- benchmarks_short/phone-9.csv end -----
 
 ----- benchmarks_short/phone-9_short.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, -4, Start), input.match(an, -4, End)), ConstStr("."), Substr(input.match(an, -3, Start), input.match(an, -3, End)), ConstStr("."), Substr(input.match(an, -2, Start), input.match(an, -2, End)), ConstStr("."), Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
 }
@@ -626,7 +626,7 @@ sys	0m0.901s
 ----- benchmarks_short/phone-9_short.csv end -----
 
 ----- benchmarks_short/phone.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, 1, Start), input.match(an, 1, End)), ))
 }
@@ -645,7 +645,7 @@ sys	0m0.911s
 ----- benchmarks_short/phone.csv end -----
 
 ----- benchmarks_short/phone_short.csv start -----
-FlashFill (Our Impl)
+BlinkFill (Our Impl)
 Switch{
 	(True, Concat(Substr(input.match(an, 1, Start), input.match(an, 1, End)), ))
 }

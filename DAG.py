@@ -8,7 +8,7 @@ from common import *
 class SubstrExprVSA:
     """
     Substring Expression VSA: represents an entire set of Substring expressions
-        as can be defined from Figure 10a of the FlashFill paper
+        as can be defined from Figure 10a of the BlinkFill paper
 
     constant: bool representing whether it's the constant string expression
     if constant == TRUE
