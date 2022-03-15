@@ -28,7 +28,7 @@ class Program:
         for i in range(len(self.conditions)):
             cond = Program.cond_to_DSL(self.conditions[i])
             p    = Program.prog_to_DSL(self.progs[i])
-            prog += "\t(" + cond + ", " + p + ")\n"
+            prog += "\t(" + cond + ", " + p + ")\n\n"
         p = Program.prog_to_DSL(self.progs[-1])
         prog += "\t(True, " + p + ")\n"
         prog += "}"
@@ -99,17 +99,19 @@ class Program:
         prog: list of substr/const string expressions
             if it's a string, it's a const string
             if it's a tuple, it's a substr
+
+        each line is double tabbed (except for concat)
         """
         dsl = "Concat("
         for expr in prog:
             if type(expr) == str:
-                dsl += "ConstStr(\"" + expr + "\"), "
+                dsl += "\n\t\tConstStr(\"" + expr + "\"),"
                 continue
             lpos = expr[0]
             rpos = expr[1]
             lstr = DAG.SubstrExprVSA.pos_to_str(lpos)
             rstr = DAG.SubstrExprVSA.pos_to_str(rpos)
-            dsl += "Substr(" + lstr + ", " + rstr + "), "
+            dsl += "\n\t\tSubstr(" + lstr + ", " + rstr + "),"
         dsl += ")"
         return dsl
 
