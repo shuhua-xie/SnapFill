@@ -223,7 +223,7 @@ class DAG:
 
                 # want to search for each occurence of substring in input
                 # each occurence becomes a SubstrExprVSA
-                for m in re.finditer(substr, input_str):
+                for m in re.finditer(re.escape(substr), input_str):
                     l = m.start() + 1
                     r = m.end() + 1
                     vl = set()
