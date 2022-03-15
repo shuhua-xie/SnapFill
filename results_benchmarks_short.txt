@@ -1,0 +1,665 @@
+----- benchmarks_short/11440431.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, -1, End)), ))
+}
+
+real	0m0.608s
+user	0m1.142s
+sys	0m0.868s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, -1, End)), ))
+}
+
+real	0m1.065s
+user	0m1.742s
+sys	0m1.000s
+----- benchmarks_short/11440431.csv end -----
+
+----- benchmarks_short/bikes.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(as, -1, End)), ))
+}
+
+real	0m0.471s
+user	0m1.092s
+sys	0m1.014s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(as, -1, End)), ))
+}
+
+real	0m0.561s
+user	0m1.247s
+sys	0m1.013s
+----- benchmarks_short/bikes.csv end -----
+
+----- benchmarks_short/bikes-long.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(as, -1, End)), ))
+}
+
+real	0m0.685s
+user	0m1.233s
+sys	0m0.948s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(as, -1, End)), ))
+}
+
+real	0m6.018s
+user	0m6.640s
+sys	0m1.070s
+----- benchmarks_short/bikes-long.csv end -----
+
+----- benchmarks_short/bikes-long-repeat.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(as, -1, End)), ))
+}
+
+real	0m29.031s
+user	0m29.443s
+sys	0m0.826s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(as, -1, End)), ))
+}
+
+real	1m53.973s
+user	1m54.052s
+sys	0m0.970s
+----- benchmarks_short/bikes-long-repeat.csv end -----
+
+----- benchmarks_short/bikes_small.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(as, -1, End)), ))
+}
+
+real	0m0.463s
+user	0m0.842s
+sys	0m0.634s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(as, -1, End)), ))
+}
+
+real	0m0.590s
+user	0m0.712s
+sys	0m0.540s
+----- benchmarks_short/bikes_small.csv end -----
+
+----- benchmarks_short/dr-name.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(ConstStr("Dr. "), Substr(input.match(as, -1, Start), input.match(ls, 1, End)), ))
+}
+
+real	0m0.510s
+user	0m1.188s
+sys	0m1.026s
+SnapFill
+Switch{
+	(True, Concat(ConstStr("Dr. "), Substr(input.match(as, -1, Start), input.match(ls, 1, End)), ))
+}
+
+real	0m0.642s
+user	0m1.306s
+sys	0m0.987s
+----- benchmarks_short/dr-name.csv end -----
+
+----- benchmarks_short/dr-name_small.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(ConstStr("Dr. "), Substr(input.match(as, -1, Start), input.match(ls, 1, End)), ))
+}
+
+real	0m0.504s
+user	0m0.998s
+sys	0m0.797s
+SnapFill
+Switch{
+	(True, Concat(ConstStr("Dr. "), Substr(input.match(as, -1, Start), input.match(ls, 1, End)), ))
+}
+
+real	0m0.603s
+user	0m1.131s
+sys	0m0.920s
+----- benchmarks_short/dr-name_small.csv end -----
+
+----- benchmarks_short/firstname.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, 1, End)), ))
+}
+
+real	0m0.464s
+user	0m1.006s
+sys	0m0.848s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, 1, End)), ))
+}
+
+real	0m0.611s
+user	0m1.126s
+sys	0m0.870s
+----- benchmarks_short/firstname.csv end -----
+
+----- benchmarks_short/firstname_small.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, 1, End)), ))
+}
+
+real	0m0.463s
+user	0m1.010s
+sys	0m0.805s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, 1, End)), ))
+}
+
+real	0m0.585s
+user	0m1.178s
+sys	0m0.916s
+----- benchmarks_short/firstname_small.csv end -----
+
+----- benchmarks_short/initials.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, 1, Start)), ConstStr("."), Substr(input.match(Cs, 2, Start), input.match(ls, 2, Start)), ConstStr("."), ))
+}
+
+real	0m0.478s
+user	0m1.114s
+sys	0m0.931s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, 1, Start)), ConstStr("."), Substr(input.match(Cs, 2, Start), input.match(ls, 2, Start)), ConstStr("."), ))
+}
+
+real	0m0.613s
+user	0m1.132s
+sys	0m0.919s
+----- benchmarks_short/initials.csv end -----
+
+----- benchmarks_short/initials_small.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, 1, Start)), ConstStr("."), Substr(input.match(Cs, 2, Start), input.match(ls, 2, Start)), ConstStr("."), ))
+}
+
+real	0m0.494s
+user	0m1.001s
+sys	0m0.794s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(as, -1, Start), input.match(ls, 1, Start)), ConstStr("."), Substr(input.match(Cs, 2, Start), input.match(ls, 2, Start)), ConstStr("."), ))
+}
+
+real	0m0.595s
+user	0m1.066s
+sys	0m0.840s
+----- benchmarks_short/initials_small.csv end -----
+
+----- benchmarks_short/lastname.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(Cs, 2, Start), input.match(as, -1, End)), ))
+}
+
+real	0m0.522s
+user	0m0.807s
+sys	0m0.557s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(Cs, 2, Start), input.match(as, -1, End)), ))
+}
+
+real	0m0.648s
+user	0m1.152s
+sys	0m0.861s
+----- benchmarks_short/lastname.csv end -----
+
+----- benchmarks_short/lastname_small.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(Cs, 2, Start), input.match(as, -1, End)), ))
+}
+
+real	0m0.511s
+user	0m0.724s
+sys	0m0.670s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(Cs, 2, Start), input.match(as, -1, End)), ))
+}
+
+real	0m0.637s
+user	0m1.210s
+sys	0m0.881s
+----- benchmarks_short/lastname_small.csv end -----
+
+----- benchmarks_short/phone-10.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(^, 1, End), input.match(an, -3, Start)), ConstStr("("), Substr(input.match(an, -3, Start), input.match(an, -3, End)), ))
+}
+
+real	0m0.572s
+user	0m1.251s
+sys	0m1.014s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(^, 1, End), input.match(an, -3, Start)), ConstStr("("), Substr(input.match(an, -3, Start), input.match(an, -3, End)), ))
+}
+
+real	0m1.493s
+user	0m2.092s
+sys	0m0.929s
+----- benchmarks_short/phone-10.csv end -----
+
+----- benchmarks_short/phone-10_short.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(^, 1, End), input.match(an, -3, Start)), ConstStr("("), Substr(input.match(an, -3, Start), input.match(an, -3, End)), ))
+}
+
+real	0m0.607s
+user	0m0.718s
+sys	0m0.507s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(^, 1, End), input.match(an, -3, Start)), ConstStr("("), Substr(input.match(an, -3, Start), input.match(an, -3, End)), ))
+}
+
+real	0m1.581s
+user	0m2.037s
+sys	0m0.869s
+----- benchmarks_short/phone-10_short.csv end -----
+
+----- benchmarks_short/phone-1.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, 2, Start), input.match(an, 2, End)), ))
+}
+
+real	0m0.466s
+user	0m0.981s
+sys	0m0.852s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, 2, Start), input.match(an, 2, End)), ))
+}
+
+real	0m0.608s
+user	0m1.173s
+sys	0m0.894s
+----- benchmarks_short/phone-1.csv end -----
+
+----- benchmarks_short/phone-1_short.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, 2, Start), input.match(an, 2, End)), ))
+}
+
+real	0m0.445s
+user	0m1.065s
+sys	0m0.980s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, 2, Start), input.match(an, 2, End)), ))
+}
+
+real	0m0.590s
+user	0m1.247s
+sys	0m1.039s
+----- benchmarks_short/phone-1_short.csv end -----
+
+----- benchmarks_short/phone-2.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m0.494s
+user	0m0.848s
+sys	0m0.731s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m0.648s
+user	0m1.100s
+sys	0m0.792s
+----- benchmarks_short/phone-2.csv end -----
+
+----- benchmarks_short/phone-2_short.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m0.479s
+user	0m0.996s
+sys	0m0.893s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m0.538s
+user	0m1.124s
+sys	0m0.842s
+----- benchmarks_short/phone-2_short.csv end -----
+
+----- benchmarks_short/phone-3.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(ConstStr("("), Substr(input.match(an, 1, Start), input.match(an, 1, End)), ))
+}
+
+real	0m0.434s
+user	0m1.076s
+sys	0m1.024s
+SnapFill
+Switch{
+	(True, Concat(ConstStr("("), Substr(input.match(an, 1, Start), input.match(an, 1, End)), ))
+}
+
+real	0m0.801s
+user	0m1.421s
+sys	0m1.001s
+----- benchmarks_short/phone-3.csv end -----
+
+----- benchmarks_short/phone-3_short.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(ConstStr("("), Substr(input.match(an, 1, Start), input.match(an, 1, End)), ))
+}
+
+real	0m0.384s
+user	0m0.806s
+sys	0m0.769s
+SnapFill
+Switch{
+	(True, Concat(ConstStr("("), Substr(input.match(an, 1, Start), input.match(an, 1, End)), ))
+}
+
+real	0m0.717s
+user	0m1.374s
+sys	0m0.965s
+----- benchmarks_short/phone-3_short.csv end -----
+
+----- benchmarks_short/phone-4.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, 1, Start), input.match(an, 1, End)), ConstStr("."), Substr(input.match(an, 2, Start), input.match(an, 2, End)), ConstStr("."), Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m0.625s
+user	0m1.287s
+sys	0m1.058s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, 1, Start), input.match(an, 1, End)), ConstStr("."), Substr(input.match(an, 2, Start), input.match(an, 2, End)), ConstStr("."), Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m0.876s
+user	0m1.058s
+sys	0m0.658s
+----- benchmarks_short/phone-4.csv end -----
+
+----- benchmarks_short/phone-4_short.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, 1, Start), input.match(an, 1, End)), ConstStr("."), Substr(input.match(an, 2, Start), input.match(an, 2, End)), ConstStr("."), Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m0.523s
+user	0m1.160s
+sys	0m0.928s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, 1, Start), input.match(an, 1, End)), ConstStr("."), Substr(input.match(an, 2, Start), input.match(an, 2, End)), ConstStr("."), Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m0.850s
+user	0m1.462s
+sys	0m0.899s
+----- benchmarks_short/phone-4_short.csv end -----
+
+----- benchmarks_short/phone-5.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, -4, Start), input.match(an, -4, End)), ))
+}
+
+real	0m0.472s
+user	0m0.638s
+sys	0m0.578s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, -4, Start), input.match(an, -4, End)), ))
+}
+
+real	0m1.209s
+user	0m1.710s
+sys	0m0.809s
+----- benchmarks_short/phone-5.csv end -----
+
+----- benchmarks_short/phone-5_short.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, -4, Start), input.match(an, -4, End)), ))
+}
+
+real	0m0.437s
+user	0m0.855s
+sys	0m0.810s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, -4, Start), input.match(an, -4, End)), ))
+}
+
+real	0m1.189s
+user	0m1.776s
+sys	0m0.924s
+----- benchmarks_short/phone-5_short.csv end -----
+
+----- benchmarks_short/phone-6.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, -3, Start), input.match(an, -3, End)), ))
+}
+
+real	0m0.481s
+user	0m1.148s
+sys	0m0.960s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, -3, Start), input.match(an, -3, End)), ))
+}
+
+real	0m1.281s
+user	0m1.823s
+sys	0m0.921s
+----- benchmarks_short/phone-6.csv end -----
+
+----- benchmarks_short/phone-6_short.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, -3, Start), input.match(an, -3, End)), ))
+}
+
+real	0m0.516s
+user	0m0.936s
+sys	0m0.740s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, -3, Start), input.match(an, -3, End)), ))
+}
+
+real	0m1.229s
+user	0m1.642s
+sys	0m0.783s
+----- benchmarks_short/phone-6_short.csv end -----
+
+----- benchmarks_short/phone-7.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, -2, Start), input.match(an, -2, End)), ))
+}
+
+real	0m0.438s
+user	0m1.120s
+sys	0m1.006s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, -2, Start), input.match(an, -2, End)), ))
+}
+
+real	0m1.428s
+user	0m1.769s
+sys	0m0.876s
+----- benchmarks_short/phone-7.csv end -----
+
+----- benchmarks_short/phone-7_short.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, -2, Start), input.match(an, -2, End)), ))
+}
+
+real	0m0.492s
+user	0m0.677s
+sys	0m0.582s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, -2, Start), input.match(an, -2, End)), ))
+}
+
+real	0m1.424s
+user	0m1.947s
+sys	0m0.909s
+----- benchmarks_short/phone-7_short.csv end -----
+
+----- benchmarks_short/phone-8.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m0.456s
+user	0m0.929s
+sys	0m0.791s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m1.298s
+user	0m1.796s
+sys	0m0.842s
+----- benchmarks_short/phone-8.csv end -----
+
+----- benchmarks_short/phone-8_short.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m0.486s
+user	0m0.783s
+sys	0m0.854s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m1.384s
+user	0m1.642s
+sys	0m0.733s
+----- benchmarks_short/phone-8_short.csv end -----
+
+----- benchmarks_short/phone-9.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, -4, Start), input.match(an, -4, End)), ConstStr("."), Substr(input.match(an, -3, Start), input.match(an, -3, End)), ConstStr("."), Substr(input.match(an, -2, Start), input.match(an, -2, End)), ConstStr("."), Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m8.148s
+user	0m8.689s
+sys	0m0.941s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, -4, Start), input.match(an, -4, End)), ConstStr("."), Substr(input.match(an, -3, Start), input.match(an, -3, End)), ConstStr("."), Substr(input.match(an, -2, Start), input.match(an, -2, End)), ConstStr("."), Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m10.587s
+user	0m11.202s
+sys	0m1.046s
+----- benchmarks_short/phone-9.csv end -----
+
+----- benchmarks_short/phone-9_short.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, -4, Start), input.match(an, -4, End)), ConstStr("."), Substr(input.match(an, -3, Start), input.match(an, -3, End)), ConstStr("."), Substr(input.match(an, -2, Start), input.match(an, -2, End)), ConstStr("."), Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m8.375s
+user	0m8.843s
+sys	0m0.850s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, -4, Start), input.match(an, -4, End)), ConstStr("."), Substr(input.match(an, -3, Start), input.match(an, -3, End)), ConstStr("."), Substr(input.match(an, -2, Start), input.match(an, -2, End)), ConstStr("."), Substr(input.match(an, -1, Start), input.match(an, -1, End)), ))
+}
+
+real	0m10.125s
+user	0m10.633s
+sys	0m0.901s
+----- benchmarks_short/phone-9_short.csv end -----
+
+----- benchmarks_short/phone.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, 1, Start), input.match(an, 1, End)), ))
+}
+
+real	0m0.453s
+user	0m0.919s
+sys	0m0.825s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, 1, Start), input.match(an, 1, End)), ))
+}
+
+real	0m0.659s
+user	0m1.249s
+sys	0m0.911s
+----- benchmarks_short/phone.csv end -----
+
+----- benchmarks_short/phone_short.csv start -----
+FlashFill (Our Impl)
+Switch{
+	(True, Concat(Substr(input.match(an, 1, Start), input.match(an, 1, End)), ))
+}
+
+real	0m0.436s
+user	0m1.094s
+sys	0m1.011s
+SnapFill
+Switch{
+	(True, Concat(Substr(input.match(an, 1, Start), input.match(an, 1, End)), ))
+}
+
+real	0m0.621s
+user	0m1.293s
+sys	0m0.978s
+----- benchmarks_short/phone_short.csv end -----
+
