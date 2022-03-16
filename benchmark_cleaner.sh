@@ -7,7 +7,7 @@ then
 fi
 
 cd $1
-grep -lr 'constraint (= (f "[^"]*" "' | xargs -L1 rm
+grep -Lr 'constraint (= (f "[^"]*") "[^"]*")' *.sl | xargs -L1 rm
 for f in *.sl
 do
   python3 ../clean_sl.py $f

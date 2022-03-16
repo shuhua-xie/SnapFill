@@ -1,0 +1,1347 @@
+----- benchmarks_micro/17212077.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(an, 1, Start), input.match(an, 1, End)),
+		Substr(input.match(an, 2, End), input.match(an, -1, End)),))
+}
+Program size: 21
+
+real	0m0.448s
+user	0m1.044s
+sys	0m0.876s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(an, 1, Start), input.match(an, 1, End)),
+		Substr(input.match(an, 2, End), input.match(an, -1, End)),))
+}
+Program size: 21
+
+real	0m0.470s
+user	0m0.975s
+sys	0m0.821s
+----- benchmarks_micro/17212077.csv end -----
+
+----- benchmarks_micro/2171308.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(ls, 1, Start)),
+		Substr(input.match(ls, 1, End), input.match(as, 1, End)),))
+}
+Program size: 21
+
+real	0m0.466s
+user	0m1.014s
+sys	0m0.857s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(ls, 1, Start)),
+		Substr(input.match(ls, 1, End), input.match(as, 1, End)),))
+}
+Program size: 21
+
+real	0m0.478s
+user	0m1.001s
+sys	0m0.856s
+----- benchmarks_micro/2171308.csv end -----
+
+----- benchmarks_micro/25239569.csv start -----
+BlinkFill (Our Impl)
+No solution found
+No program could be synthesized
+
+real	0m28.544s
+user	0m28.967s
+sys	0m0.920s
+
+SnapFill
+Switch{
+	(Match(input, "Adf_ROCLeader_BAN_728x90_CPM_STD _BRD _NRT_DCK") >= 1, Concat(
+		ConstStr("Adf_ROCLeader_BAN_728x90_CPM_STD _Branding _NRT_DCK"),))
+
+	(Match(input, ls) >= 4, Concat(
+		ConstStr("MMC_ContextualLarRec_BAN_336x280_CPM_STD _Leads _RTG_DCK"),))
+
+	(True, Concat(
+		ConstStr("Adf_ROC_DLBD_728x90_CPM_STD_Direct Response_NRT_NOR_DCK"),))
+}
+Program size: 13
+
+real	0m35.379s
+user	0m35.883s
+sys	0m0.898s
+----- benchmarks_micro/25239569.csv end -----
+
+----- benchmarks_micro/28627624_1.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(as, -2, End)),))
+}
+Program size: 12
+
+real	0m3.181s
+user	0m3.668s
+sys	0m0.949s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(as, 2, End)),))
+}
+Program size: 12
+
+real	0m5.371s
+user	0m5.750s
+sys	0m0.829s
+----- benchmarks_micro/28627624_1.csv end -----
+
+----- benchmarks_micro/30732554.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(an, 2, End)),))
+}
+Program size: 12
+
+real	0m0.514s
+user	0m1.057s
+sys	0m0.962s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(an, 2, End)),))
+}
+Program size: 12
+
+real	0m0.559s
+user	0m1.170s
+sys	0m0.843s
+----- benchmarks_micro/30732554.csv end -----
+
+----- benchmarks_micro/31753108.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(an, 3, Start), input.match(an, 3, End)),))
+}
+Program size: 12
+
+real	0m0.963s
+user	0m1.550s
+sys	0m0.893s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(an, 3, Start), input.match(an, 3, End)),))
+}
+Program size: 12
+
+real	0m2.254s
+user	0m2.715s
+sys	0m0.821s
+----- benchmarks_micro/31753108.csv end -----
+
+----- benchmarks_micro/34801680.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m0.560s
+user	0m1.078s
+sys	0m0.795s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m0.615s
+user	0m1.125s
+sys	0m0.850s
+----- benchmarks_micro/34801680.csv end -----
+
+----- benchmarks_micro/35744094.csv start -----
+BlinkFill (Our Impl)
+No solution found
+No program could be synthesized
+
+real	0m0.935s
+user	0m1.513s
+sys	0m0.838s
+
+SnapFill
+Switch{
+	(Match(input, as) < 5, Concat(
+		Substr(input.match(as, -2, Start), input.match(as, -2, End)),))
+
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(as, -1, End)),))
+}
+Program size: 23
+
+real	0m2.538s
+user	0m2.993s
+sys	0m0.989s
+----- benchmarks_micro/35744094.csv end -----
+
+----- benchmarks_micro/36462127.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m0.460s
+user	0m0.993s
+sys	0m0.848s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m0.503s
+user	0m1.085s
+sys	0m0.923s
+----- benchmarks_micro/36462127.csv end -----
+
+----- benchmarks_micro/38871714.csv start -----
+BlinkFill (Our Impl)
+No solution found
+No program could be synthesized
+
+real	0m1.448s
+user	0m1.962s
+sys	0m0.930s
+
+SnapFill
+Switch{
+	(Match(input, as) >= 7, Concat(
+		ConstStr("This is a string, It should be changed to a number."),))
+
+	(True, Concat(
+		ConstStr("a  4 and a  0"),))
+}
+Program size: 9
+
+real	0m2.103s
+user	0m2.650s
+sys	0m0.967s
+----- benchmarks_micro/38871714.csv end -----
+
+----- benchmarks_micro/39060015.csv start -----
+BlinkFill (Our Impl)
+No solution found
+No program could be synthesized
+
+real	0m1.585s
+user	0m2.157s
+sys	0m0.878s
+
+SnapFill
+Traceback (most recent call last):
+  File "/home/wroot/Documents/SnapFill/SnapFill.py", line 249, in <module>
+    main()
+  File "/home/wroot/Documents/SnapFill/SnapFill.py", line 89, in main
+    snap_fill = Synth.Synthesizer(in_arr, out_arr, "-f" in opts)
+  File "/home/wroot/Documents/SnapFill/Synthesizer.py", line 262, in __init__
+    self.gen_program()
+  File "/home/wroot/Documents/SnapFill/Synthesizer.py", line 401, in gen_program
+    self.progs.append(dag.best_solution(idg, self.outputs))
+  File "/home/wroot/Documents/SnapFill/DAG.py", line 370, in best_solution
+    path.insert(0, dist[path[0]][1])
+KeyError: None
+
+real	0m2.626s
+user	0m3.215s
+sys	0m0.872s
+----- benchmarks_micro/39060015.csv end -----
+
+----- benchmarks_micro/43120683.csv start -----
+BlinkFill (Our Impl)
+No solution found
+No program could be synthesized
+
+real	0m0.500s
+user	0m1.071s
+sys	0m0.904s
+
+SnapFill
+Switch{
+	(Match(input, "one, 1") >= 1, Concat(
+		ConstStr("one apple"),))
+
+	(Match(input, "two, 2") >= 1, Concat(
+		ConstStr("two bananas"),))
+
+	(Match(input, "three, 3") >= 1, Concat(
+		ConstStr("three strawberries"),))
+
+	(True, Concat(
+		ConstStr("four oranges"),))
+}
+Program size: 17
+
+real	0m0.552s
+user	0m1.166s
+sys	0m0.897s
+----- benchmarks_micro/43120683.csv end -----
+
+----- benchmarks_micro/43606446.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 5, Start), input.match(as, 5, End)),))
+}
+Program size: 12
+
+real	0m0.855s
+user	0m1.460s
+sys	0m0.880s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 5, Start), input.match(as, 5, End)),))
+}
+Program size: 12
+
+real	0m2.485s
+user	0m3.041s
+sys	0m0.906s
+----- benchmarks_micro/43606446.csv end -----
+
+----- benchmarks_micro/change-negative-numbers-to-positive.csv start -----
+BlinkFill (Our Impl)
+No solution found
+No program could be synthesized
+
+real	0m0.413s
+user	0m0.995s
+sys	0m0.809s
+
+SnapFill
+Switch{
+	(Match(input, "5") >= 1, Concat(
+		Substr(input.match(an, 1, Start), input.match(an, -1, End)),))
+
+	(True, Concat(
+		Substr(input.match("-", 1, End), input.match(an, -1, End)),))
+}
+Program size: 23
+
+real	0m0.428s
+user	0m1.000s
+sys	0m0.858s
+----- benchmarks_micro/change-negative-numbers-to-positive.csv end -----
+
+----- benchmarks_micro/clean-and-reformat-telephone-numbers.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(an, 1, Start), input.match(an, 1, End)),
+		Substr(input.match(an, 2, Start), input.match(an, 2, End)),
+		Substr(input.match(an, -1, Start), input.match(an, -1, End)),))
+}
+Program size: 30
+
+real	0m0.454s
+user	0m1.012s
+sys	0m0.870s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(an, 1, Start), input.match(an, 1, End)),
+		Substr(input.match(an, 2, Start), input.match(an, 2, End)),
+		Substr(input.match(an, -1, Start), input.match(an, -1, End)),))
+}
+Program size: 30
+
+real	0m0.518s
+user	0m1.068s
+sys	0m0.839s
+----- benchmarks_micro/clean-and-reformat-telephone-numbers.csv end -----
+
+----- benchmarks_micro/dr-name.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		ConstStr("Dr. "),
+		Substr(input.match(as, -1, Start), input.match(ls, 1, End)),))
+}
+Program size: 14
+
+real	0m0.467s
+user	0m1.060s
+sys	0m0.908s
+
+SnapFill
+Switch{
+	(True, Concat(
+		ConstStr("Dr. "),
+		Substr(input.match(as, -1, Start), input.match(ls, 1, End)),))
+}
+Program size: 14
+
+real	0m0.601s
+user	0m1.076s
+sys	0m0.867s
+----- benchmarks_micro/dr-name.csv end -----
+
+----- benchmarks_micro/dr-name_small.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		ConstStr("Dr. "),
+		Substr(input.match(as, -1, Start), input.match(ls, 1, End)),))
+}
+Program size: 14
+
+real	0m0.466s
+user	0m1.030s
+sys	0m0.891s
+
+SnapFill
+Switch{
+	(True, Concat(
+		ConstStr("Dr. "),
+		Substr(input.match(as, -1, Start), input.match(ls, 1, End)),))
+}
+Program size: 14
+
+real	0m0.626s
+user	0m1.188s
+sys	0m0.869s
+----- benchmarks_micro/dr-name_small.csv end -----
+
+----- benchmarks_micro/exceljet2.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m0.445s
+user	0m0.964s
+sys	0m0.878s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m0.482s
+user	0m1.053s
+sys	0m0.891s
+----- benchmarks_micro/exceljet2.csv end -----
+
+----- benchmarks_micro/exceljet3.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match("= ", 1, End), input.match(an, -1, End)),))
+}
+Program size: 12
+
+real	0m0.492s
+user	0m1.067s
+sys	0m0.890s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match("= ", 1, End), input.match(an, -1, End)),))
+}
+Program size: 12
+
+real	0m0.705s
+user	0m1.226s
+sys	0m0.837s
+----- benchmarks_micro/exceljet3.csv end -----
+
+----- benchmarks_micro/exceljet4.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(an, 2, Start), input.match(an, -1, End)),))
+}
+Program size: 12
+
+real	0m1.074s
+user	0m1.608s
+sys	0m0.875s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(an, 2, Start), input.match(an, -1, End)),))
+}
+Program size: 12
+
+real	0m1.744s
+user	0m2.225s
+sys	0m0.749s
+----- benchmarks_micro/exceljet4.csv end -----
+
+----- benchmarks_micro/extract-word-containing-specific-text.csv start -----
+BlinkFill (Our Impl)
+No solution found
+No program could be synthesized
+
+real	0m1.183s
+user	0m1.735s
+sys	0m0.877s
+
+SnapFill
+Switch{
+	(Match(input, "send email to json_acme.com") >= 1, Concat(
+		Substr(input.match(an, 4, Start), input.match(as, -1, End)),))
+
+	(True, Concat(
+		Substr(input.match(an, 2, Start), input.match(an, -5, End)),))
+}
+Program size: 23
+
+real	0m1.966s
+user	0m2.478s
+sys	0m0.873s
+----- benchmarks_micro/extract-word-containing-specific-text.csv end -----
+
+----- benchmarks_micro/extract-word-that-begins-with-specific-character.csv start -----
+BlinkFill (Our Impl)
+No solution found
+No program could be synthesized
+
+real	0m0.960s
+user	0m1.489s
+sys	0m0.865s
+
+SnapFill
+Switch{
+	(Match(input, as) >= 4, Concat(
+		Substr(input.match(ws, -3, End), input.match(an, -3, End)),))
+
+	(True, Concat(
+		Substr(input.match("_", 1, Start), input.match("name", -1, End)),))
+}
+Program size: 23
+
+real	0m2.470s
+user	0m2.978s
+sys	0m0.952s
+----- benchmarks_micro/extract-word-that-begins-with-specific-character.csv end -----
+
+----- benchmarks_micro/firstname.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(ls, 1, End)),))
+}
+Program size: 12
+
+real	0m0.449s
+user	0m1.014s
+sys	0m0.918s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(ls, 1, End)),))
+}
+Program size: 12
+
+real	0m0.606s
+user	0m1.120s
+sys	0m0.864s
+----- benchmarks_micro/firstname.csv end -----
+
+----- benchmarks_micro/firstname_small.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(ls, 1, End)),))
+}
+Program size: 12
+
+real	0m0.493s
+user	0m1.101s
+sys	0m0.933s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(ls, 1, End)),))
+}
+Program size: 12
+
+real	0m0.559s
+user	0m1.043s
+sys	0m0.852s
+----- benchmarks_micro/firstname_small.csv end -----
+
+----- benchmarks_micro/get-domain-name-from-url.csv start -----
+BlinkFill (Our Impl)
+No solution found
+No program could be synthesized
+
+real	0m1.242s
+user	0m1.775s
+sys	0m0.870s
+
+SnapFill
+Switch{
+	(Match(input, "http=//www.abc.com/def/cef") >= 1, Concat(
+		Substr(input.match(as, -6, Start), input.match(as, 4, End)),))
+
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(as, 4, Start)),))
+}
+Program size: 23
+
+real	0m2.227s
+user	0m2.834s
+sys	0m0.939s
+----- benchmarks_micro/get-domain-name-from-url.csv end -----
+
+----- benchmarks_micro/get-first-name-from-name.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(ls, 1, End)),))
+}
+Program size: 12
+
+real	0m0.436s
+user	0m0.945s
+sys	0m0.836s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(ls, 1, End)),))
+}
+Program size: 12
+
+real	0m0.480s
+user	0m1.095s
+sys	0m0.864s
+----- benchmarks_micro/get-first-name-from-name.csv end -----
+
+----- benchmarks_micro/get-first-word.csv start -----
+BlinkFill (Our Impl)
+No solution found
+No program could be synthesized
+
+real	0m0.464s
+user	0m1.043s
+sys	0m0.848s
+
+SnapFill
+Traceback (most recent call last):
+  File "/home/wroot/Documents/SnapFill/SnapFill.py", line 249, in <module>
+    main()
+  File "/home/wroot/Documents/SnapFill/SnapFill.py", line 89, in main
+    snap_fill = Synth.Synthesizer(in_arr, out_arr, "-f" in opts)
+  File "/home/wroot/Documents/SnapFill/Synthesizer.py", line 262, in __init__
+    self.gen_program()
+  File "/home/wroot/Documents/SnapFill/Synthesizer.py", line 401, in gen_program
+    self.progs.append(dag.best_solution(idg, self.outputs))
+  File "/home/wroot/Documents/SnapFill/DAG.py", line 370, in best_solution
+    path.insert(0, dist[path[0]][1])
+KeyError: None
+
+real	0m0.546s
+user	0m1.070s
+sys	0m0.758s
+----- benchmarks_micro/get-first-word.csv end -----
+
+----- benchmarks_micro/get-last-line-in-cell.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(d, -3, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m7.286s
+user	0m7.669s
+sys	0m0.983s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(d, -3, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m14.865s
+user	0m15.302s
+sys	0m0.947s
+----- benchmarks_micro/get-last-line-in-cell.csv end -----
+
+----- benchmarks_micro/get-last-name-from-name.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(Cs, 2, Start), input.match(as, 1, End)),))
+}
+Program size: 12
+
+real	0m0.436s
+user	0m1.093s
+sys	0m1.026s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(Cs, 2, Start), input.match(as, 1, End)),))
+}
+Program size: 12
+
+real	0m0.447s
+user	0m1.117s
+sys	0m1.040s
+----- benchmarks_micro/get-last-name-from-name.csv end -----
+
+----- benchmarks_micro/get-last-name-from-name-with-comma.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(as, -1, End)),
+		Substr(input.match(as, -2, End), input.match(as, -1, Start)),
+		Substr(input.match(as, -2, Start), input.match(as, -2, End)),))
+}
+Program size: 30
+
+real	0m0.454s
+user	0m1.120s
+sys	0m1.094s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(as, -1, End)),
+		Substr(input.match(as, -2, End), input.match(as, -1, Start)),
+		Substr(input.match(as, -2, Start), input.match(as, -2, End)),))
+}
+Program size: 30
+
+real	0m0.491s
+user	0m1.108s
+sys	0m0.987s
+----- benchmarks_micro/get-last-name-from-name-with-comma.csv end -----
+
+----- benchmarks_micro/get-last-word.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(an, -1, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m0.882s
+user	0m1.540s
+sys	0m0.975s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(an, -1, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m1.382s
+user	0m2.093s
+sys	0m1.052s
+----- benchmarks_micro/get-last-word.csv end -----
+
+----- benchmarks_micro/get-middle-name-from-full-name.csv start -----
+BlinkFill (Our Impl)
+No solution found
+No program could be synthesized
+
+real	0m0.451s
+user	0m1.084s
+sys	0m0.912s
+
+SnapFill
+Traceback (most recent call last):
+  File "/home/wroot/Documents/SnapFill/SnapFill.py", line 249, in <module>
+    main()
+  File "/home/wroot/Documents/SnapFill/SnapFill.py", line 89, in main
+    snap_fill = Synth.Synthesizer(in_arr, out_arr, "-f" in opts)
+  File "/home/wroot/Documents/SnapFill/Synthesizer.py", line 262, in __init__
+    self.gen_program()
+  File "/home/wroot/Documents/SnapFill/Synthesizer.py", line 401, in gen_program
+    self.progs.append(dag.best_solution(idg, self.outputs))
+  File "/home/wroot/Documents/SnapFill/DAG.py", line 370, in best_solution
+    path.insert(0, dist[path[0]][1])
+KeyError: None
+
+real	0m0.678s
+user	0m1.337s
+sys	0m0.949s
+----- benchmarks_micro/get-middle-name-from-full-name.csv end -----
+
+----- benchmarks_micro/initials.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(ls, 1, Start)),
+		ConstStr("."),
+		Substr(input.match(Cs, 2, Start), input.match(ls, 2, Start)),
+		ConstStr("."),))
+}
+Program size: 25
+
+real	0m0.444s
+user	0m1.167s
+sys	0m1.046s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(ls, 1, Start)),
+		ConstStr("."),
+		Substr(input.match(Cs, 2, Start), input.match(ls, 2, Start)),
+		ConstStr("."),))
+}
+Program size: 25
+
+real	0m0.547s
+user	0m1.255s
+sys	0m0.995s
+----- benchmarks_micro/initials.csv end -----
+
+----- benchmarks_micro/initials_small.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(ls, 1, Start)),
+		ConstStr("."),
+		Substr(input.match(Cs, 2, Start), input.match(ls, 2, Start)),
+		ConstStr("."),))
+}
+Program size: 25
+
+real	0m0.456s
+user	0m1.166s
+sys	0m1.047s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(ls, 1, Start)),
+		ConstStr("."),
+		Substr(input.match(Cs, 2, Start), input.match(ls, 2, Start)),
+		ConstStr("."),))
+}
+Program size: 25
+
+real	0m0.556s
+user	0m1.232s
+sys	0m1.063s
+----- benchmarks_micro/initials_small.csv end -----
+
+----- benchmarks_micro/lastname.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(Cs, 2, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m0.473s
+user	0m1.197s
+sys	0m1.020s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(Cs, 2, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m0.602s
+user	0m1.321s
+sys	0m1.048s
+----- benchmarks_micro/lastname.csv end -----
+
+----- benchmarks_micro/lastname_small.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(Cs, 2, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m0.511s
+user	0m1.044s
+sys	0m0.936s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(Cs, 2, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m0.619s
+user	0m1.253s
+sys	0m0.952s
+----- benchmarks_micro/lastname_small.csv end -----
+
+----- benchmarks_micro/remove-file-extension-from-filename.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(".", 1, Start)),))
+}
+Program size: 12
+
+real	0m0.463s
+user	0m1.203s
+sys	0m1.024s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(".", 1, Start)),))
+}
+Program size: 12
+
+real	0m0.670s
+user	0m1.357s
+sys	0m1.006s
+----- benchmarks_micro/remove-file-extension-from-filename.csv end -----
+
+----- benchmarks_micro/remove-leading-and-trailing-spaces-from-text.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(an, 1, End)),
+		Substr(input.match(" ", -1, Start), input.match(as, -1, End)),))
+}
+Program size: 21
+
+real	0m0.567s
+user	0m1.181s
+sys	0m0.920s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(an, 1, End)),
+		Substr(input.match(" ", -1, Start), input.match(as, -1, End)),))
+}
+Program size: 21
+
+real	0m0.724s
+user	0m1.420s
+sys	0m1.062s
+----- benchmarks_micro/remove-leading-and-trailing-spaces-from-text.csv end -----
+
+----- benchmarks_micro/remove-text-by-matching.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(an, 1, Start), input.match(an, 1, End)),
+		Substr(input.match(an, 2, Start), input.match(an, 2, End)),
+		Substr(input.match(an, -1, Start), input.match(an, -1, End)),))
+}
+Program size: 30
+
+real	0m0.445s
+user	0m1.000s
+sys	0m0.899s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(an, 1, Start), input.match(an, 1, End)),
+		Substr(input.match(an, 2, Start), input.match(an, 2, End)),
+		Substr(input.match(an, -1, Start), input.match(an, -1, End)),))
+}
+Program size: 30
+
+real	0m0.441s
+user	0m0.991s
+sys	0m1.011s
+----- benchmarks_micro/remove-text-by-matching.csv end -----
+
+----- benchmarks_micro/remove-text-by-position.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -2, Start), input.match(as, 5, End)),))
+}
+Program size: 12
+
+real	0m0.909s
+user	0m1.623s
+sys	0m1.049s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -2, Start), input.match(as, 5, End)),))
+}
+Program size: 12
+
+real	0m1.549s
+user	0m2.278s
+sys	0m1.043s
+----- benchmarks_micro/remove-text-by-position.csv end -----
+
+----- benchmarks_micro/replace-one-character-with-another.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(an, 1, Start), input.match(an, 1, End)),
+		ConstStr("-456-8756"),))
+}
+Program size: 14
+
+real	0m0.461s
+user	0m1.115s
+sys	0m1.034s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(an, 1, Start), input.match(an, 1, End)),
+		ConstStr("-456-8756"),))
+}
+Program size: 14
+
+real	0m0.451s
+user	0m1.126s
+sys	0m1.055s
+----- benchmarks_micro/replace-one-character-with-another.csv end -----
+
+----- benchmarks_micro/stackoverflow11.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match("_ ", -1, End), input.match(an, -1, End)),))
+}
+Program size: 12
+
+real	0m2.991s
+user	0m3.704s
+sys	0m1.047s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match("_ ", -1, End), input.match(an, -1, End)),))
+}
+Program size: 12
+
+real	0m8.612s
+user	0m9.313s
+sys	0m1.069s
+----- benchmarks_micro/stackoverflow11.csv end -----
+
+----- benchmarks_micro/stackoverflow1.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(ls, -2, End)),))
+}
+Program size: 12
+
+real	0m0.515s
+user	0m1.225s
+sys	0m1.018s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(ls, -2, End)),))
+}
+Program size: 12
+
+real	0m0.616s
+user	0m1.288s
+sys	0m0.996s
+----- benchmarks_micro/stackoverflow1.csv end -----
+
+----- benchmarks_micro/stackoverflow2.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(an, -2, End)),))
+}
+Program size: 12
+
+real	0m0.489s
+user	0m1.201s
+sys	0m1.043s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(an, -2, End)),))
+}
+Program size: 12
+
+real	0m0.559s
+user	0m1.060s
+sys	0m0.775s
+----- benchmarks_micro/stackoverflow2.csv end -----
+
+----- benchmarks_micro/stackoverflow3.csv start -----
+BlinkFill (Our Impl)
+No solution found
+No program could be synthesized
+
+real	0m0.736s
+user	0m1.371s
+sys	0m0.987s
+
+SnapFill
+Traceback (most recent call last):
+  File "/home/wroot/Documents/SnapFill/SnapFill.py", line 249, in <module>
+    main()
+  File "/home/wroot/Documents/SnapFill/SnapFill.py", line 89, in main
+    snap_fill = Synth.Synthesizer(in_arr, out_arr, "-f" in opts)
+  File "/home/wroot/Documents/SnapFill/Synthesizer.py", line 262, in __init__
+    self.gen_program()
+  File "/home/wroot/Documents/SnapFill/Synthesizer.py", line 401, in gen_program
+    self.progs.append(dag.best_solution(idg, self.outputs))
+  File "/home/wroot/Documents/SnapFill/DAG.py", line 370, in best_solution
+    path.insert(0, dist[path[0]][1])
+KeyError: None
+
+real	0m1.696s
+user	0m2.258s
+sys	0m1.036s
+----- benchmarks_micro/stackoverflow3.csv end -----
+
+----- benchmarks_micro/stackoverflow4.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -2, Start), input.match(as, -1, End)),
+		ConstStr(" "),
+		Substr(input.match(an, 3, Start), input.match(an, 3, End)),
+		ConstStr(" "),
+		Substr(input.match(an, -2, Start), input.match(an, -2, End)),
+		ConstStr(" "),
+		Substr(input.match(an, -1, Start), input.match(an, -1, End)),))
+}
+Program size: 45
+
+real	0m0.506s
+user	0m1.141s
+sys	0m0.932s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -2, Start), input.match(as, -1, End)),
+		ConstStr(" "),
+		Substr(input.match(an, 3, Start), input.match(an, 3, End)),
+		ConstStr(" "),
+		Substr(input.match(an, -2, Start), input.match(an, -2, End)),
+		ConstStr(" "),
+		Substr(input.match(an, -1, Start), input.match(an, -1, End)),))
+}
+Program size: 45
+
+real	0m0.574s
+user	0m1.036s
+sys	0m0.728s
+----- benchmarks_micro/stackoverflow4.csv end -----
+
+----- benchmarks_micro/stackoverflow5.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m1.328s
+user	0m1.896s
+sys	0m0.848s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, 1, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m1.863s
+user	0m2.336s
+sys	0m0.757s
+----- benchmarks_micro/stackoverflow5.csv end -----
+
+----- benchmarks_micro/stackoverflow6.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m2.649s
+user	0m3.296s
+sys	0m1.004s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -1, Start), input.match(as, -1, End)),))
+}
+Program size: 12
+
+real	0m4.537s
+user	0m5.263s
+sys	0m1.033s
+----- benchmarks_micro/stackoverflow6.csv end -----
+
+----- benchmarks_micro/stackoverflow8.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -2, Start), 13),
+		Substr(13, input.match(as, -1, End)),))
+}
+Program size: 15
+
+real	0m0.523s
+user	0m1.172s
+sys	0m1.043s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(as, -2, Start), 13),
+		Substr(13, input.match(as, -1, End)),))
+}
+Program size: 15
+
+real	0m0.594s
+user	0m1.250s
+sys	0m0.942s
+----- benchmarks_micro/stackoverflow8.csv end -----
+
+----- benchmarks_micro/stackoverflow9.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(Cs, 3, Start), input.match(as, 1, End)),))
+}
+Program size: 12
+
+real	0m0.462s
+user	0m1.211s
+sys	0m1.021s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(Cs, 3, Start), input.match(as, 1, End)),))
+}
+Program size: 12
+
+real	0m0.511s
+user	0m1.185s
+sys	0m1.011s
+----- benchmarks_micro/stackoverflow9.csv end -----
+
+----- benchmarks_micro/strip-html-from-text-or-numbers.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(an, 2, Start), input.match(an, 3, End)),))
+}
+Program size: 12
+
+real	0m0.425s
+user	0m1.093s
+sys	0m1.034s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(an, 2, Start), input.match(an, 3, End)),))
+}
+Program size: 12
+
+real	0m0.462s
+user	0m1.048s
+sys	0m0.890s
+----- benchmarks_micro/strip-html-from-text-or-numbers.csv end -----
+
+----- benchmarks_micro/strip-non-numeric-characters.csv start -----
+BlinkFill (Our Impl)
+Switch{
+	(True, Concat(
+		Substr(input.match(d, 1, Start), input.match(d, 1, End)),))
+}
+Program size: 12
+
+real	0m0.490s
+user	0m1.190s
+sys	0m0.998s
+
+SnapFill
+Switch{
+	(True, Concat(
+		Substr(input.match(d, 1, Start), input.match(d, 1, End)),))
+}
+Program size: 12
+
+real	0m0.617s
+user	0m1.290s
+sys	0m1.067s
+----- benchmarks_micro/strip-non-numeric-characters.csv end -----
+
+----- benchmarks_micro/strip-numeric-characters-from-cell.csv start -----
+BlinkFill (Our Impl)
+No solution found
+No program could be synthesized
+
+real	0m0.466s
+user	0m1.195s
+sys	0m1.028s
+
+SnapFill
+Switch{
+	(Match(input, "price is 500") >= 1, Concat(
+		ConstStr(" price is "),))
+
+	(True, Concat(
+		Substr(input.match(an, 1, End), input.match(as, -1, End)),))
+}
+Program size: 16
+
+real	0m0.612s
+user	0m1.350s
+sys	0m1.031s
+----- benchmarks_micro/strip-numeric-characters-from-cell.csv end -----
+

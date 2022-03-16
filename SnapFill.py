@@ -10,7 +10,7 @@ import numpy as np
 # how to use:
 # input, output = getInputOutput(path to csv)
 def getInputOutput(path):
-    data = pd.read_csv(path, dtype=str, header=None, quotechar="'")
+    data = pd.read_csv(path, dtype=str, header=None, quotechar="'", na_filter = False, keep_default_na=False)
     ins = np.array(data[0]).tolist()
     if len(list(data.columns)) < 2:
         outs = [float('NaN')] * len(ins)
@@ -95,6 +95,7 @@ def main():
     bp = snap_fill.best_prog
     if ("-d" in opts or not opts or (len(opts) == 1 and "-f" in opts)):
         print(bp)
+        print("Program size: " + str(bp.size()))
     if ("-p" in opts):
         print(bp.to_python())
     if ("-o" in opts):

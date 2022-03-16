@@ -34,6 +34,29 @@ class Program:
         prog += "}"
         return prog
 
+    def size(self):
+        # For switch
+        sz = 1
+        #for each condition
+        sz += len(self.conditions) + 1
+        for p in self.progs:
+            # for Concat
+            sz += 1
+            for sub in p:
+                # for Substr expressions
+                sz += 1
+                if type(sub) == str:
+                    # for constant string expressions
+                    sz += 1
+                else:
+                    # for position tuples
+                    for pos in sub:
+                        if type(pos) == int:
+                            sz += 1
+                        else:
+                            sz += 4
+        return sz
+
     def to_python(self):
         """
         returns string representing python program that can convert inputs
@@ -157,10 +180,10 @@ class Program:
         returns a program fragment, each line starts with 2 tabs, IS newline at end
         """
         if type(pos) == int:
-            return str(pos - 1)
+            return "\t\t" + varname + " = " + str(pos - 1) + "\n"
         li = ""
         if type(pos[0]) == str:
-            li += "list( re.compile(\"" + pos[0] + "\")"
+            li += "list( re.compile( re.escape(\"" + pos[0] + "\") )"
         else:
             li += "list( " + str(T.MATCHERS[pos[0]])
         li += ".finditer(in_str) )"
