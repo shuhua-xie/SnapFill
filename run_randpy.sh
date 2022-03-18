@@ -14,15 +14,15 @@ do
   python3 $f $testfile
   echo
   echo "File:"
-  cat $solfile
+  cat $outfile
   echo
   echo "# of examples BlinkFill failed: `diff $solfile $outfile -y --suppress-common-lines |wc -l` "
   python3 $Snap_py $testfile
   echo
   echo "File:"
-  cat $solfile
+  cat $outfile
   echo
-  echo "# of examples BlinkFill failed: `diff $solfile $outfile -y --suppress-common-lines |wc -l` "
+  echo "# of examples SnapFill failed: `diff $solfile $outfile -y --suppress-common-lines |wc -l` "
   echo "Done with $f ---------"
   echo
 done

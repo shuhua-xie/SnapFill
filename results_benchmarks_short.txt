@@ -6,9 +6,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.557s
-user	0m1.196s
-sys	0m1.005s
+real	0m0.574s
+user	0m1.175s
+sys	0m0.958s
 
 SnapFill
 Switch{
@@ -17,9 +17,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.755s
-user	0m1.387s
-sys	0m0.952s
+real	0m0.796s
+user	0m1.312s
+sys	0m0.888s
 ----- benchmarks_short_randlines/11440431_randlines-0-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/11440431_randlines-0-1-3-4.csv start -----
@@ -30,9 +30,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.533s
-user	0m1.109s
-sys	0m0.917s
+real	0m0.535s
+user	0m1.209s
+sys	0m0.955s
 
 SnapFill
 Switch{
@@ -41,9 +41,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.699s
-user	0m1.310s
-sys	0m0.894s
+real	0m0.722s
+user	0m1.449s
+sys	0m1.019s
 ----- benchmarks_short_randlines/11440431_randlines-0-1-3-4.csv end -----
 
 ----- benchmarks_short_randlines/11440431_randlines-0-2-3-4.csv start -----
@@ -54,9 +54,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.520s
-user	0m1.225s
-sys	0m0.991s
+real	0m0.530s
+user	0m1.082s
+sys	0m0.937s
 
 SnapFill
 Switch{
@@ -65,9 +65,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.662s
+real	0m0.668s
 user	0m1.370s
-sys	0m1.061s
+sys	0m0.949s
 ----- benchmarks_short_randlines/11440431_randlines-0-2-3-4.csv end -----
 
 ----- benchmarks_short_randlines/11440431_randlines-0-2-4.csv start -----
@@ -78,9 +78,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.472s
-user	0m1.185s
-sys	0m1.053s
+real	0m0.477s
+user	0m1.116s
+sys	0m0.989s
 
 SnapFill
 Switch{
@@ -89,9 +89,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.507s
-user	0m1.198s
-sys	0m1.062s
+real	0m0.513s
+user	0m1.173s
+sys	0m0.896s
 ----- benchmarks_short_randlines/11440431_randlines-0-2-4.csv end -----
 
 ----- benchmarks_short_randlines/11440431_randlines-0-2.csv start -----
@@ -102,9 +102,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.448s
-user	0m1.150s
-sys	0m0.995s
+real	0m0.436s
+user	0m1.139s
+sys	0m1.027s
 
 SnapFill
 Switch{
@@ -113,9 +113,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.463s
-user	0m1.157s
-sys	0m0.942s
+real	0m0.465s
+user	0m0.928s
+sys	0m0.818s
 ----- benchmarks_short_randlines/11440431_randlines-0-2.csv end -----
 
 ----- benchmarks_short_randlines/11440431_randlines-1-2-4.csv start -----
@@ -126,9 +126,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.555s
-user	0m1.216s
-sys	0m0.942s
+real	0m0.597s
+user	0m1.054s
+sys	0m0.830s
 
 SnapFill
 Switch{
@@ -137,9 +137,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.697s
-user	0m1.369s
-sys	0m0.947s
+real	0m0.707s
+user	0m1.365s
+sys	0m0.972s
 ----- benchmarks_short_randlines/11440431_randlines-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/11440431_randlines-1-2.csv start -----
@@ -151,9 +151,9 @@ Switch{
 }
 Program size: 21
 
-real	0m0.534s
-user	0m1.291s
-sys	0m0.981s
+real	0m0.569s
+user	0m1.127s
+sys	0m0.885s
 
 SnapFill
 Switch{
@@ -163,9 +163,9 @@ Switch{
 }
 Program size: 21
 
-real	0m0.594s
-user	0m1.229s
-sys	0m1.019s
+real	0m0.591s
+user	0m1.133s
+sys	0m0.915s
 ----- benchmarks_short_randlines/11440431_randlines-1-2.csv end -----
 
 ----- benchmarks_short_randlines/11440431_randlines-1-3.csv start -----
@@ -176,9 +176,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.560s
-user	0m1.293s
-sys	0m1.021s
+real	0m0.561s
+user	0m1.056s
+sys	0m0.711s
 
 SnapFill
 Switch{
@@ -187,9 +187,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.615s
-user	0m1.242s
-sys	0m0.976s
+real	0m0.625s
+user	0m1.156s
+sys	0m0.878s
 ----- benchmarks_short_randlines/11440431_randlines-1-3.csv end -----
 
 ----- benchmarks_short_randlines/11440431_randlines-2-3-4.csv start -----
@@ -200,9 +200,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.545s
-user	0m1.298s
-sys	0m1.000s
+real	0m0.542s
+user	0m1.210s
+sys	0m1.046s
 
 SnapFill
 Switch{
@@ -211,9 +211,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.601s
-user	0m1.299s
-sys	0m0.998s
+real	0m0.621s
+user	0m1.307s
+sys	0m1.064s
 ----- benchmarks_short_randlines/11440431_randlines-2-3-4.csv end -----
 
 ----- benchmarks_short_randlines/11440431_randlines-2.csv start -----
@@ -224,9 +224,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.411s
-user	0m1.109s
-sys	0m0.894s
+real	0m0.428s
+user	0m1.083s
+sys	0m0.940s
 
 SnapFill
 Switch{
@@ -235,9 +235,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.409s
-user	0m1.147s
-sys	0m0.993s
+real	0m0.425s
+user	0m1.093s
+sys	0m1.042s
 ----- benchmarks_short_randlines/11440431_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/11440431_randlines-3.csv start -----
@@ -248,9 +248,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.448s
-user	0m1.068s
-sys	0m0.914s
+real	0m0.415s
+user	0m1.162s
+sys	0m1.019s
 
 SnapFill
 Switch{
@@ -259,9 +259,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.429s
-user	0m1.069s
-sys	0m0.915s
+real	0m0.433s
+user	0m1.097s
+sys	0m0.937s
 ----- benchmarks_short_randlines/11440431_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/11440431_randlines-4.csv start -----
@@ -272,9 +272,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.410s
-user	0m1.100s
-sys	0m1.069s
+real	0m0.469s
+user	0m0.844s
+sys	0m0.692s
 
 SnapFill
 Switch{
@@ -283,9 +283,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.396s
-user	0m1.102s
-sys	0m0.998s
+real	0m0.406s
+user	0m1.082s
+sys	0m0.995s
 ----- benchmarks_short_randlines/11440431_randlines-4.csv end -----
 
 ----- benchmarks_short_randlines/11604909_randlines-0-1-3-4.csv start -----
@@ -293,9 +293,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.794s
-user	0m1.508s
-sys	0m1.046s
+real	0m0.778s
+user	0m1.503s
+sys	0m0.991s
 
 SnapFill
 Switch{
@@ -307,9 +307,9 @@ Switch{
 }
 Program size: 23
 
-real	0m9.225s
-user	0m9.902s
-sys	0m1.088s
+real	0m9.206s
+user	0m9.867s
+sys	0m1.055s
 ----- benchmarks_short_randlines/11604909_randlines-0-1-3-4.csv end -----
 
 ----- benchmarks_short_randlines/11604909_randlines-0-1-4.csv start -----
@@ -317,9 +317,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.650s
-user	0m1.278s
-sys	0m0.880s
+real	0m0.692s
+user	0m1.060s
+sys	0m0.624s
 
 SnapFill
 Switch{
@@ -331,9 +331,9 @@ Switch{
 }
 Program size: 23
 
-real	0m3.105s
-user	0m3.752s
-sys	0m1.026s
+real	0m3.066s
+user	0m3.630s
+sys	0m0.894s
 ----- benchmarks_short_randlines/11604909_randlines-0-1-4.csv end -----
 
 ----- benchmarks_short_randlines/11604909_randlines-0-2-4.csv start -----
@@ -344,9 +344,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.581s
-user	0m1.229s
-sys	0m0.943s
+real	0m0.647s
+user	0m1.103s
+sys	0m0.783s
 
 SnapFill
 Switch{
@@ -355,9 +355,9 @@ Switch{
 }
 Program size: 12
 
-real	0m1.039s
-user	0m1.700s
-sys	0m1.048s
+real	0m1.132s
+user	0m1.617s
+sys	0m0.819s
 ----- benchmarks_short_randlines/11604909_randlines-0-2-4.csv end -----
 
 ----- benchmarks_short_randlines/11604909_randlines-0-3-5.csv start -----
@@ -365,9 +365,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.648s
-user	0m1.346s
-sys	0m1.067s
+real	0m0.652s
+user	0m1.260s
+sys	0m0.882s
 
 SnapFill
 Switch{
@@ -379,9 +379,9 @@ Switch{
 }
 Program size: 23
 
-real	0m3.285s
-user	0m3.882s
-sys	0m1.000s
+real	0m3.253s
+user	0m3.725s
+sys	0m0.798s
 ----- benchmarks_short_randlines/11604909_randlines-0-3-5.csv end -----
 
 ----- benchmarks_short_randlines/11604909_randlines-0-3.csv start -----
@@ -389,9 +389,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.561s
-user	0m1.158s
-sys	0m0.986s
+real	0m0.558s
+user	0m1.212s
+sys	0m0.966s
 
 SnapFill
 Switch{
@@ -403,9 +403,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.684s
-user	0m1.373s
-sys	0m1.064s
+real	0m0.679s
+user	0m1.277s
+sys	0m0.888s
 ----- benchmarks_short_randlines/11604909_randlines-0-3.csv end -----
 
 ----- benchmarks_short_randlines/11604909_randlines-0.csv start -----
@@ -416,9 +416,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.445s
-user	0m1.073s
-sys	0m1.062s
+real	0m0.420s
+user	0m0.961s
+sys	0m0.865s
 
 SnapFill
 Switch{
@@ -427,9 +427,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.394s
-user	0m1.085s
-sys	0m1.005s
+real	0m0.410s
+user	0m1.067s
+sys	0m0.920s
 ----- benchmarks_short_randlines/11604909_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/11604909_randlines-1-2-3-5.csv start -----
@@ -437,9 +437,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.987s
-user	0m1.683s
-sys	0m0.992s
+real	0m0.969s
+user	0m1.606s
+sys	0m0.858s
 
 SnapFill
 Switch{
@@ -454,9 +454,9 @@ Switch{
 }
 Program size: 34
 
-real	0m7.044s
-user	0m7.737s
-sys	0m1.075s
+real	0m6.738s
+user	0m7.166s
+sys	0m0.759s
 ----- benchmarks_short_randlines/11604909_randlines-1-2-3-5.csv end -----
 
 ----- benchmarks_short_randlines/11604909_randlines-1-2.csv start -----
@@ -467,9 +467,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.670s
-user	0m1.370s
-sys	0m1.039s
+real	0m0.730s
+user	0m1.239s
+sys	0m0.924s
 
 SnapFill
 Switch{
@@ -478,9 +478,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.879s
-user	0m1.588s
-sys	0m1.036s
+real	0m0.906s
+user	0m1.450s
+sys	0m0.870s
 ----- benchmarks_short_randlines/11604909_randlines-1-2.csv end -----
 
 ----- benchmarks_short_randlines/11604909_randlines-2-3-4-5.csv start -----
@@ -488,9 +488,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m1.192s
-user	0m1.796s
-sys	0m0.906s
+real	0m1.224s
+user	0m1.839s
+sys	0m0.976s
 
 SnapFill
 Switch{
@@ -502,9 +502,9 @@ Switch{
 }
 Program size: 23
 
-real	0m11.193s
-user	0m11.902s
-sys	0m1.064s
+real	0m11.975s
+user	0m12.455s
+sys	0m0.962s
 ----- benchmarks_short_randlines/11604909_randlines-2-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/11604909_randlines-2-4.csv start -----
@@ -515,9 +515,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.898s
-user	0m1.638s
-sys	0m1.022s
+real	0m0.988s
+user	0m1.468s
+sys	0m0.887s
 
 SnapFill
 Switch{
@@ -526,9 +526,9 @@ Switch{
 }
 Program size: 12
 
-real	0m1.333s
-user	0m2.007s
-sys	0m1.002s
+real	0m1.302s
+user	0m1.941s
+sys	0m0.911s
 ----- benchmarks_short_randlines/11604909_randlines-2-4.csv end -----
 
 ----- benchmarks_short_randlines/11604909_randlines-3.csv start -----
@@ -539,9 +539,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.577s
-user	0m1.261s
-sys	0m1.012s
+real	0m0.578s
+user	0m1.152s
+sys	0m0.875s
 
 SnapFill
 Switch{
@@ -550,9 +550,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.572s
-user	0m1.290s
-sys	0m0.982s
+real	0m0.575s
+user	0m1.164s
+sys	0m0.899s
 ----- benchmarks_short_randlines/11604909_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/11604909_randlines-5.csv start -----
@@ -563,9 +563,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.515s
-user	0m1.152s
-sys	0m0.945s
+real	0m0.502s
+user	0m1.279s
+sys	0m0.985s
 
 SnapFill
 Switch{
@@ -574,9 +574,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.526s
-user	0m1.204s
-sys	0m0.996s
+real	0m0.499s
+user	0m1.209s
+sys	0m1.008s
 ----- benchmarks_short_randlines/11604909_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/33619752_randlines-0-1-2-5.csv start -----
@@ -584,9 +584,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.830s
-user	0m1.416s
-sys	0m1.002s
+real	0m0.853s
+user	0m1.534s
+sys	0m1.075s
 
 SnapFill
 Switch{
@@ -599,9 +599,9 @@ Switch{
 }
 Program size: 32
 
-real	0m1.555s
-user	0m2.240s
-sys	0m1.080s
+real	0m1.561s
+user	0m1.938s
+sys	0m0.774s
 ----- benchmarks_short_randlines/33619752_randlines-0-1-2-5.csv end -----
 
 ----- benchmarks_short_randlines/33619752_randlines-0-3-5.csv start -----
@@ -613,8 +613,8 @@ Switch{
 Program size: 12
 
 real	0m0.473s
-user	0m1.184s
-sys	0m0.986s
+user	0m1.187s
+sys	0m1.004s
 
 SnapFill
 Switch{
@@ -623,9 +623,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.511s
-user	0m1.204s
-sys	0m0.997s
+real	0m0.507s
+user	0m1.179s
+sys	0m0.953s
 ----- benchmarks_short_randlines/33619752_randlines-0-3-5.csv end -----
 
 ----- benchmarks_short_randlines/33619752_randlines-0-3.csv start -----
@@ -636,9 +636,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.462s
-user	0m1.142s
-sys	0m1.052s
+real	0m0.473s
+user	0m1.118s
+sys	0m0.925s
 
 SnapFill
 Switch{
@@ -647,9 +647,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.491s
-user	0m1.177s
-sys	0m1.063s
+real	0m0.481s
+user	0m1.174s
+sys	0m1.073s
 ----- benchmarks_short_randlines/33619752_randlines-0-3.csv end -----
 
 ----- benchmarks_short_randlines/33619752_randlines-0.csv start -----
@@ -660,9 +660,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.415s
-user	0m1.127s
-sys	0m0.990s
+real	0m0.429s
+user	0m1.003s
+sys	0m0.921s
 
 SnapFill
 Switch{
@@ -671,9 +671,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.412s
-user	0m1.109s
-sys	0m0.984s
+real	0m0.452s
+user	0m0.978s
+sys	0m0.871s
 ----- benchmarks_short_randlines/33619752_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/33619752_randlines-1-2-6.csv start -----
@@ -684,9 +684,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.739s
-user	0m1.422s
-sys	0m1.013s
+real	0m0.748s
+user	0m1.275s
+sys	0m0.773s
 
 SnapFill
 Switch{
@@ -695,9 +695,9 @@ Switch{
 }
 Program size: 12
 
-real	0m1.161s
-user	0m1.910s
-sys	0m1.020s
+real	0m1.199s
+user	0m1.741s
+sys	0m0.826s
 ----- benchmarks_short_randlines/33619752_randlines-1-2-6.csv end -----
 
 ----- benchmarks_short_randlines/33619752_randlines-1-4-5-6.csv start -----
@@ -705,9 +705,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.587s
-user	0m1.226s
-sys	0m0.979s
+real	0m0.618s
+user	0m1.045s
+sys	0m0.812s
 
 SnapFill
 Switch{
@@ -720,9 +720,9 @@ Switch{
 }
 Program size: 32
 
-real	0m1.067s
-user	0m1.762s
-sys	0m1.032s
+real	0m1.113s
+user	0m1.653s
+sys	0m0.857s
 ----- benchmarks_short_randlines/33619752_randlines-1-4-5-6.csv end -----
 
 ----- benchmarks_short_randlines/33619752_randlines-1-5.csv start -----
@@ -730,9 +730,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.468s
-user	0m1.072s
-sys	0m0.869s
+real	0m0.470s
+user	0m1.039s
+sys	0m0.947s
 
 SnapFill
 Switch{
@@ -744,9 +744,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.492s
-user	0m1.182s
-sys	0m1.004s
+real	0m0.487s
+user	0m1.162s
+sys	0m1.019s
 ----- benchmarks_short_randlines/33619752_randlines-1-5.csv end -----
 
 ----- benchmarks_short_randlines/33619752_randlines-2-3-4.csv start -----
@@ -754,9 +754,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.521s
-user	0m1.244s
-sys	0m1.040s
+real	0m0.517s
+user	0m1.273s
+sys	0m1.016s
 
 SnapFill
 Switch{
@@ -768,9 +768,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.727s
-user	0m1.311s
-sys	0m0.948s
+real	0m0.755s
+user	0m1.480s
+sys	0m1.014s
 ----- benchmarks_short_randlines/33619752_randlines-2-3-4.csv end -----
 
 ----- benchmarks_short_randlines/33619752_randlines-2-4-5-6.csv start -----
@@ -778,9 +778,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.616s
-user	0m1.328s
-sys	0m1.045s
+real	0m0.638s
+user	0m1.154s
+sys	0m0.797s
 
 SnapFill
 Switch{
@@ -793,9 +793,9 @@ Switch{
 }
 Program size: 32
 
-real	0m1.161s
-user	0m1.739s
-sys	0m0.984s
+real	0m1.144s
+user	0m1.612s
+sys	0m0.752s
 ----- benchmarks_short_randlines/33619752_randlines-2-4-5-6.csv end -----
 
 ----- benchmarks_short_randlines/33619752_randlines-4-5.csv start -----
@@ -806,9 +806,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.446s
-user	0m1.102s
-sys	0m0.943s
+real	0m0.474s
+user	0m1.134s
+sys	0m1.010s
 
 SnapFill
 Switch{
@@ -817,9 +817,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.452s
-user	0m1.146s
-sys	0m0.993s
+real	0m0.465s
+user	0m1.064s
+sys	0m1.009s
 ----- benchmarks_short_randlines/33619752_randlines-4-5.csv end -----
 
 ----- benchmarks_short_randlines/33619752_randlines-4.csv start -----
@@ -830,9 +830,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.414s
+real	0m0.434s
 user	0m1.130s
-sys	0m0.980s
+sys	0m1.055s
 
 SnapFill
 Switch{
@@ -841,9 +841,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.419s
-user	0m1.037s
-sys	0m0.921s
+real	0m0.430s
+user	0m1.113s
+sys	0m1.077s
 ----- benchmarks_short_randlines/33619752_randlines-4.csv end -----
 
 ----- benchmarks_short_randlines/33619752_randlines-6.csv start -----
@@ -854,9 +854,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.411s
-user	0m1.135s
-sys	0m0.963s
+real	0m0.421s
+user	0m1.006s
+sys	0m1.010s
 
 SnapFill
 Switch{
@@ -865,9 +865,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.459s
-user	0m1.101s
-sys	0m0.913s
+real	0m0.420s
+user	0m1.124s
+sys	0m1.014s
 ----- benchmarks_short_randlines/33619752_randlines-6.csv end -----
 
 ----- benchmarks_short_randlines/38664547_randlines-0-1-3-5.csv start -----
@@ -875,14 +875,14 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.423s
-user	0m1.132s
-sys	0m0.988s
+real	0m0.410s
+user	0m1.156s
+sys	0m1.019s
 
 SnapFill
 Switch{
 	(Match(input, "knowthat") >= 1, Concat(
-		Substr(input.match(as, -1, Start), input.match("know", 1, End)),))
+		Substr(input.match(as, -1, Start), input.match("know", -1, End)),))
 
 	(Match(input, "mouse") >= 1, Concat(
 		Substr(input.match(as, -1, Start), input.match(as, -1, End)),))
@@ -892,9 +892,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.472s
-user	0m1.063s
-sys	0m0.914s
+real	0m0.457s
+user	0m1.187s
+sys	0m0.963s
 ----- benchmarks_short_randlines/38664547_randlines-0-1-3-5.csv end -----
 
 ----- benchmarks_short_randlines/38664547_randlines-0-2-4-5.csv start -----
@@ -902,18 +902,18 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.425s
-user	0m1.071s
-sys	0m0.980s
+real	0m0.448s
+user	0m0.950s
+sys	0m0.885s
 
 SnapFill
 Conditions could not be generated
 
 No program could be synthesized
 
-real	0m0.436s
-user	0m1.139s
-sys	0m1.057s
+real	0m0.452s
+user	0m1.061s
+sys	0m0.939s
 ----- benchmarks_short_randlines/38664547_randlines-0-2-4-5.csv end -----
 
 ----- benchmarks_short_randlines/38664547_randlines-0-2-4.csv start -----
@@ -921,9 +921,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.407s
-user	0m1.159s
-sys	0m1.011s
+real	0m0.416s
+user	0m1.137s
+sys	0m1.015s
 
 SnapFill
 Switch{
@@ -931,13 +931,13 @@ Switch{
 		Substr(input.match(as, -1, Start), input.match(as, -1, End)),))
 
 	(True, Concat(
-		Substr(input.match("that", -1, End), input.match(as, -1, End)),))
+		Substr(input.match("that", 1, End), input.match(as, -1, End)),))
 }
 Program size: 23
 
-real	0m0.444s
+real	0m0.442s
 user	0m1.161s
-sys	0m1.041s
+sys	0m1.039s
 ----- benchmarks_short_randlines/38664547_randlines-0-2-4.csv end -----
 
 ----- benchmarks_short_randlines/38664547_randlines-0-3-4.csv start -----
@@ -945,9 +945,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.405s
-user	0m1.160s
-sys	0m1.010s
+real	0m0.425s
+user	0m1.145s
+sys	0m0.984s
 
 SnapFill
 Switch{
@@ -959,9 +959,9 @@ Switch{
 }
 Program size: 20
 
-real	0m0.414s
-user	0m1.106s
-sys	0m1.079s
+real	0m0.427s
+user	0m1.142s
+sys	0m1.038s
 ----- benchmarks_short_randlines/38664547_randlines-0-3-4.csv end -----
 
 ----- benchmarks_short_randlines/38664547_randlines-0-4.csv start -----
@@ -969,9 +969,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.403s
-user	0m1.019s
-sys	0m0.987s
+real	0m0.404s
+user	0m1.118s
+sys	0m1.047s
 
 SnapFill
 Switch{
@@ -983,9 +983,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.409s
-user	0m1.120s
-sys	0m1.061s
+real	0m0.418s
+user	0m1.003s
+sys	0m0.927s
 ----- benchmarks_short_randlines/38664547_randlines-0-4.csv end -----
 
 ----- benchmarks_short_randlines/38664547_randlines-0.csv start -----
@@ -996,9 +996,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.414s
-user	0m1.022s
-sys	0m1.004s
+real	0m0.411s
+user	0m1.078s
+sys	0m1.017s
 
 SnapFill
 Switch{
@@ -1007,9 +1007,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.419s
-user	0m1.025s
-sys	0m0.869s
+real	0m0.401s
+user	0m1.082s
+sys	0m1.033s
 ----- benchmarks_short_randlines/38664547_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/38664547_randlines-1-2-3-5.csv start -----
@@ -1017,9 +1017,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.442s
-user	0m1.108s
-sys	0m1.025s
+real	0m0.406s
+user	0m1.035s
+sys	0m0.943s
 
 SnapFill
 Switch{
@@ -1030,13 +1030,13 @@ Switch{
 		Substr(input.match(as, -1, Start), input.match(as, -1, End)),))
 
 	(True, Concat(
-		Substr(input.match("that", 1, End), input.match(as, -1, End)),))
+		Substr(input.match("that", -1, End), input.match(as, -1, End)),))
 }
 Program size: 34
 
-real	0m0.426s
-user	0m1.129s
-sys	0m1.063s
+real	0m0.429s
+user	0m1.090s
+sys	0m1.061s
 ----- benchmarks_short_randlines/38664547_randlines-1-2-3-5.csv end -----
 
 ----- benchmarks_short_randlines/38664547_randlines-2-3-5.csv start -----
@@ -1044,9 +1044,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.401s
-user	0m1.140s
-sys	0m1.031s
+real	0m0.438s
+user	0m1.071s
+sys	0m0.962s
 
 SnapFill
 Switch{
@@ -1061,9 +1061,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.424s
-user	0m1.151s
-sys	0m1.038s
+real	0m0.418s
+user	0m1.137s
+sys	0m1.022s
 ----- benchmarks_short_randlines/38664547_randlines-2-3-5.csv end -----
 
 ----- benchmarks_short_randlines/38664547_randlines-2-3.csv start -----
@@ -1071,36 +1071,36 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.397s
-user	0m1.124s
-sys	0m1.049s
+real	0m0.407s
+user	0m1.102s
+sys	0m1.062s
 
 SnapFill
 Switch{
 	(Match(input, "thathave") >= 1, Concat(
-		Substr(input.match("that", 1, End), input.match(as, -1, End)),))
+		Substr(input.match("that", -1, End), input.match(as, -1, End)),))
 
 	(True, Concat(
-		Substr(input.match(as, -1, Start), input.match("know", 1, End)),))
+		Substr(input.match(as, -1, Start), input.match("know", -1, End)),))
 }
 Program size: 23
 
-real	0m0.421s
-user	0m1.033s
-sys	0m0.914s
+real	0m0.405s
+user	0m1.153s
+sys	0m1.019s
 ----- benchmarks_short_randlines/38664547_randlines-2-3.csv end -----
 
 ----- benchmarks_short_randlines/38664547_randlines-2.csv start -----
 BlinkFill (Our Impl)
 Switch{
 	(True, Concat(
-		Substr(input.match("that", -1, End), input.match(as, -1, End)),))
+		Substr(input.match("that", 1, End), input.match(as, -1, End)),))
 }
 Program size: 12
 
-real	0m0.400s
-user	0m1.088s
-sys	0m1.007s
+real	0m0.412s
+user	0m1.067s
+sys	0m0.937s
 
 SnapFill
 Switch{
@@ -1109,9 +1109,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.398s
-user	0m0.932s
-sys	0m0.865s
+real	0m0.410s
+user	0m1.129s
+sys	0m1.045s
 ----- benchmarks_short_randlines/38664547_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/38664547_randlines-3-4.csv start -----
@@ -1122,9 +1122,9 @@ Switch{
 }
 Program size: 9
 
-real	0m0.410s
-user	0m1.094s
-sys	0m1.018s
+real	0m0.414s
+user	0m1.120s
+sys	0m1.051s
 
 SnapFill
 Switch{
@@ -1133,9 +1133,9 @@ Switch{
 }
 Program size: 9
 
-real	0m0.401s
-user	0m1.090s
-sys	0m0.989s
+real	0m0.411s
+user	0m1.046s
+sys	0m0.999s
 ----- benchmarks_short_randlines/38664547_randlines-3-4.csv end -----
 
 ----- benchmarks_short_randlines/38664547_randlines-4.csv start -----
@@ -1146,9 +1146,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.418s
-user	0m0.991s
-sys	0m0.938s
+real	0m0.410s
+user	0m1.116s
+sys	0m1.024s
 
 SnapFill
 Switch{
@@ -1157,9 +1157,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.435s
-user	0m1.127s
-sys	0m0.989s
+real	0m0.402s
+user	0m1.094s
+sys	0m1.070s
 ----- benchmarks_short_randlines/38664547_randlines-4.csv end -----
 
 ----- benchmarks_short_randlines/41503046_randlines-0-1-2-3.csv start -----
@@ -1168,8 +1168,8 @@ No solution found
 No program could be synthesized
 
 real	0m0.598s
-user	0m1.256s
-sys	0m1.044s
+user	0m1.353s
+sys	0m0.998s
 
 SnapFill
 Switch{
@@ -1181,9 +1181,9 @@ Switch{
 }
 Program size: 23
 
-real	0m1.293s
-user	0m1.969s
-sys	0m0.924s
+real	0m1.342s
+user	0m1.988s
+sys	0m1.073s
 ----- benchmarks_short_randlines/41503046_randlines-0-1-2-3.csv end -----
 
 ----- benchmarks_short_randlines/41503046_randlines-0-1-2.csv start -----
@@ -1194,9 +1194,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.519s
-user	0m1.215s
-sys	0m1.002s
+real	0m0.508s
+user	0m1.247s
+sys	0m0.961s
 
 SnapFill
 Switch{
@@ -1205,9 +1205,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.683s
-user	0m1.306s
-sys	0m0.987s
+real	0m0.701s
+user	0m1.384s
+sys	0m1.077s
 ----- benchmarks_short_randlines/41503046_randlines-0-1-2.csv end -----
 
 ----- benchmarks_short_randlines/41503046_randlines-0-1-3.csv start -----
@@ -1215,9 +1215,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.578s
-user	0m1.237s
-sys	0m1.073s
+real	0m0.560s
+user	0m1.277s
+sys	0m1.041s
 
 SnapFill
 Switch{
@@ -1229,9 +1229,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.895s
-user	0m1.460s
-sys	0m0.976s
+real	0m0.899s
+user	0m1.589s
+sys	0m1.019s
 ----- benchmarks_short_randlines/41503046_randlines-0-1-3.csv end -----
 
 ----- benchmarks_short_randlines/41503046_randlines-0-2-4-5.csv start -----
@@ -1239,9 +1239,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.631s
-user	0m1.345s
-sys	0m1.055s
+real	0m0.645s
+user	0m1.365s
+sys	0m1.039s
 
 SnapFill
 Switch{
@@ -1253,9 +1253,9 @@ Switch{
 }
 Program size: 23
 
-real	0m1.279s
-user	0m1.985s
-sys	0m1.065s
+real	0m1.298s
+user	0m2.028s
+sys	0m1.029s
 ----- benchmarks_short_randlines/41503046_randlines-0-2-4-5.csv end -----
 
 ----- benchmarks_short_randlines/41503046_randlines-0-2.csv start -----
@@ -1266,9 +1266,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.492s
-user	0m1.222s
-sys	0m1.032s
+real	0m0.523s
+user	0m1.074s
+sys	0m1.020s
 
 SnapFill
 Switch{
@@ -1277,9 +1277,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.546s
-user	0m1.265s
-sys	0m0.982s
+real	0m0.550s
+user	0m1.200s
+sys	0m0.950s
 ----- benchmarks_short_randlines/41503046_randlines-0-2.csv end -----
 
 ----- benchmarks_short_randlines/41503046_randlines-0-5.csv start -----
@@ -1290,9 +1290,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.452s
-user	0m1.187s
-sys	0m1.029s
+real	0m0.456s
+user	0m1.169s
+sys	0m1.019s
 
 SnapFill
 Switch{
@@ -1301,9 +1301,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.476s
-user	0m1.180s
-sys	0m1.069s
+real	0m0.492s
+user	0m1.138s
+sys	0m0.975s
 ----- benchmarks_short_randlines/41503046_randlines-0-5.csv end -----
 
 ----- benchmarks_short_randlines/41503046_randlines-0.csv start -----
@@ -1314,9 +1314,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.435s
-user	0m1.036s
-sys	0m0.931s
+real	0m0.433s
+user	0m1.104s
+sys	0m0.954s
 
 SnapFill
 Switch{
@@ -1325,9 +1325,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.471s
-user	0m1.037s
-sys	0m0.882s
+real	0m0.433s
+user	0m1.130s
+sys	0m1.050s
 ----- benchmarks_short_randlines/41503046_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/41503046_randlines-1-2-3-5.csv start -----
@@ -1335,9 +1335,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.596s
-user	0m1.274s
-sys	0m1.015s
+real	0m0.597s
+user	0m1.262s
+sys	0m1.083s
 
 SnapFill
 Switch{
@@ -1349,9 +1349,9 @@ Switch{
 }
 Program size: 23
 
-real	0m1.119s
-user	0m1.639s
-sys	0m0.884s
+real	0m1.110s
+user	0m1.724s
+sys	0m0.971s
 ----- benchmarks_short_randlines/41503046_randlines-1-2-3-5.csv end -----
 
 ----- benchmarks_short_randlines/41503046_randlines-1.csv start -----
@@ -1362,9 +1362,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.408s
-user	0m1.127s
-sys	0m1.039s
+real	0m0.411s
+user	0m1.102s
+sys	0m1.067s
 
 SnapFill
 Switch{
@@ -1373,9 +1373,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.424s
-user	0m1.133s
-sys	0m1.041s
+real	0m0.426s
+user	0m1.036s
+sys	0m0.957s
 ----- benchmarks_short_randlines/41503046_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/41503046_randlines-3-4-5.csv start -----
@@ -1383,9 +1383,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m1.007s
-user	0m1.648s
-sys	0m0.967s
+real	0m1.010s
+user	0m1.716s
+sys	0m1.052s
 
 SnapFill
 Switch{
@@ -1397,9 +1397,9 @@ Switch{
 }
 Program size: 23
 
-real	0m1.810s
-user	0m2.475s
-sys	0m0.884s
+real	0m1.823s
+user	0m2.427s
+sys	0m0.954s
 ----- benchmarks_short_randlines/41503046_randlines-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/41503046_randlines-3.csv start -----
@@ -1410,9 +1410,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.459s
-user	0m1.220s
-sys	0m1.005s
+real	0m0.478s
+user	0m1.083s
+sys	0m0.903s
 
 SnapFill
 Switch{
@@ -1421,9 +1421,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.458s
-user	0m1.136s
-sys	0m0.916s
+real	0m0.475s
+user	0m1.022s
+sys	0m0.947s
 ----- benchmarks_short_randlines/41503046_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/41503046_randlines-4-5.csv start -----
@@ -1431,9 +1431,9 @@ BlinkFill (Our Impl)
 No solution found
 No program could be synthesized
 
-real	0m0.584s
-user	0m1.197s
-sys	0m0.923s
+real	0m0.573s
+user	0m1.323s
+sys	0m1.017s
 
 SnapFill
 Switch{
@@ -1445,9 +1445,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.681s
-user	0m1.384s
-sys	0m1.057s
+real	0m0.727s
+user	0m1.339s
+sys	0m0.989s
 ----- benchmarks_short_randlines/41503046_randlines-4-5.csv end -----
 
 ----- benchmarks_short_randlines/bikes_randlines-0-1-2-3.csv start -----
@@ -1458,9 +1458,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.423s
-user	0m1.119s
-sys	0m1.000s
+real	0m0.469s
+user	0m0.842s
+sys	0m0.662s
 
 SnapFill
 Switch{
@@ -1469,9 +1469,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.451s
-user	0m1.120s
-sys	0m1.019s
+real	0m0.472s
+user	0m1.042s
+sys	0m0.987s
 ----- benchmarks_short_randlines/bikes_randlines-0-1-2-3.csv end -----
 
 ----- benchmarks_short_randlines/bikes_randlines-0-1-2.csv start -----
@@ -1482,9 +1482,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.430s
-user	0m1.104s
-sys	0m1.018s
+real	0m0.421s
+user	0m1.142s
+sys	0m1.038s
 
 SnapFill
 Switch{
@@ -1493,9 +1493,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.424s
-user	0m1.136s
-sys	0m0.986s
+real	0m0.430s
+user	0m1.140s
+sys	0m1.050s
 ----- benchmarks_short_randlines/bikes_randlines-0-1-2.csv end -----
 
 ----- benchmarks_short_randlines/bikes_randlines-0-3-5.csv start -----
@@ -1506,9 +1506,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.443s
-user	0m1.060s
-sys	0m0.958s
+real	0m0.473s
+user	0m1.143s
+sys	0m1.067s
 
 SnapFill
 Switch{
@@ -1517,9 +1517,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.441s
-user	0m1.101s
-sys	0m1.110s
+real	0m0.467s
+user	0m1.008s
+sys	0m0.824s
 ----- benchmarks_short_randlines/bikes_randlines-0-3-5.csv end -----
 
 ----- benchmarks_short_randlines/bikes_randlines-0.csv start -----
@@ -1530,9 +1530,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.402s
-user	0m1.080s
-sys	0m1.028s
+real	0m0.415s
+user	0m1.040s
+sys	0m0.888s
 
 SnapFill
 Switch{
@@ -1541,9 +1541,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.410s
-user	0m1.106s
-sys	0m1.065s
+real	0m0.405s
+user	0m1.091s
+sys	0m0.957s
 ----- benchmarks_short_randlines/bikes_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/bikes_randlines-1-2-3-4.csv start -----
@@ -1554,9 +1554,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.422s
-user	0m1.053s
-sys	0m0.991s
+real	0m0.420s
+user	0m1.110s
+sys	0m1.062s
 
 SnapFill
 Switch{
@@ -1565,9 +1565,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.445s
-user	0m1.094s
-sys	0m1.045s
+real	0m0.451s
+user	0m1.197s
+sys	0m1.023s
 ----- benchmarks_short_randlines/bikes_randlines-1-2-3-4.csv end -----
 
 ----- benchmarks_short_randlines/bikes_randlines-1-2-4.csv start -----
@@ -1578,9 +1578,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.417s
-user	0m1.099s
-sys	0m1.082s
+real	0m0.443s
+user	0m1.028s
+sys	0m0.951s
 
 SnapFill
 Switch{
@@ -1589,9 +1589,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.434s
-user	0m1.093s
-sys	0m0.925s
+real	0m0.442s
+user	0m1.065s
+sys	0m0.992s
 ----- benchmarks_short_randlines/bikes_randlines-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/bikes_randlines-1-3-4-5.csv start -----
@@ -1603,8 +1603,8 @@ Switch{
 Program size: 12
 
 real	0m0.413s
-user	0m1.151s
-sys	0m1.029s
+user	0m1.097s
+sys	0m1.072s
 
 SnapFill
 Switch{
@@ -1613,9 +1613,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.443s
-user	0m1.167s
-sys	0m1.048s
+real	0m0.444s
+user	0m1.087s
+sys	0m0.949s
 ----- benchmarks_short_randlines/bikes_randlines-1-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/bikes_randlines-1-3.csv start -----
@@ -1626,9 +1626,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.405s
-user	0m1.131s
-sys	0m1.042s
+real	0m0.404s
+user	0m1.122s
+sys	0m1.054s
 
 SnapFill
 Switch{
@@ -1637,9 +1637,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.406s
-user	0m1.150s
-sys	0m1.016s
+real	0m0.407s
+user	0m1.096s
+sys	0m1.071s
 ----- benchmarks_short_randlines/bikes_randlines-1-3.csv end -----
 
 ----- benchmarks_short_randlines/bikes_randlines-1.csv start -----
@@ -1650,9 +1650,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.397s
-user	0m1.126s
-sys	0m1.037s
+real	0m0.395s
+user	0m1.112s
+sys	0m1.052s
 
 SnapFill
 Switch{
@@ -1661,9 +1661,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.395s
-user	0m0.959s
-sys	0m0.932s
+real	0m0.429s
+user	0m1.128s
+sys	0m1.036s
 ----- benchmarks_short_randlines/bikes_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/bikes_randlines-2-4.csv start -----
@@ -1674,9 +1674,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.410s
-user	0m1.075s
-sys	0m1.024s
+real	0m0.403s
+user	0m1.128s
+sys	0m1.047s
 
 SnapFill
 Switch{
@@ -1685,9 +1685,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.428s
-user	0m1.062s
-sys	0m0.971s
+real	0m0.406s
+user	0m1.051s
+sys	0m0.923s
 ----- benchmarks_short_randlines/bikes_randlines-2-4.csv end -----
 
 ----- benchmarks_short_randlines/bikes_randlines-4-5.csv start -----
@@ -1698,9 +1698,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.421s
-user	0m1.020s
-sys	0m0.933s
+real	0m0.405s
+user	0m1.096s
+sys	0m1.056s
 
 SnapFill
 Switch{
@@ -1709,9 +1709,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.406s
-user	0m1.117s
-sys	0m0.992s
+real	0m0.407s
+user	0m1.006s
+sys	0m0.922s
 ----- benchmarks_short_randlines/bikes_randlines-4-5.csv end -----
 
 ----- benchmarks_short_randlines/bikes_randlines-5.csv start -----
@@ -1722,9 +1722,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.417s
-user	0m1.020s
-sys	0m0.913s
+real	0m0.446s
+user	0m1.017s
+sys	0m0.989s
 
 SnapFill
 Switch{
@@ -1733,9 +1733,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.415s
-user	0m1.102s
-sys	0m1.002s
+real	0m0.399s
+user	0m0.994s
+sys	0m0.824s
 ----- benchmarks_short_randlines/bikes_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/bikes_small_randlines-0-1-2-3.csv start -----
@@ -1746,9 +1746,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.418s
-user	0m1.126s
-sys	0m1.030s
+real	0m0.413s
+user	0m1.127s
+sys	0m1.003s
 
 SnapFill
 Switch{
@@ -1757,9 +1757,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.453s
-user	0m1.109s
-sys	0m1.016s
+real	0m0.458s
+user	0m1.121s
+sys	0m0.902s
 ----- benchmarks_short_randlines/bikes_small_randlines-0-1-2-3.csv end -----
 
 ----- benchmarks_short_randlines/bikes_small_randlines-0-1-3-4.csv start -----
@@ -1770,9 +1770,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.430s
-user	0m1.055s
-sys	0m0.922s
+real	0m0.413s
+user	0m1.143s
+sys	0m1.021s
 
 SnapFill
 Switch{
@@ -1781,9 +1781,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.446s
-user	0m1.116s
-sys	0m1.015s
+real	0m0.442s
+user	0m1.159s
+sys	0m1.000s
 ----- benchmarks_short_randlines/bikes_small_randlines-0-1-3-4.csv end -----
 
 ----- benchmarks_short_randlines/bikes_small_randlines-0-1.csv start -----
@@ -1794,9 +1794,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.417s
-user	0m1.132s
-sys	0m0.941s
+real	0m0.430s
+user	0m1.012s
+sys	0m1.024s
 
 SnapFill
 Switch{
@@ -1805,9 +1805,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.418s
-user	0m1.104s
-sys	0m0.994s
+real	0m0.438s
+user	0m1.039s
+sys	0m0.975s
 ----- benchmarks_short_randlines/bikes_small_randlines-0-1.csv end -----
 
 ----- benchmarks_short_randlines/bikes_small_randlines-0-2-4.csv start -----
@@ -1818,9 +1818,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.415s
-user	0m1.134s
-sys	0m0.974s
+real	0m0.409s
+user	0m1.076s
+sys	0m1.042s
 
 SnapFill
 Switch{
@@ -1829,9 +1829,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.443s
-user	0m1.163s
-sys	0m0.964s
+real	0m0.425s
+user	0m1.100s
+sys	0m1.076s
 ----- benchmarks_short_randlines/bikes_small_randlines-0-2-4.csv end -----
 
 ----- benchmarks_short_randlines/bikes_small_randlines-0-3.csv start -----
@@ -1842,9 +1842,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.420s
-user	0m1.112s
-sys	0m0.988s
+real	0m0.410s
+user	0m1.124s
+sys	0m1.041s
 
 SnapFill
 Switch{
@@ -1853,9 +1853,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.423s
-user	0m1.011s
-sys	0m0.956s
+real	0m0.408s
+user	0m1.125s
+sys	0m1.030s
 ----- benchmarks_short_randlines/bikes_small_randlines-0-3.csv end -----
 
 ----- benchmarks_short_randlines/bikes_small_randlines-1-2-4-5.csv start -----
@@ -1866,9 +1866,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.413s
-user	0m1.070s
-sys	0m1.014s
+real	0m0.419s
+user	0m1.077s
+sys	0m1.040s
 
 SnapFill
 Switch{
@@ -1877,9 +1877,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.464s
-user	0m1.078s
-sys	0m1.048s
+real	0m0.454s
+user	0m1.100s
+sys	0m0.950s
 ----- benchmarks_short_randlines/bikes_small_randlines-1-2-4-5.csv end -----
 
 ----- benchmarks_short_randlines/bikes_small_randlines-1-2-5.csv start -----
@@ -1890,9 +1890,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.423s
-user	0m1.045s
-sys	0m0.978s
+real	0m0.418s
+user	0m1.076s
+sys	0m1.088s
 
 SnapFill
 Switch{
@@ -1901,9 +1901,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.426s
-user	0m1.117s
-sys	0m1.075s
+real	0m0.427s
+user	0m1.110s
+sys	0m1.084s
 ----- benchmarks_short_randlines/bikes_small_randlines-1-2-5.csv end -----
 
 ----- benchmarks_short_randlines/bikes_small_randlines-1-4.csv start -----
@@ -1914,9 +1914,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.401s
-user	0m1.105s
-sys	0m1.069s
+real	0m0.434s
+user	0m1.083s
+sys	0m0.923s
 
 SnapFill
 Switch{
@@ -1925,9 +1925,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.407s
-user	0m1.120s
-sys	0m1.059s
+real	0m0.404s
+user	0m1.163s
+sys	0m1.000s
 ----- benchmarks_short_randlines/bikes_small_randlines-1-4.csv end -----
 
 ----- benchmarks_short_randlines/bikes_small_randlines-3-4-5.csv start -----
@@ -1938,9 +1938,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.424s
-user	0m1.145s
-sys	0m1.028s
+real	0m0.409s
+user	0m1.128s
+sys	0m1.046s
 
 SnapFill
 Switch{
@@ -1949,9 +1949,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.425s
-user	0m1.165s
-sys	0m1.021s
+real	0m0.431s
+user	0m1.094s
+sys	0m1.052s
 ----- benchmarks_short_randlines/bikes_small_randlines-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/bikes_small_randlines-3.csv start -----
@@ -1962,9 +1962,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.409s
-user	0m1.014s
-sys	0m0.926s
+real	0m0.398s
+user	0m1.064s
+sys	0m1.025s
 
 SnapFill
 Switch{
@@ -1973,9 +1973,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.405s
-user	0m1.045s
-sys	0m0.957s
+real	0m0.399s
+user	0m1.065s
+sys	0m1.098s
 ----- benchmarks_short_randlines/bikes_small_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/bikes_small_randlines-4.csv start -----
@@ -1986,9 +1986,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.431s
-user	0m1.120s
-sys	0m0.994s
+real	0m0.429s
+user	0m1.086s
+sys	0m0.930s
 
 SnapFill
 Switch{
@@ -1997,9 +1997,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.402s
-user	0m1.068s
-sys	0m1.004s
+real	0m0.448s
+user	0m1.003s
+sys	0m0.934s
 ----- benchmarks_short_randlines/bikes_small_randlines-4.csv end -----
 
 ----- benchmarks_short_randlines/bikes_small_randlines-5.csv start -----
@@ -2010,9 +2010,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.411s
-user	0m1.081s
-sys	0m1.020s
+real	0m0.392s
+user	0m1.075s
+sys	0m1.044s
 
 SnapFill
 Switch{
@@ -2021,9 +2021,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.425s
-user	0m1.017s
-sys	0m0.947s
+real	0m0.417s
+user	0m1.004s
+sys	0m0.964s
 ----- benchmarks_short_randlines/bikes_small_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_randlines-0-2-3-6.csv start -----
@@ -2036,9 +2036,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.497s
-user	0m1.140s
-sys	0m0.971s
+real	0m0.478s
+user	0m1.211s
+sys	0m0.985s
 
 SnapFill
 Switch{
@@ -2049,9 +2049,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.677s
-user	0m1.337s
-sys	0m0.929s
+real	0m0.668s
+user	0m1.391s
+sys	0m1.045s
 ----- benchmarks_short_randlines/phone-10_randlines-0-2-3-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_randlines-0-2-4-6.csv start -----
@@ -2064,9 +2064,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.483s
-user	0m0.955s
-sys	0m1.181s
+real	0m0.478s
+user	0m1.181s
+sys	0m1.052s
 
 SnapFill
 Switch{
@@ -2077,9 +2077,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.655s
-user	0m1.200s
-sys	0m1.089s
+real	0m0.656s
+user	0m1.415s
+sys	0m1.005s
 ----- benchmarks_short_randlines/phone-10_randlines-0-2-4-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_randlines-0-3-6.csv start -----
@@ -2092,9 +2092,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.516s
-user	0m1.211s
-sys	0m0.994s
+real	0m0.480s
+user	0m1.203s
+sys	0m1.027s
 
 SnapFill
 Switch{
@@ -2105,9 +2105,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.534s
-user	0m1.264s
-sys	0m1.038s
+real	0m0.538s
+user	0m1.218s
+sys	0m1.074s
 ----- benchmarks_short_randlines/phone-10_randlines-0-3-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_randlines-0.csv start -----
@@ -2118,9 +2118,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.410s
-user	0m1.122s
-sys	0m0.977s
+real	0m0.412s
+user	0m1.014s
+sys	0m0.930s
 
 SnapFill
 Switch{
@@ -2129,9 +2129,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.416s
-user	0m1.118s
-sys	0m0.996s
+real	0m0.418s
+user	0m1.140s
+sys	0m1.031s
 ----- benchmarks_short_randlines/phone-10_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_randlines-1-2-3-5.csv start -----
@@ -2144,9 +2144,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.486s
-user	0m1.097s
-sys	0m0.921s
+real	0m0.491s
+user	0m1.145s
+sys	0m1.056s
 
 SnapFill
 Switch{
@@ -2157,9 +2157,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.706s
-user	0m1.295s
-sys	0m0.849s
+real	0m0.656s
+user	0m1.389s
+sys	0m1.030s
 ----- benchmarks_short_randlines/phone-10_randlines-1-2-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_randlines-1-5.csv start -----
@@ -2172,9 +2172,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.459s
-user	0m1.133s
-sys	0m1.083s
+real	0m0.443s
+user	0m1.159s
+sys	0m1.039s
 
 SnapFill
 Switch{
@@ -2185,9 +2185,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.484s
-user	0m1.207s
-sys	0m1.043s
+real	0m0.465s
+user	0m1.191s
+sys	0m1.035s
 ----- benchmarks_short_randlines/phone-10_randlines-1-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_randlines-2-4-5.csv start -----
@@ -2200,9 +2200,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.460s
-user	0m1.159s
-sys	0m0.996s
+real	0m0.457s
+user	0m1.042s
+sys	0m0.967s
 
 SnapFill
 Switch{
@@ -2213,9 +2213,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.523s
-user	0m1.237s
-sys	0m1.058s
+real	0m0.526s
+user	0m1.227s
+sys	0m1.051s
 ----- benchmarks_short_randlines/phone-10_randlines-2-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_randlines-2-4.csv start -----
@@ -2228,9 +2228,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.460s
-user	0m1.175s
-sys	0m1.036s
+real	0m0.434s
+user	0m1.177s
+sys	0m0.975s
 
 SnapFill
 Switch{
@@ -2241,9 +2241,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.463s
-user	0m1.097s
-sys	0m0.952s
+real	0m0.457s
+user	0m1.154s
+sys	0m1.029s
 ----- benchmarks_short_randlines/phone-10_randlines-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_randlines-3-4-5.csv start -----
@@ -2256,9 +2256,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.469s
-user	0m1.128s
-sys	0m1.008s
+real	0m0.481s
+user	0m1.119s
+sys	0m0.941s
 
 SnapFill
 Switch{
@@ -2269,9 +2269,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.547s
-user	0m1.184s
-sys	0m0.967s
+real	0m0.562s
+user	0m1.154s
+sys	0m0.997s
 ----- benchmarks_short_randlines/phone-10_randlines-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_randlines-3-4.csv start -----
@@ -2284,9 +2284,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.465s
-user	0m1.102s
-sys	0m0.909s
+real	0m0.491s
+user	0m1.005s
+sys	0m0.836s
 
 SnapFill
 Switch{
@@ -2297,9 +2297,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.470s
-user	0m1.146s
-sys	0m1.020s
+real	0m0.473s
+user	0m1.061s
+sys	0m0.849s
 ----- benchmarks_short_randlines/phone-10_randlines-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_randlines-3.csv start -----
@@ -2310,9 +2310,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.420s
-user	0m1.064s
-sys	0m0.948s
+real	0m0.410s
+user	0m1.066s
+sys	0m0.956s
 
 SnapFill
 Switch{
@@ -2321,9 +2321,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.406s
-user	0m1.103s
-sys	0m1.071s
+real	0m0.404s
+user	0m1.098s
+sys	0m1.075s
 ----- benchmarks_short_randlines/phone-10_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_randlines-5.csv start -----
@@ -2334,9 +2334,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.421s
-user	0m1.068s
-sys	0m0.961s
+real	0m0.405s
+user	0m1.133s
+sys	0m1.039s
 
 SnapFill
 Switch{
@@ -2345,9 +2345,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.440s
-user	0m0.764s
-sys	0m0.728s
+real	0m0.420s
+user	0m1.045s
+sys	0m0.952s
 ----- benchmarks_short_randlines/phone-10_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_short_randlines-0-2-4-5.csv start -----
@@ -2360,9 +2360,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.489s
-user	0m1.194s
-sys	0m1.012s
+real	0m0.476s
+user	0m1.151s
+sys	0m1.036s
 
 SnapFill
 Switch{
@@ -2373,9 +2373,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.676s
-user	0m1.393s
-sys	0m1.051s
+real	0m0.663s
+user	0m1.394s
+sys	0m1.036s
 ----- benchmarks_short_randlines/phone-10_short_randlines-0-2-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_short_randlines-0-2.csv start -----
@@ -2388,9 +2388,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.445s
-user	0m1.140s
-sys	0m1.003s
+real	0m0.459s
+user	0m1.098s
+sys	0m1.065s
 
 SnapFill
 Switch{
@@ -2401,9 +2401,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.476s
-user	0m1.222s
-sys	0m0.952s
+real	0m0.483s
+user	0m1.102s
+sys	0m0.954s
 ----- benchmarks_short_randlines/phone-10_short_randlines-0-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_short_randlines-0-4-5.csv start -----
@@ -2416,9 +2416,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.459s
-user	0m0.992s
-sys	0m0.837s
+real	0m0.470s
+user	0m1.066s
+sys	0m0.995s
 
 SnapFill
 Switch{
@@ -2429,9 +2429,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.542s
-user	0m1.208s
-sys	0m1.030s
+real	0m0.543s
+user	0m1.160s
+sys	0m1.011s
 ----- benchmarks_short_randlines/phone-10_short_randlines-0-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_short_randlines-0-4.csv start -----
@@ -2444,9 +2444,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.447s
-user	0m1.145s
-sys	0m0.989s
+real	0m0.486s
+user	0m0.994s
+sys	0m0.807s
 
 SnapFill
 Switch{
@@ -2457,9 +2457,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.469s
-user	0m1.147s
-sys	0m1.012s
+real	0m0.484s
+user	0m1.166s
+sys	0m0.908s
 ----- benchmarks_short_randlines/phone-10_short_randlines-0-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_short_randlines-1-4-5-6.csv start -----
@@ -2472,9 +2472,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.466s
-user	0m1.191s
-sys	0m1.048s
+real	0m0.464s
+user	0m1.164s
+sys	0m1.051s
 
 SnapFill
 Switch{
@@ -2485,9 +2485,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.621s
-user	0m1.330s
-sys	0m1.063s
+real	0m0.617s
+user	0m1.347s
+sys	0m1.034s
 ----- benchmarks_short_randlines/phone-10_short_randlines-1-4-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_short_randlines-1-5-6.csv start -----
@@ -2500,9 +2500,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.448s
-user	0m1.103s
-sys	0m0.941s
+real	0m0.465s
+user	0m1.089s
+sys	0m0.965s
 
 SnapFill
 Switch{
@@ -2513,9 +2513,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.533s
-user	0m1.241s
-sys	0m1.044s
+real	0m0.514s
+user	0m1.220s
+sys	0m1.059s
 ----- benchmarks_short_randlines/phone-10_short_randlines-1-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_short_randlines-1.csv start -----
@@ -2526,9 +2526,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.415s
-user	0m1.110s
-sys	0m0.990s
+real	0m0.407s
+user	0m1.039s
+sys	0m0.946s
 
 SnapFill
 Switch{
@@ -2537,9 +2537,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.413s
-user	0m1.119s
-sys	0m0.995s
+real	0m0.405s
+user	0m1.103s
+sys	0m1.063s
 ----- benchmarks_short_randlines/phone-10_short_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_short_randlines-2-3-5-6.csv start -----
@@ -2552,9 +2552,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.479s
-user	0m1.156s
-sys	0m1.021s
+real	0m0.473s
+user	0m1.218s
+sys	0m1.018s
 
 SnapFill
 Switch{
@@ -2565,9 +2565,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.655s
-user	0m1.259s
-sys	0m1.004s
+real	0m0.644s
+user	0m1.351s
+sys	0m1.038s
 ----- benchmarks_short_randlines/phone-10_short_randlines-2-3-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_short_randlines-2-4-6.csv start -----
@@ -2580,9 +2580,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.459s
-user	0m1.190s
-sys	0m1.042s
+real	0m0.461s
+user	0m1.144s
+sys	0m0.926s
 
 SnapFill
 Switch{
@@ -2593,9 +2593,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.533s
-user	0m1.202s
-sys	0m1.099s
+real	0m0.517s
+user	0m1.266s
+sys	0m0.979s
 ----- benchmarks_short_randlines/phone-10_short_randlines-2-4-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_short_randlines-4.csv start -----
@@ -2606,9 +2606,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.424s
-user	0m1.108s
-sys	0m1.018s
+real	0m0.404s
+user	0m1.125s
+sys	0m1.039s
 
 SnapFill
 Switch{
@@ -2617,9 +2617,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.408s
-user	0m1.139s
-sys	0m1.038s
+real	0m0.409s
+user	0m1.101s
+sys	0m1.021s
 ----- benchmarks_short_randlines/phone-10_short_randlines-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_short_randlines-5-6.csv start -----
@@ -2632,9 +2632,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.438s
-user	0m1.105s
-sys	0m1.004s
+real	0m0.470s
+user	0m1.002s
+sys	0m0.875s
 
 SnapFill
 Switch{
@@ -2645,9 +2645,9 @@ Switch{
 }
 Program size: 23
 
-real	0m0.468s
-user	0m1.100s
-sys	0m1.015s
+real	0m0.482s
+user	0m1.080s
+sys	0m0.965s
 ----- benchmarks_short_randlines/phone-10_short_randlines-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-10_short_randlines-5.csv start -----
@@ -2658,9 +2658,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.410s
-user	0m1.125s
-sys	0m1.053s
+real	0m0.420s
+user	0m1.050s
+sys	0m1.097s
 
 SnapFill
 Switch{
@@ -2669,9 +2669,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.434s
-user	0m1.102s
-sys	0m1.002s
+real	0m0.407s
+user	0m1.071s
+sys	0m1.061s
 ----- benchmarks_short_randlines/phone-10_short_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_randlines-0-1-2-4.csv start -----
@@ -2682,9 +2682,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.490s
-user	0m1.080s
-sys	0m0.900s
+real	0m0.426s
+user	0m1.141s
+sys	0m1.043s
 
 SnapFill
 Switch{
@@ -2693,9 +2693,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.495s
-user	0m1.164s
-sys	0m1.001s
+real	0m0.492s
+user	0m0.907s
+sys	0m0.692s
 ----- benchmarks_short_randlines/phone-1_randlines-0-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_randlines-0-2-4-5.csv start -----
@@ -2706,9 +2706,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.435s
-user	0m1.052s
-sys	0m0.974s
+real	0m0.484s
+user	0m1.114s
+sys	0m1.095s
 
 SnapFill
 Switch{
@@ -2717,9 +2717,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.485s
-user	0m1.199s
-sys	0m1.045s
+real	0m0.486s
+user	0m0.945s
+sys	0m0.790s
 ----- benchmarks_short_randlines/phone-1_randlines-0-2-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_randlines-0-5.csv start -----
@@ -2730,9 +2730,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.417s
-user	0m1.139s
-sys	0m1.041s
+real	0m0.409s
+user	0m1.144s
+sys	0m0.982s
 
 SnapFill
 Switch{
@@ -2741,9 +2741,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.423s
-user	0m1.129s
-sys	0m1.054s
+real	0m0.412s
+user	0m1.126s
+sys	0m1.006s
 ----- benchmarks_short_randlines/phone-1_randlines-0-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_randlines-0.csv start -----
@@ -2754,9 +2754,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.407s
-user	0m1.105s
-sys	0m1.065s
+real	0m0.431s
+user	0m1.074s
+sys	0m0.990s
 
 SnapFill
 Switch{
@@ -2765,9 +2765,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.404s
-user	0m1.124s
-sys	0m1.038s
+real	0m0.461s
+user	0m1.154s
+sys	0m1.057s
 ----- benchmarks_short_randlines/phone-1_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_randlines-1-2-3-4.csv start -----
@@ -2778,9 +2778,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.418s
-user	0m1.091s
-sys	0m1.097s
+real	0m0.441s
+user	0m1.037s
+sys	0m0.958s
 
 SnapFill
 Switch{
@@ -2789,9 +2789,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.468s
-user	0m1.116s
-sys	0m0.961s
+real	0m0.473s
+user	0m1.176s
+sys	0m1.060s
 ----- benchmarks_short_randlines/phone-1_randlines-1-2-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_randlines-1-2-3.csv start -----
@@ -2802,9 +2802,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.434s
-user	0m1.073s
-sys	0m1.024s
+real	0m0.428s
+user	0m1.112s
+sys	0m1.082s
 
 SnapFill
 Switch{
@@ -2813,9 +2813,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.449s
-user	0m1.144s
-sys	0m1.004s
+real	0m0.457s
+user	0m1.103s
+sys	0m0.956s
 ----- benchmarks_short_randlines/phone-1_randlines-1-2-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_randlines-1-2-4.csv start -----
@@ -2826,9 +2826,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.420s
-user	0m1.053s
-sys	0m1.004s
+real	0m0.485s
+user	0m1.055s
+sys	0m0.944s
 
 SnapFill
 Switch{
@@ -2837,9 +2837,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.449s
-user	0m1.165s
-sys	0m0.976s
+real	0m0.486s
+user	0m0.986s
+sys	0m0.814s
 ----- benchmarks_short_randlines/phone-1_randlines-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_randlines-1-2-5.csv start -----
@@ -2850,9 +2850,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.428s
-user	0m1.053s
-sys	0m0.966s
+real	0m0.472s
+user	0m0.952s
+sys	0m0.828s
 
 SnapFill
 Switch{
@@ -2861,9 +2861,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.450s
-user	0m1.125s
-sys	0m1.008s
+real	0m0.511s
+user	0m0.993s
+sys	0m0.804s
 ----- benchmarks_short_randlines/phone-1_randlines-1-2-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_randlines-3-4.csv start -----
@@ -2874,9 +2874,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.409s
-user	0m0.958s
-sys	0m0.934s
+real	0m0.447s
+user	0m0.938s
+sys	0m0.770s
 
 SnapFill
 Switch{
@@ -2885,9 +2885,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.417s
-user	0m1.054s
-sys	0m0.907s
+real	0m0.458s
+user	0m0.934s
+sys	0m0.725s
 ----- benchmarks_short_randlines/phone-1_randlines-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_randlines-3.csv start -----
@@ -2898,9 +2898,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.400s
-user	0m1.074s
-sys	0m0.988s
+real	0m0.432s
+user	0m0.913s
+sys	0m0.712s
 
 SnapFill
 Switch{
@@ -2909,9 +2909,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.409s
-user	0m1.059s
-sys	0m1.047s
+real	0m0.454s
+user	0m0.876s
+sys	0m0.725s
 ----- benchmarks_short_randlines/phone-1_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_randlines-4-5.csv start -----
@@ -2922,9 +2922,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.428s
-user	0m1.133s
-sys	0m0.988s
+real	0m0.440s
+user	0m1.064s
+sys	0m1.009s
 
 SnapFill
 Switch{
@@ -2933,9 +2933,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.426s
-user	0m1.065s
-sys	0m1.055s
+real	0m0.465s
+user	0m0.965s
+sys	0m0.841s
 ----- benchmarks_short_randlines/phone-1_randlines-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_randlines-4.csv start -----
@@ -2946,9 +2946,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.410s
-user	0m1.083s
-sys	0m1.012s
+real	0m0.428s
+user	0m0.944s
+sys	0m0.813s
 
 SnapFill
 Switch{
@@ -2957,9 +2957,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.413s
-user	0m1.041s
-sys	0m0.895s
+real	0m0.432s
+user	0m0.854s
+sys	0m0.790s
 ----- benchmarks_short_randlines/phone-1_randlines-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_short_randlines-0-1-2-3.csv start -----
@@ -2970,9 +2970,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.435s
-user	0m1.107s
-sys	0m1.083s
+real	0m0.480s
+user	0m1.031s
+sys	0m0.860s
 
 SnapFill
 Switch{
@@ -2981,9 +2981,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.487s
-user	0m1.182s
-sys	0m0.997s
+real	0m0.476s
+user	0m1.077s
+sys	0m0.832s
 ----- benchmarks_short_randlines/phone-1_short_randlines-0-1-2-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_short_randlines-0-2.csv start -----
@@ -2994,9 +2994,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.424s
-user	0m1.114s
-sys	0m1.004s
+real	0m0.469s
+user	0m0.949s
+sys	0m0.784s
 
 SnapFill
 Switch{
@@ -3005,9 +3005,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.431s
-user	0m1.126s
-sys	0m0.992s
+real	0m0.434s
+user	0m1.015s
+sys	0m0.922s
 ----- benchmarks_short_randlines/phone-1_short_randlines-0-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_short_randlines-0-4.csv start -----
@@ -3018,9 +3018,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.413s
-user	0m1.108s
-sys	0m1.004s
+real	0m0.451s
+user	0m0.935s
+sys	0m0.801s
 
 SnapFill
 Switch{
@@ -3029,9 +3029,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.418s
-user	0m1.130s
-sys	0m0.977s
+real	0m0.425s
+user	0m0.926s
+sys	0m0.755s
 ----- benchmarks_short_randlines/phone-1_short_randlines-0-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_short_randlines-1-2-3-4.csv start -----
@@ -3042,9 +3042,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.435s
-user	0m1.081s
-sys	0m0.909s
+real	0m0.439s
+user	0m1.035s
+sys	0m0.882s
 
 SnapFill
 Switch{
@@ -3053,9 +3053,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.469s
-user	0m1.159s
-sys	0m0.963s
+real	0m0.486s
+user	0m1.090s
+sys	0m0.878s
 ----- benchmarks_short_randlines/phone-1_short_randlines-1-2-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_short_randlines-1-2.csv start -----
@@ -3066,9 +3066,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.418s
-user	0m1.114s
-sys	0m1.060s
+real	0m0.426s
+user	0m0.895s
+sys	0m0.810s
 
 SnapFill
 Switch{
@@ -3077,9 +3077,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.415s
-user	0m1.132s
-sys	0m1.053s
+real	0m0.434s
+user	0m1.088s
+sys	0m0.956s
 ----- benchmarks_short_randlines/phone-1_short_randlines-1-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_short_randlines-1-3-5.csv start -----
@@ -3090,9 +3090,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.415s
-user	0m1.126s
-sys	0m1.054s
+real	0m0.440s
+user	0m1.001s
+sys	0m0.806s
 
 SnapFill
 Switch{
@@ -3101,9 +3101,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.447s
-user	0m1.195s
-sys	0m1.012s
+real	0m0.441s
+user	0m1.017s
+sys	0m0.877s
 ----- benchmarks_short_randlines/phone-1_short_randlines-1-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_short_randlines-1-4-5.csv start -----
@@ -3114,9 +3114,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.425s
-user	0m1.151s
-sys	0m1.041s
+real	0m0.416s
+user	0m0.930s
+sys	0m0.920s
 
 SnapFill
 Switch{
@@ -3125,9 +3125,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.447s
-user	0m1.068s
-sys	0m0.960s
+real	0m0.475s
+user	0m0.932s
+sys	0m0.782s
 ----- benchmarks_short_randlines/phone-1_short_randlines-1-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_short_randlines-1.csv start -----
@@ -3138,9 +3138,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.415s
-user	0m1.032s
-sys	0m0.966s
+real	0m0.419s
+user	0m1.063s
+sys	0m0.909s
 
 SnapFill
 Switch{
@@ -3149,9 +3149,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.410s
-user	0m1.159s
-sys	0m1.015s
+real	0m0.407s
+user	0m0.994s
+sys	0m0.925s
 ----- benchmarks_short_randlines/phone-1_short_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_short_randlines-2-3-4-5.csv start -----
@@ -3162,9 +3162,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.435s
-user	0m1.076s
-sys	0m0.959s
+real	0m0.472s
+user	0m1.018s
+sys	0m0.821s
 
 SnapFill
 Switch{
@@ -3173,9 +3173,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.483s
-user	0m1.204s
-sys	0m1.036s
+real	0m0.516s
+user	0m1.052s
+sys	0m0.926s
 ----- benchmarks_short_randlines/phone-1_short_randlines-2-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_short_randlines-2-3-4.csv start -----
@@ -3186,9 +3186,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.426s
-user	0m1.073s
-sys	0m0.903s
+real	0m0.427s
+user	0m0.926s
+sys	0m0.804s
 
 SnapFill
 Switch{
@@ -3197,9 +3197,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.448s
-user	0m1.144s
-sys	0m0.991s
+real	0m0.446s
+user	0m1.126s
+sys	0m0.925s
 ----- benchmarks_short_randlines/phone-1_short_randlines-2-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_short_randlines-2.csv start -----
@@ -3210,9 +3210,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.397s
-user	0m1.127s
-sys	0m0.972s
+real	0m0.408s
+user	0m1.043s
+sys	0m0.923s
 
 SnapFill
 Switch{
@@ -3221,9 +3221,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.416s
-user	0m1.020s
-sys	0m0.945s
+real	0m0.403s
+user	0m1.047s
+sys	0m0.973s
 ----- benchmarks_short_randlines/phone-1_short_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-1_short_randlines-5.csv start -----
@@ -3234,9 +3234,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.398s
-user	0m1.090s
-sys	0m1.005s
+real	0m0.402s
+user	0m0.846s
+sys	0m0.731s
 
 SnapFill
 Switch{
@@ -3245,9 +3245,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.408s
-user	0m1.126s
-sys	0m0.975s
+real	0m0.402s
+user	0m0.975s
+sys	0m0.939s
 ----- benchmarks_short_randlines/phone-1_short_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_randlines-0-1-2-4.csv start -----
@@ -3258,9 +3258,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.424s
-user	0m1.134s
-sys	0m1.047s
+real	0m0.422s
+user	0m0.997s
+sys	0m0.857s
 
 SnapFill
 Switch{
@@ -3269,9 +3269,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.472s
-user	0m1.183s
-sys	0m1.054s
+real	0m0.478s
+user	0m1.058s
+sys	0m0.818s
 ----- benchmarks_short_randlines/phone-2_randlines-0-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_randlines-0-1-3-5.csv start -----
@@ -3282,9 +3282,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.438s
-user	0m1.117s
-sys	0m1.011s
+real	0m0.426s
+user	0m1.116s
+sys	0m0.908s
 
 SnapFill
 Switch{
@@ -3293,9 +3293,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.483s
-user	0m0.825s
-sys	0m0.813s
+real	0m0.496s
+user	0m1.027s
+sys	0m0.776s
 ----- benchmarks_short_randlines/phone-2_randlines-0-1-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_randlines-0-2-5.csv start -----
@@ -3306,9 +3306,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.444s
-user	0m1.103s
-sys	0m0.973s
+real	0m0.449s
+user	0m1.056s
+sys	0m0.971s
 
 SnapFill
 Switch{
@@ -3317,9 +3317,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.436s
-user	0m1.191s
-sys	0m1.014s
+real	0m0.454s
+user	0m0.910s
+sys	0m0.739s
 ----- benchmarks_short_randlines/phone-2_randlines-0-2-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_randlines-0-4-5.csv start -----
@@ -3330,9 +3330,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.420s
-user	0m1.153s
-sys	0m1.034s
+real	0m0.467s
+user	0m1.017s
+sys	0m0.834s
 
 SnapFill
 Switch{
@@ -3341,9 +3341,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.435s
-user	0m1.121s
-sys	0m1.072s
+real	0m0.445s
+user	0m1.078s
+sys	0m0.973s
 ----- benchmarks_short_randlines/phone-2_randlines-0-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_randlines-0-5.csv start -----
@@ -3354,9 +3354,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.407s
-user	0m1.059s
-sys	0m0.946s
+real	0m0.418s
+user	0m0.986s
+sys	0m0.845s
 
 SnapFill
 Switch{
@@ -3365,9 +3365,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.411s
-user	0m1.113s
-sys	0m1.054s
+real	0m0.424s
+user	0m1.054s
+sys	0m0.848s
 ----- benchmarks_short_randlines/phone-2_randlines-0-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_randlines-0.csv start -----
@@ -3378,9 +3378,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.398s
-user	0m1.123s
-sys	0m1.040s
+real	0m0.436s
+user	0m0.809s
+sys	0m0.700s
 
 SnapFill
 Switch{
@@ -3389,9 +3389,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.403s
-user	0m1.014s
-sys	0m0.984s
+real	0m0.413s
+user	0m0.882s
+sys	0m0.745s
 ----- benchmarks_short_randlines/phone-2_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_randlines-1-2-3.csv start -----
@@ -3402,9 +3402,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.423s
-user	0m1.097s
-sys	0m1.020s
+real	0m0.462s
+user	0m0.925s
+sys	0m0.776s
 
 SnapFill
 Switch{
@@ -3413,9 +3413,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.453s
-user	0m1.084s
-sys	0m0.933s
+real	0m0.439s
+user	0m1.007s
+sys	0m0.929s
 ----- benchmarks_short_randlines/phone-2_randlines-1-2-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_randlines-1.csv start -----
@@ -3426,9 +3426,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.398s
-user	0m1.144s
-sys	0m1.014s
+real	0m0.434s
+user	0m1.034s
+sys	0m0.888s
 
 SnapFill
 Switch{
@@ -3437,9 +3437,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.399s
-user	0m1.101s
-sys	0m1.020s
+real	0m0.403s
+user	0m0.827s
+sys	0m0.728s
 ----- benchmarks_short_randlines/phone-2_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_randlines-2-3-4-5.csv start -----
@@ -3450,9 +3450,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.425s
-user	0m1.130s
-sys	0m0.996s
+real	0m0.440s
+user	0m1.067s
+sys	0m0.949s
 
 SnapFill
 Switch{
@@ -3461,9 +3461,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.495s
-user	0m1.090s
-sys	0m0.953s
+real	0m0.485s
+user	0m0.971s
+sys	0m0.778s
 ----- benchmarks_short_randlines/phone-2_randlines-2-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_randlines-2.csv start -----
@@ -3474,9 +3474,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.425s
-user	0m1.068s
-sys	0m0.886s
+real	0m0.401s
+user	0m1.019s
+sys	0m0.906s
 
 SnapFill
 Switch{
@@ -3485,9 +3485,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.396s
-user	0m1.097s
-sys	0m1.061s
+real	0m0.458s
+user	0m0.963s
+sys	0m0.828s
 ----- benchmarks_short_randlines/phone-2_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_randlines-3-4.csv start -----
@@ -3498,9 +3498,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.412s
-user	0m1.136s
-sys	0m1.048s
+real	0m0.438s
+user	0m1.051s
+sys	0m0.905s
 
 SnapFill
 Switch{
@@ -3509,9 +3509,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.442s
-user	0m1.154s
-sys	0m1.017s
+real	0m0.440s
+user	0m1.094s
+sys	0m0.944s
 ----- benchmarks_short_randlines/phone-2_randlines-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_randlines-4-5.csv start -----
@@ -3522,9 +3522,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.404s
-user	0m1.111s
-sys	0m1.064s
+real	0m0.430s
+user	0m1.060s
+sys	0m0.899s
 
 SnapFill
 Switch{
@@ -3533,9 +3533,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.418s
-user	0m1.109s
-sys	0m1.011s
+real	0m0.441s
+user	0m1.010s
+sys	0m0.816s
 ----- benchmarks_short_randlines/phone-2_randlines-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_short_randlines-0-1-2-3.csv start -----
@@ -3546,9 +3546,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.425s
-user	0m1.036s
-sys	0m0.920s
+real	0m0.428s
+user	0m1.023s
+sys	0m0.894s
 
 SnapFill
 Switch{
@@ -3557,9 +3557,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.489s
-user	0m1.153s
-sys	0m1.023s
+real	0m0.500s
+user	0m1.099s
+sys	0m0.865s
 ----- benchmarks_short_randlines/phone-2_short_randlines-0-1-2-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_short_randlines-0-1-3-4.csv start -----
@@ -3570,9 +3570,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.418s
-user	0m1.152s
-sys	0m1.037s
+real	0m0.470s
+user	0m0.956s
+sys	0m0.779s
 
 SnapFill
 Switch{
@@ -3581,9 +3581,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.473s
-user	0m1.165s
-sys	0m1.054s
+real	0m0.479s
+user	0m1.066s
+sys	0m0.904s
 ----- benchmarks_short_randlines/phone-2_short_randlines-0-1-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_short_randlines-0-2-3.csv start -----
@@ -3594,9 +3594,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.413s
-user	0m1.180s
-sys	0m1.003s
+real	0m0.454s
+user	0m1.040s
+sys	0m0.917s
 
 SnapFill
 Switch{
@@ -3605,9 +3605,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.450s
-user	0m1.156s
-sys	0m1.048s
+real	0m0.462s
+user	0m0.993s
+sys	0m0.923s
 ----- benchmarks_short_randlines/phone-2_short_randlines-0-2-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_short_randlines-0-2-4-5.csv start -----
@@ -3618,9 +3618,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.433s
-user	0m1.133s
-sys	0m1.055s
+real	0m0.428s
+user	0m0.941s
+sys	0m0.807s
 
 SnapFill
 Switch{
@@ -3629,9 +3629,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.481s
-user	0m1.164s
-sys	0m1.078s
+real	0m0.474s
+user	0m1.091s
+sys	0m0.955s
 ----- benchmarks_short_randlines/phone-2_short_randlines-0-2-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_short_randlines-0-2.csv start -----
@@ -3642,9 +3642,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.411s
-user	0m1.084s
-sys	0m1.022s
+real	0m0.408s
+user	0m1.024s
+sys	0m0.906s
 
 SnapFill
 Switch{
@@ -3653,9 +3653,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.420s
-user	0m1.127s
-sys	0m0.993s
+real	0m0.451s
+user	0m0.905s
+sys	0m0.787s
 ----- benchmarks_short_randlines/phone-2_short_randlines-0-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_short_randlines-1-3.csv start -----
@@ -3666,9 +3666,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.409s
-user	0m1.078s
-sys	0m1.026s
+real	0m0.416s
+user	0m1.070s
+sys	0m0.928s
 
 SnapFill
 Switch{
@@ -3677,9 +3677,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.435s
-user	0m1.118s
-sys	0m1.011s
+real	0m0.431s
+user	0m0.982s
+sys	0m0.834s
 ----- benchmarks_short_randlines/phone-2_short_randlines-1-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_short_randlines-1.csv start -----
@@ -3690,9 +3690,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.414s
-user	0m1.024s
-sys	0m0.928s
+real	0m0.411s
+user	0m0.974s
+sys	0m0.869s
 
 SnapFill
 Switch{
@@ -3701,9 +3701,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.400s
-user	0m1.111s
-sys	0m1.025s
+real	0m0.406s
+user	0m0.936s
+sys	0m0.851s
 ----- benchmarks_short_randlines/phone-2_short_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_short_randlines-2-3-5.csv start -----
@@ -3714,9 +3714,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.425s
-user	0m1.137s
-sys	0m1.056s
+real	0m0.420s
+user	0m1.014s
+sys	0m0.888s
 
 SnapFill
 Switch{
@@ -3725,9 +3725,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.451s
-user	0m1.091s
-sys	0m0.944s
+real	0m0.493s
+user	0m1.034s
+sys	0m0.890s
 ----- benchmarks_short_randlines/phone-2_short_randlines-2-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_short_randlines-3-4-5.csv start -----
@@ -3738,9 +3738,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.430s
-user	0m1.111s
-sys	0m0.969s
+real	0m0.438s
+user	0m0.961s
+sys	0m0.818s
 
 SnapFill
 Switch{
@@ -3749,9 +3749,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.456s
-user	0m1.109s
-sys	0m1.004s
+real	0m0.447s
+user	0m0.952s
+sys	0m0.726s
 ----- benchmarks_short_randlines/phone-2_short_randlines-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_short_randlines-3-5.csv start -----
@@ -3762,9 +3762,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.418s
-user	0m1.097s
-sys	0m1.011s
+real	0m0.413s
+user	0m0.972s
+sys	0m0.892s
 
 SnapFill
 Switch{
@@ -3773,9 +3773,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.449s
-user	0m1.018s
-sys	0m0.924s
+real	0m0.414s
+user	0m1.088s
+sys	0m0.959s
 ----- benchmarks_short_randlines/phone-2_short_randlines-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_short_randlines-3.csv start -----
@@ -3786,9 +3786,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.403s
-user	0m1.095s
-sys	0m0.987s
+real	0m0.404s
+user	0m0.908s
+sys	0m0.845s
 
 SnapFill
 Switch{
@@ -3797,9 +3797,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.415s
-user	0m1.126s
-sys	0m0.991s
+real	0m0.408s
+user	0m1.046s
+sys	0m0.951s
 ----- benchmarks_short_randlines/phone-2_short_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-2_short_randlines-5.csv start -----
@@ -3810,9 +3810,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.418s
-user	0m1.019s
-sys	0m0.907s
+real	0m0.462s
+user	0m0.951s
+sys	0m0.909s
 
 SnapFill
 Switch{
@@ -3821,9 +3821,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.398s
-user	0m1.128s
-sys	0m0.961s
+real	0m0.417s
+user	0m1.018s
+sys	0m0.882s
 ----- benchmarks_short_randlines/phone-2_short_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_randlines-0-1-3-5.csv start -----
@@ -3835,9 +3835,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.420s
-user	0m1.077s
-sys	0m1.033s
+real	0m0.474s
+user	0m0.978s
+sys	0m0.867s
 
 SnapFill
 Switch{
@@ -3847,9 +3847,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.476s
-user	0m1.151s
-sys	0m1.017s
+real	0m0.489s
+user	0m1.058s
+sys	0m0.793s
 ----- benchmarks_short_randlines/phone-3_randlines-0-1-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_randlines-0-1-6.csv start -----
@@ -3861,9 +3861,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.427s
-user	0m1.039s
-sys	0m0.946s
+real	0m0.430s
+user	0m1.030s
+sys	0m0.885s
 
 SnapFill
 Switch{
@@ -3873,9 +3873,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.444s
-user	0m0.918s
-sys	0m0.871s
+real	0m0.483s
+user	0m1.030s
+sys	0m0.828s
 ----- benchmarks_short_randlines/phone-3_randlines-0-1-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_randlines-0-2-5.csv start -----
@@ -3887,9 +3887,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.412s
-user	0m1.125s
-sys	0m1.055s
+real	0m0.427s
+user	0m1.034s
+sys	0m0.952s
 
 SnapFill
 Switch{
@@ -3899,9 +3899,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.437s
-user	0m1.116s
-sys	0m0.941s
+real	0m0.486s
+user	0m1.049s
+sys	0m0.889s
 ----- benchmarks_short_randlines/phone-3_randlines-0-2-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_randlines-0-5-6.csv start -----
@@ -3913,9 +3913,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.412s
-user	0m1.111s
-sys	0m1.050s
+real	0m0.425s
+user	0m0.991s
+sys	0m0.866s
 
 SnapFill
 Switch{
@@ -3925,9 +3925,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.455s
-user	0m1.170s
-sys	0m1.047s
+real	0m0.452s
+user	0m1.067s
+sys	0m0.986s
 ----- benchmarks_short_randlines/phone-3_randlines-0-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_randlines-0-5.csv start -----
@@ -3939,9 +3939,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.425s
-user	0m1.138s
-sys	0m1.048s
+real	0m0.427s
+user	0m0.954s
+sys	0m0.796s
 
 SnapFill
 Switch{
@@ -3951,9 +3951,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.417s
-user	0m1.068s
-sys	0m0.941s
+real	0m0.420s
+user	0m0.982s
+sys	0m0.815s
 ----- benchmarks_short_randlines/phone-3_randlines-0-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_randlines-0.csv start -----
@@ -3964,9 +3964,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.396s
-user	0m1.100s
-sys	0m1.061s
+real	0m0.451s
+user	0m0.873s
+sys	0m0.687s
 
 SnapFill
 Switch{
@@ -3975,9 +3975,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.396s
-user	0m1.023s
-sys	0m0.974s
+real	0m0.430s
+user	0m0.958s
+sys	0m0.806s
 ----- benchmarks_short_randlines/phone-3_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_randlines-1-2-3-4.csv start -----
@@ -3989,9 +3989,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.429s
-user	0m1.074s
-sys	0m1.014s
+real	0m0.430s
+user	0m1.063s
+sys	0m0.918s
 
 SnapFill
 Switch{
@@ -4001,9 +4001,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.471s
-user	0m1.211s
-sys	0m1.021s
+real	0m0.476s
+user	0m1.045s
+sys	0m0.921s
 ----- benchmarks_short_randlines/phone-3_randlines-1-2-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_randlines-1-4-5-6.csv start -----
@@ -4015,9 +4015,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.417s
-user	0m1.132s
-sys	0m1.054s
+real	0m0.422s
+user	0m0.931s
+sys	0m0.755s
 
 SnapFill
 Switch{
@@ -4027,9 +4027,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.472s
-user	0m1.196s
-sys	0m1.025s
+real	0m0.499s
+user	0m1.135s
+sys	0m0.960s
 ----- benchmarks_short_randlines/phone-3_randlines-1-4-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_randlines-1-4.csv start -----
@@ -4041,9 +4041,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.404s
-user	0m1.110s
-sys	0m0.902s
+real	0m0.418s
+user	0m0.927s
+sys	0m0.790s
 
 SnapFill
 Switch{
@@ -4053,9 +4053,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.411s
-user	0m1.073s
-sys	0m1.103s
+real	0m0.416s
+user	0m0.909s
+sys	0m0.806s
 ----- benchmarks_short_randlines/phone-3_randlines-1-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_randlines-3-6.csv start -----
@@ -4067,9 +4067,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.406s
-user	0m1.030s
-sys	0m0.990s
+real	0m0.450s
+user	0m0.882s
+sys	0m0.791s
 
 SnapFill
 Switch{
@@ -4079,9 +4079,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.431s
-user	0m1.095s
-sys	0m0.948s
+real	0m0.446s
+user	0m0.933s
+sys	0m0.810s
 ----- benchmarks_short_randlines/phone-3_randlines-3-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_randlines-4.csv start -----
@@ -4092,9 +4092,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.415s
-user	0m1.102s
-sys	0m1.072s
+real	0m0.435s
+user	0m1.038s
+sys	0m0.896s
 
 SnapFill
 Switch{
@@ -4103,9 +4103,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.412s
-user	0m1.040s
-sys	0m0.983s
+real	0m0.437s
+user	0m0.950s
+sys	0m0.811s
 ----- benchmarks_short_randlines/phone-3_randlines-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_randlines-6.csv start -----
@@ -4116,9 +4116,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.413s
-user	0m1.117s
-sys	0m1.052s
+real	0m0.423s
+user	0m1.049s
+sys	0m0.968s
 
 SnapFill
 Switch{
@@ -4127,9 +4127,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.398s
-user	0m1.151s
-sys	0m1.014s
+real	0m0.455s
+user	0m0.944s
+sys	0m0.735s
 ----- benchmarks_short_randlines/phone-3_randlines-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_short_randlines-0-1-5.csv start -----
@@ -4141,9 +4141,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.421s
-user	0m1.090s
-sys	0m1.018s
+real	0m0.425s
+user	0m0.934s
+sys	0m0.853s
 
 SnapFill
 Switch{
@@ -4153,9 +4153,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.493s
-user	0m1.152s
-sys	0m1.071s
+real	0m0.443s
+user	0m1.032s
+sys	0m0.745s
 ----- benchmarks_short_randlines/phone-3_short_randlines-0-1-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_short_randlines-0-2-5-6.csv start -----
@@ -4167,9 +4167,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.430s
-user	0m1.120s
-sys	0m1.024s
+real	0m0.429s
+user	0m0.970s
+sys	0m0.818s
 
 SnapFill
 Switch{
@@ -4180,8 +4180,8 @@ Switch{
 Program size: 14
 
 real	0m0.480s
-user	0m1.204s
-sys	0m1.037s
+user	0m0.987s
+sys	0m0.770s
 ----- benchmarks_short_randlines/phone-3_short_randlines-0-2-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_short_randlines-0-3-5.csv start -----
@@ -4193,9 +4193,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.423s
-user	0m1.106s
-sys	0m1.005s
+real	0m0.421s
+user	0m1.006s
+sys	0m0.781s
 
 SnapFill
 Switch{
@@ -4205,9 +4205,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.500s
-user	0m1.134s
-sys	0m1.043s
+real	0m0.466s
+user	0m1.096s
+sys	0m0.956s
 ----- benchmarks_short_randlines/phone-3_short_randlines-0-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_short_randlines-1-4-5-6.csv start -----
@@ -4219,9 +4219,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.432s
-user	0m0.993s
-sys	0m0.913s
+real	0m0.447s
+user	0m1.055s
+sys	0m0.911s
 
 SnapFill
 Switch{
@@ -4231,9 +4231,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.486s
-user	0m1.112s
-sys	0m0.987s
+real	0m0.539s
+user	0m0.969s
+sys	0m0.720s
 ----- benchmarks_short_randlines/phone-3_short_randlines-1-4-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_short_randlines-1-4.csv start -----
@@ -4245,9 +4245,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.415s
-user	0m1.119s
-sys	0m1.062s
+real	0m0.427s
+user	0m1.071s
+sys	0m0.948s
 
 SnapFill
 Switch{
@@ -4257,9 +4257,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.421s
-user	0m1.118s
-sys	0m1.066s
+real	0m0.443s
+user	0m0.999s
+sys	0m0.917s
 ----- benchmarks_short_randlines/phone-3_short_randlines-1-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_short_randlines-1-5.csv start -----
@@ -4271,9 +4271,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.418s
-user	0m1.135s
-sys	0m1.045s
+real	0m0.416s
+user	0m0.954s
+sys	0m0.858s
 
 SnapFill
 Switch{
@@ -4283,9 +4283,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.414s
-user	0m1.098s
-sys	0m1.076s
+real	0m0.446s
+user	0m1.014s
+sys	0m0.935s
 ----- benchmarks_short_randlines/phone-3_short_randlines-1-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_short_randlines-2-3-4-6.csv start -----
@@ -4297,9 +4297,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.417s
-user	0m1.144s
-sys	0m1.042s
+real	0m0.465s
+user	0m0.858s
+sys	0m0.661s
 
 SnapFill
 Switch{
@@ -4309,9 +4309,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.475s
-user	0m1.075s
-sys	0m0.991s
+real	0m0.530s
+user	0m1.074s
+sys	0m0.839s
 ----- benchmarks_short_randlines/phone-3_short_randlines-2-3-4-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_short_randlines-2-3-5.csv start -----
@@ -4323,9 +4323,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.415s
-user	0m1.012s
-sys	0m0.892s
+real	0m0.439s
+user	0m0.953s
+sys	0m0.875s
 
 SnapFill
 Switch{
@@ -4335,9 +4335,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.437s
-user	0m1.149s
-sys	0m1.051s
+real	0m0.491s
+user	0m0.973s
+sys	0m0.744s
 ----- benchmarks_short_randlines/phone-3_short_randlines-2-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_short_randlines-2-5.csv start -----
@@ -4349,9 +4349,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.410s
-user	0m1.097s
-sys	0m1.012s
+real	0m0.432s
+user	0m1.081s
+sys	0m0.939s
 
 SnapFill
 Switch{
@@ -4361,9 +4361,9 @@ Switch{
 }
 Program size: 14
 
-real	0m0.418s
-user	0m1.114s
-sys	0m1.054s
+real	0m0.420s
+user	0m1.050s
+sys	0m0.926s
 ----- benchmarks_short_randlines/phone-3_short_randlines-2-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_short_randlines-3.csv start -----
@@ -4374,9 +4374,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.410s
-user	0m1.105s
-sys	0m1.062s
+real	0m0.426s
+user	0m1.052s
+sys	0m0.973s
 
 SnapFill
 Switch{
@@ -4385,9 +4385,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.408s
-user	0m1.154s
-sys	0m1.012s
+real	0m0.407s
+user	0m0.923s
+sys	0m0.759s
 ----- benchmarks_short_randlines/phone-3_short_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_short_randlines-4.csv start -----
@@ -4398,9 +4398,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.413s
-user	0m1.008s
-sys	0m0.989s
+real	0m0.411s
+user	0m1.024s
+sys	0m0.964s
 
 SnapFill
 Switch{
@@ -4409,9 +4409,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.412s
-user	0m1.104s
-sys	0m1.052s
+real	0m0.400s
+user	0m1.002s
+sys	0m0.862s
 ----- benchmarks_short_randlines/phone-3_short_randlines-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-3_short_randlines-5.csv start -----
@@ -4422,9 +4422,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.400s
-user	0m1.132s
-sys	0m1.036s
+real	0m0.430s
+user	0m0.940s
+sys	0m0.776s
 
 SnapFill
 Switch{
@@ -4433,9 +4433,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.397s
-user	0m1.059s
-sys	0m0.938s
+real	0m0.430s
+user	0m1.072s
+sys	0m0.869s
 ----- benchmarks_short_randlines/phone-3_short_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_randlines-0-1-2-3.csv start -----
@@ -4450,9 +4450,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.473s
-user	0m1.209s
-sys	0m1.033s
+real	0m0.505s
+user	0m1.053s
+sys	0m0.884s
 
 SnapFill
 Switch{
@@ -4465,9 +4465,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.565s
-user	0m1.289s
-sys	0m1.042s
+real	0m0.590s
+user	0m1.250s
+sys	0m0.937s
 ----- benchmarks_short_randlines/phone-4_randlines-0-1-2-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_randlines-0-2-3-5.csv start -----
@@ -4482,9 +4482,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.500s
-user	0m1.164s
-sys	0m1.017s
+real	0m0.554s
+user	0m1.124s
+sys	0m0.899s
 
 SnapFill
 Switch{
@@ -4497,9 +4497,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.617s
-user	0m1.346s
-sys	0m1.035s
+real	0m0.625s
+user	0m1.141s
+sys	0m0.739s
 ----- benchmarks_short_randlines/phone-4_randlines-0-2-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_randlines-0-2-3.csv start -----
@@ -4514,9 +4514,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.466s
-user	0m1.122s
-sys	0m0.935s
+real	0m0.470s
+user	0m1.050s
+sys	0m0.923s
 
 SnapFill
 Switch{
@@ -4530,8 +4530,8 @@ Switch{
 Program size: 34
 
 real	0m0.525s
-user	0m1.077s
-sys	0m0.962s
+user	0m1.184s
+sys	0m0.924s
 ----- benchmarks_short_randlines/phone-4_randlines-0-2-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_randlines-0-3.csv start -----
@@ -4546,9 +4546,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.431s
-user	0m1.139s
-sys	0m1.061s
+real	0m0.502s
+user	0m0.895s
+sys	0m0.847s
 
 SnapFill
 Switch{
@@ -4561,9 +4561,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.438s
-user	0m1.156s
-sys	0m1.043s
+real	0m0.464s
+user	0m1.069s
+sys	0m0.890s
 ----- benchmarks_short_randlines/phone-4_randlines-0-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_randlines-0-4.csv start -----
@@ -4578,9 +4578,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.425s
-user	0m1.178s
-sys	0m1.014s
+real	0m0.449s
+user	0m1.046s
+sys	0m0.969s
 
 SnapFill
 Switch{
@@ -4593,9 +4593,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.434s
-user	0m1.147s
-sys	0m1.055s
+real	0m0.460s
+user	0m0.867s
+sys	0m0.797s
 ----- benchmarks_short_randlines/phone-4_randlines-0-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_randlines-1-2-3-4.csv start -----
@@ -4610,9 +4610,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.469s
-user	0m1.123s
-sys	0m0.938s
+real	0m0.495s
+user	0m0.977s
+sys	0m0.823s
 
 SnapFill
 Switch{
@@ -4625,9 +4625,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.561s
-user	0m1.286s
-sys	0m1.002s
+real	0m0.568s
+user	0m1.248s
+sys	0m0.920s
 ----- benchmarks_short_randlines/phone-4_randlines-1-2-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_randlines-1-2-4.csv start -----
@@ -4642,9 +4642,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.439s
-user	0m1.084s
-sys	0m0.949s
+real	0m0.497s
+user	0m1.027s
+sys	0m0.781s
 
 SnapFill
 Switch{
@@ -4657,9 +4657,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.496s
-user	0m1.079s
-sys	0m0.947s
+real	0m0.505s
+user	0m1.094s
+sys	0m0.907s
 ----- benchmarks_short_randlines/phone-4_randlines-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_randlines-1-3-4.csv start -----
@@ -4674,9 +4674,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.448s
-user	0m1.181s
-sys	0m1.031s
+real	0m0.473s
+user	0m1.045s
+sys	0m0.895s
 
 SnapFill
 Switch{
@@ -4689,9 +4689,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.482s
-user	0m1.199s
-sys	0m1.050s
+real	0m0.524s
+user	0m1.028s
+sys	0m0.792s
 ----- benchmarks_short_randlines/phone-4_randlines-1-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_randlines-1-4.csv start -----
@@ -4706,9 +4706,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.425s
-user	0m1.104s
-sys	0m1.031s
+real	0m0.452s
+user	0m1.076s
+sys	0m0.888s
 
 SnapFill
 Switch{
@@ -4721,9 +4721,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.449s
-user	0m1.117s
-sys	0m1.025s
+real	0m0.468s
+user	0m1.090s
+sys	0m0.938s
 ----- benchmarks_short_randlines/phone-4_randlines-1-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_randlines-2.csv start -----
@@ -4734,9 +4734,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.423s
-user	0m1.039s
-sys	0m0.953s
+real	0m0.419s
+user	0m1.049s
+sys	0m0.870s
 
 SnapFill
 Switch{
@@ -4745,9 +4745,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.399s
-user	0m1.087s
-sys	0m1.004s
+real	0m0.410s
+user	0m1.036s
+sys	0m0.966s
 ----- benchmarks_short_randlines/phone-4_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_randlines-3.csv start -----
@@ -4758,9 +4758,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.417s
-user	0m1.087s
-sys	0m1.033s
+real	0m0.406s
+user	0m0.951s
+sys	0m0.871s
 
 SnapFill
 Switch{
@@ -4769,9 +4769,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.407s
-user	0m1.131s
-sys	0m1.025s
+real	0m0.409s
+user	0m0.947s
+sys	0m0.805s
 ----- benchmarks_short_randlines/phone-4_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_randlines-5.csv start -----
@@ -4782,9 +4782,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.419s
-user	0m1.178s
-sys	0m1.005s
+real	0m0.406s
+user	0m1.048s
+sys	0m0.877s
 
 SnapFill
 Switch{
@@ -4793,9 +4793,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.419s
-user	0m1.153s
-sys	0m1.030s
+real	0m0.407s
+user	0m0.939s
+sys	0m0.893s
 ----- benchmarks_short_randlines/phone-4_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_short_randlines-0-1-2-4.csv start -----
@@ -4810,9 +4810,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.472s
-user	0m1.108s
-sys	0m0.960s
+real	0m0.474s
+user	0m1.077s
+sys	0m0.922s
 
 SnapFill
 Switch{
@@ -4825,9 +4825,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.596s
-user	0m1.130s
-sys	0m0.821s
+real	0m0.579s
+user	0m1.178s
+sys	0m0.910s
 ----- benchmarks_short_randlines/phone-4_short_randlines-0-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_short_randlines-0-1-3-5.csv start -----
@@ -4842,9 +4842,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.477s
-user	0m1.121s
-sys	0m0.975s
+real	0m0.480s
+user	0m1.012s
+sys	0m0.803s
 
 SnapFill
 Switch{
@@ -4857,9 +4857,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.608s
-user	0m1.261s
-sys	0m0.968s
+real	0m0.595s
+user	0m1.182s
+sys	0m0.920s
 ----- benchmarks_short_randlines/phone-4_short_randlines-0-1-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_short_randlines-0-1-4-5.csv start -----
@@ -4874,9 +4874,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.477s
-user	0m1.170s
-sys	0m0.998s
+real	0m0.488s
+user	0m1.020s
+sys	0m0.809s
 
 SnapFill
 Switch{
@@ -4889,9 +4889,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.565s
-user	0m1.299s
-sys	0m1.031s
+real	0m0.572s
+user	0m1.184s
+sys	0m0.893s
 ----- benchmarks_short_randlines/phone-4_short_randlines-0-1-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_short_randlines-0-1-4.csv start -----
@@ -4906,9 +4906,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.443s
-user	0m1.110s
-sys	0m1.027s
+real	0m0.450s
+user	0m1.056s
+sys	0m1.018s
 
 SnapFill
 Switch{
@@ -4921,9 +4921,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.481s
-user	0m1.218s
-sys	0m0.960s
+real	0m0.489s
+user	0m1.053s
+sys	0m0.869s
 ----- benchmarks_short_randlines/phone-4_short_randlines-0-1-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_short_randlines-0-1.csv start -----
@@ -4938,9 +4938,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.434s
-user	0m1.171s
-sys	0m1.022s
+real	0m0.437s
+user	0m1.039s
+sys	0m0.822s
 
 SnapFill
 Switch{
@@ -4953,9 +4953,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.443s
-user	0m0.923s
-sys	0m0.888s
+real	0m0.473s
+user	0m1.067s
+sys	0m0.854s
 ----- benchmarks_short_randlines/phone-4_short_randlines-0-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_short_randlines-0-3.csv start -----
@@ -4970,9 +4970,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.432s
-user	0m1.094s
-sys	0m0.927s
+real	0m0.445s
+user	0m0.940s
+sys	0m0.796s
 
 SnapFill
 Switch{
@@ -4985,9 +4985,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.445s
-user	0m1.164s
-sys	0m1.047s
+real	0m0.461s
+user	0m1.098s
+sys	0m0.938s
 ----- benchmarks_short_randlines/phone-4_short_randlines-0-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_short_randlines-0-4-5.csv start -----
@@ -5002,9 +5002,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.464s
-user	0m1.141s
-sys	0m1.073s
+real	0m0.466s
+user	0m1.043s
+sys	0m0.950s
 
 SnapFill
 Switch{
@@ -5017,9 +5017,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.491s
-user	0m1.181s
-sys	0m1.018s
+real	0m0.506s
+user	0m1.129s
+sys	0m0.893s
 ----- benchmarks_short_randlines/phone-4_short_randlines-0-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_short_randlines-1-3-5.csv start -----
@@ -5034,9 +5034,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.462s
-user	0m1.102s
-sys	0m1.046s
+real	0m0.479s
+user	0m1.110s
+sys	0m0.960s
 
 SnapFill
 Switch{
@@ -5049,9 +5049,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.498s
-user	0m1.166s
-sys	0m1.013s
+real	0m0.490s
+user	0m1.119s
+sys	0m0.844s
 ----- benchmarks_short_randlines/phone-4_short_randlines-1-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_short_randlines-1.csv start -----
@@ -5062,9 +5062,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.406s
-user	0m1.171s
-sys	0m1.000s
+real	0m0.445s
+user	0m0.996s
+sys	0m0.929s
 
 SnapFill
 Switch{
@@ -5074,8 +5074,8 @@ Switch{
 Program size: 5
 
 real	0m0.418s
-user	0m1.110s
-sys	0m0.969s
+user	0m0.984s
+sys	0m0.908s
 ----- benchmarks_short_randlines/phone-4_short_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_short_randlines-2-4.csv start -----
@@ -5090,9 +5090,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.427s
-user	0m1.160s
-sys	0m1.034s
+real	0m0.456s
+user	0m1.095s
+sys	0m0.935s
 
 SnapFill
 Switch{
@@ -5105,9 +5105,9 @@ Switch{
 }
 Program size: 34
 
-real	0m0.435s
-user	0m1.085s
-sys	0m0.954s
+real	0m0.464s
+user	0m1.091s
+sys	0m0.967s
 ----- benchmarks_short_randlines/phone-4_short_randlines-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_short_randlines-2.csv start -----
@@ -5118,9 +5118,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.401s
-user	0m1.055s
-sys	0m0.947s
+real	0m0.421s
+user	0m0.972s
+sys	0m0.946s
 
 SnapFill
 Switch{
@@ -5129,9 +5129,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.399s
-user	0m1.111s
-sys	0m1.052s
+real	0m0.441s
+user	0m0.896s
+sys	0m0.804s
 ----- benchmarks_short_randlines/phone-4_short_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-4_short_randlines-3.csv start -----
@@ -5142,9 +5142,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.420s
-user	0m0.896s
-sys	0m0.851s
+real	0m0.447s
+user	0m0.973s
+sys	0m0.886s
 
 SnapFill
 Switch{
@@ -5153,9 +5153,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.407s
-user	0m1.129s
-sys	0m1.044s
+real	0m0.426s
+user	0m1.000s
+sys	0m0.922s
 ----- benchmarks_short_randlines/phone-4_short_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_randlines-0-1-2-3.csv start -----
@@ -5166,9 +5166,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.453s
-user	0m1.127s
-sys	0m1.095s
+real	0m0.470s
+user	0m1.130s
+sys	0m0.965s
 
 SnapFill
 Switch{
@@ -5177,9 +5177,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.625s
-user	0m1.353s
-sys	0m1.041s
+real	0m0.662s
+user	0m1.296s
+sys	0m0.868s
 ----- benchmarks_short_randlines/phone-5_randlines-0-1-2-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_randlines-0-1-3-5.csv start -----
@@ -5190,9 +5190,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.468s
-user	0m1.165s
-sys	0m1.059s
+real	0m0.497s
+user	0m1.094s
+sys	0m0.835s
 
 SnapFill
 Switch{
@@ -5201,9 +5201,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.624s
-user	0m1.337s
-sys	0m1.054s
+real	0m0.632s
+user	0m1.282s
+sys	0m0.864s
 ----- benchmarks_short_randlines/phone-5_randlines-0-1-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_randlines-0-2-3.csv start -----
@@ -5214,9 +5214,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.451s
-user	0m1.090s
-sys	0m0.960s
+real	0m0.452s
+user	0m1.123s
+sys	0m0.920s
 
 SnapFill
 Switch{
@@ -5225,9 +5225,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.536s
-user	0m1.218s
-sys	0m1.004s
+real	0m0.579s
+user	0m1.045s
+sys	0m0.811s
 ----- benchmarks_short_randlines/phone-5_randlines-0-2-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_randlines-0-3.csv start -----
@@ -5238,9 +5238,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.442s
-user	0m1.079s
-sys	0m0.960s
+real	0m0.452s
+user	0m1.032s
+sys	0m0.839s
 
 SnapFill
 Switch{
@@ -5249,9 +5249,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.459s
-user	0m1.112s
-sys	0m0.944s
+real	0m0.481s
+user	0m1.144s
+sys	0m0.934s
 ----- benchmarks_short_randlines/phone-5_randlines-0-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_randlines-0-6.csv start -----
@@ -5262,9 +5262,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.428s
-user	0m1.145s
-sys	0m1.050s
+real	0m0.450s
+user	0m0.952s
+sys	0m0.780s
 
 SnapFill
 Switch{
@@ -5273,9 +5273,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.446s
-user	0m1.179s
-sys	0m1.039s
+real	0m0.470s
+user	0m0.957s
+sys	0m0.754s
 ----- benchmarks_short_randlines/phone-5_randlines-0-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_randlines-1-2-3-4.csv start -----
@@ -5286,9 +5286,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.447s
-user	0m1.125s
-sys	0m1.030s
+real	0m0.496s
+user	0m1.057s
+sys	0m0.843s
 
 SnapFill
 Switch{
@@ -5297,9 +5297,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.612s
-user	0m1.227s
-sys	0m0.921s
+real	0m0.637s
+user	0m1.153s
+sys	0m0.804s
 ----- benchmarks_short_randlines/phone-5_randlines-1-2-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_randlines-1-4-5.csv start -----
@@ -5310,9 +5310,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.435s
-user	0m1.123s
-sys	0m1.019s
+real	0m0.445s
+user	0m1.054s
+sys	0m0.912s
 
 SnapFill
 Switch{
@@ -5321,33 +5321,33 @@ Switch{
 }
 Program size: 12
 
-real	0m0.501s
-user	0m1.167s
-sys	0m1.039s
+real	0m0.513s
+user	0m1.179s
+sys	0m0.995s
 ----- benchmarks_short_randlines/phone-5_randlines-1-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_randlines-1.csv start -----
 BlinkFill (Our Impl)
 Switch{
 	(True, Concat(
-		Substr(input.match(an, -1, Start), input.match("+83 973-757-83", -1, End)),))
+		Substr(input.match(an, -4, Start), input.match(an, -4, End)),))
 }
 Program size: 12
 
-real	0m0.412s
-user	0m1.124s
-sys	0m0.929s
+real	0m0.414s
+user	0m0.951s
+sys	0m0.736s
 
 SnapFill
 Switch{
 	(True, Concat(
-		Substr(input.match(an, -1, Start), input.match("+83 973-757-83", -1, End)),))
+		Substr(input.match(an, -4, Start), input.match(an, -4, End)),))
 }
 Program size: 12
 
-real	0m0.411s
-user	0m1.041s
-sys	0m1.014s
+real	0m0.416s
+user	0m0.945s
+sys	0m0.737s
 ----- benchmarks_short_randlines/phone-5_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_randlines-2-5-6.csv start -----
@@ -5358,9 +5358,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.447s
-user	0m1.109s
-sys	0m1.026s
+real	0m0.442s
+user	0m1.011s
+sys	0m0.831s
 
 SnapFill
 Switch{
@@ -5369,9 +5369,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.500s
-user	0m1.180s
-sys	0m1.069s
+real	0m0.502s
+user	0m0.987s
+sys	0m0.790s
 ----- benchmarks_short_randlines/phone-5_randlines-2-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_randlines-4.csv start -----
@@ -5382,9 +5382,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.405s
-user	0m1.163s
-sys	0m1.012s
+real	0m0.410s
+user	0m0.876s
+sys	0m0.831s
 
 SnapFill
 Switch{
@@ -5393,9 +5393,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.399s
-user	0m1.006s
-sys	0m0.998s
+real	0m0.449s
+user	0m0.906s
+sys	0m0.828s
 ----- benchmarks_short_randlines/phone-5_randlines-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_randlines-5-6.csv start -----
@@ -5406,9 +5406,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.425s
-user	0m1.161s
-sys	0m1.037s
+real	0m0.435s
+user	0m0.877s
+sys	0m0.723s
 
 SnapFill
 Switch{
@@ -5417,33 +5417,33 @@ Switch{
 }
 Program size: 12
 
-real	0m0.460s
-user	0m1.090s
-sys	0m0.926s
+real	0m0.458s
+user	0m1.070s
+sys	0m0.903s
 ----- benchmarks_short_randlines/phone-5_randlines-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_randlines-6.csv start -----
 BlinkFill (Our Impl)
 Switch{
 	(True, Concat(
-		Substr(input.match("+6 775-9", 1, End), input.match("+6 775-96", -1, End)),))
+		Substr(input.match(an, -4, Start), input.match(an, -4, End)),))
 }
 Program size: 12
 
-real	0m0.406s
-user	0m1.055s
-sys	0m0.940s
+real	0m0.407s
+user	0m0.990s
+sys	0m0.918s
 
 SnapFill
 Switch{
 	(True, Concat(
-		Substr(input.match("+6 775-9", -1, End), input.match("+6 775-96", 1, End)),))
+		Substr(input.match("+6 775-9", -1, End), input.match("+6 775-96", -1, End)),))
 }
 Program size: 12
 
-real	0m0.403s
-user	0m1.122s
-sys	0m1.040s
+real	0m0.451s
+user	0m0.924s
+sys	0m0.788s
 ----- benchmarks_short_randlines/phone-5_randlines-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-5-short_randlines-0-1.csv start -----
@@ -5454,9 +5454,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.432s
-user	0m1.165s
-sys	0m1.032s
+real	0m0.487s
+user	0m0.958s
+sys	0m0.920s
 
 SnapFill
 Switch{
@@ -5465,9 +5465,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.469s
-user	0m1.189s
-sys	0m1.048s
+real	0m0.463s
+user	0m1.013s
+sys	0m0.851s
 ----- benchmarks_short_randlines/phone-5-short_randlines-0-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-5-short_randlines-0-2-3-6.csv start -----
@@ -5478,9 +5478,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.456s
-user	0m1.089s
-sys	0m0.986s
+real	0m0.475s
+user	0m1.055s
+sys	0m0.921s
 
 SnapFill
 Switch{
@@ -5489,9 +5489,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.625s
-user	0m1.355s
-sys	0m1.024s
+real	0m0.633s
+user	0m1.136s
+sys	0m0.859s
 ----- benchmarks_short_randlines/phone-5-short_randlines-0-2-3-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_short_randlines-0-3-4-5.csv start -----
@@ -5502,9 +5502,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.465s
-user	0m1.172s
-sys	0m1.060s
+real	0m0.489s
+user	0m0.987s
+sys	0m0.765s
 
 SnapFill
 Switch{
@@ -5513,9 +5513,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.649s
-user	0m1.264s
-sys	0m0.891s
+real	0m0.641s
+user	0m1.277s
+sys	0m0.952s
 ----- benchmarks_short_randlines/phone-5_short_randlines-0-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-5-short_randlines-0-3-4-6.csv start -----
@@ -5526,9 +5526,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.470s
-user	0m1.162s
-sys	0m0.994s
+real	0m0.518s
+user	0m1.026s
+sys	0m0.861s
 
 SnapFill
 Switch{
@@ -5537,9 +5537,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.630s
-user	0m1.314s
-sys	0m0.981s
+real	0m0.638s
+user	0m1.171s
+sys	0m0.789s
 ----- benchmarks_short_randlines/phone-5-short_randlines-0-3-4-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_short_randlines-0-3-4.csv start -----
@@ -5550,9 +5550,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.455s
-user	0m1.153s
-sys	0m1.001s
+real	0m0.464s
+user	0m1.029s
+sys	0m0.892s
 
 SnapFill
 Switch{
@@ -5561,9 +5561,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.545s
-user	0m1.165s
-sys	0m0.924s
+real	0m0.528s
+user	0m1.148s
+sys	0m0.974s
 ----- benchmarks_short_randlines/phone-5_short_randlines-0-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-5-short_randlines-0-3-6.csv start -----
@@ -5574,9 +5574,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.467s
-user	0m1.045s
-sys	0m0.901s
+real	0m0.455s
+user	0m0.951s
+sys	0m0.818s
 
 SnapFill
 Switch{
@@ -5585,9 +5585,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.517s
-user	0m1.225s
-sys	0m0.984s
+real	0m0.541s
+user	0m1.136s
+sys	0m0.917s
 ----- benchmarks_short_randlines/phone-5-short_randlines-0-3-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-5-short_randlines-0-4-5.csv start -----
@@ -5599,8 +5599,8 @@ Switch{
 Program size: 12
 
 real	0m0.466s
-user	0m1.101s
-sys	0m0.942s
+user	0m0.999s
+sys	0m0.880s
 
 SnapFill
 Switch{
@@ -5609,9 +5609,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.548s
-user	0m1.155s
-sys	0m0.968s
+real	0m0.508s
+user	0m0.946s
+sys	0m0.792s
 ----- benchmarks_short_randlines/phone-5-short_randlines-0-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_short_randlines-0-4-6.csv start -----
@@ -5622,9 +5622,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.444s
-user	0m1.120s
-sys	0m1.091s
+real	0m0.491s
+user	0m1.073s
+sys	0m0.897s
 
 SnapFill
 Switch{
@@ -5633,9 +5633,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.510s
-user	0m1.225s
-sys	0m1.031s
+real	0m0.506s
+user	0m1.031s
+sys	0m0.750s
 ----- benchmarks_short_randlines/phone-5_short_randlines-0-4-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_short_randlines-1-2-3-5.csv start -----
@@ -5646,9 +5646,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.486s
-user	0m1.107s
-sys	0m0.907s
+real	0m0.478s
+user	0m0.855s
+sys	0m0.681s
 
 SnapFill
 Switch{
@@ -5657,9 +5657,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.622s
-user	0m1.289s
-sys	0m0.942s
+real	0m0.640s
+user	0m1.123s
+sys	0m0.781s
 ----- benchmarks_short_randlines/phone-5_short_randlines-1-2-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_short_randlines-1-2-6.csv start -----
@@ -5670,9 +5670,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.444s
-user	0m1.095s
-sys	0m1.049s
+real	0m0.473s
+user	0m0.968s
+sys	0m0.920s
 
 SnapFill
 Switch{
@@ -5681,9 +5681,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.508s
-user	0m1.106s
-sys	0m0.899s
+real	0m0.506s
+user	0m0.951s
+sys	0m0.670s
 ----- benchmarks_short_randlines/phone-5_short_randlines-1-2-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-5-short_randlines-1-3-4-5.csv start -----
@@ -5694,9 +5694,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.466s
-user	0m1.182s
-sys	0m1.046s
+real	0m0.483s
+user	0m0.981s
+sys	0m0.826s
 
 SnapFill
 Switch{
@@ -5705,9 +5705,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.626s
-user	0m1.253s
-sys	0m0.964s
+real	0m0.652s
+user	0m1.143s
+sys	0m0.818s
 ----- benchmarks_short_randlines/phone-5-short_randlines-1-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_short_randlines-1-6.csv start -----
@@ -5718,9 +5718,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.427s
-user	0m1.115s
-sys	0m1.082s
+real	0m0.449s
+user	0m0.985s
+sys	0m0.770s
 
 SnapFill
 Switch{
@@ -5729,57 +5729,57 @@ Switch{
 }
 Program size: 12
 
-real	0m0.445s
-user	0m1.153s
-sys	0m1.004s
+real	0m0.464s
+user	0m0.971s
+sys	0m0.792s
 ----- benchmarks_short_randlines/phone-5_short_randlines-1-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-5-short_randlines-1.csv start -----
 BlinkFill (Our Impl)
 Switch{
 	(True, Concat(
-		Substr(input.match(an, -1, Start), input.match("+83 973-757-83", 1, End)),))
+		Substr(input.match(an, -4, Start), input.match(an, -4, End)),))
 }
 Program size: 12
 
-real	0m0.416s
-user	0m1.009s
-sys	0m0.908s
+real	0m0.410s
+user	0m1.064s
+sys	0m0.947s
 
 SnapFill
 Switch{
 	(True, Concat(
-		Substr(input.match(an, -1, Start), input.match("+83 973-757-83", -1, End)),))
+		Substr(input.match(an, -4, Start), input.match(an, -4, End)),))
 }
 Program size: 12
 
-real	0m0.407s
-user	0m1.101s
-sys	0m0.995s
+real	0m0.449s
+user	0m0.919s
+sys	0m0.782s
 ----- benchmarks_short_randlines/phone-5-short_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_short_randlines-1.csv start -----
 BlinkFill (Our Impl)
 Switch{
 	(True, Concat(
-		Substr(input.match(an, -1, Start), input.match("+83 973-757-83", -1, End)),))
+		Substr(input.match(an, -4, Start), input.match(an, -4, End)),))
 }
 Program size: 12
 
-real	0m0.404s
-user	0m0.923s
-sys	0m0.905s
+real	0m0.484s
+user	0m0.978s
+sys	0m0.850s
 
 SnapFill
 Switch{
 	(True, Concat(
-		Substr(input.match(an, -1, Start), input.match("+83 973-757-83", -1, End)),))
+		Substr(input.match(an, -4, Start), input.match(an, -4, End)),))
 }
 Program size: 12
 
-real	0m0.407s
-user	0m1.091s
-sys	0m0.917s
+real	0m0.448s
+user	0m1.025s
+sys	0m0.900s
 ----- benchmarks_short_randlines/phone-5_short_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-5-short_randlines-2-5.csv start -----
@@ -5790,9 +5790,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.428s
-user	0m1.177s
-sys	0m1.019s
+real	0m0.468s
+user	0m1.035s
+sys	0m0.841s
 
 SnapFill
 Switch{
@@ -5801,9 +5801,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.457s
-user	0m1.026s
-sys	0m0.966s
+real	0m0.507s
+user	0m1.106s
+sys	0m0.941s
 ----- benchmarks_short_randlines/phone-5-short_randlines-2-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_short_randlines-2-5.csv start -----
@@ -5814,9 +5814,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.443s
-user	0m1.115s
-sys	0m1.024s
+real	0m0.467s
+user	0m1.004s
+sys	0m0.886s
 
 SnapFill
 Switch{
@@ -5825,9 +5825,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.457s
-user	0m1.047s
-sys	0m0.961s
+real	0m0.492s
+user	0m0.938s
+sys	0m0.762s
 ----- benchmarks_short_randlines/phone-5_short_randlines-2-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-5-short_randlines-2-6.csv start -----
@@ -5838,9 +5838,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.422s
-user	0m1.122s
-sys	0m0.995s
+real	0m0.480s
+user	0m0.962s
+sys	0m0.772s
 
 SnapFill
 Switch{
@@ -5849,9 +5849,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.439s
-user	0m1.141s
-sys	0m0.991s
+real	0m0.499s
+user	0m0.945s
+sys	0m0.816s
 ----- benchmarks_short_randlines/phone-5-short_randlines-2-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_short_randlines-2.csv start -----
@@ -5862,9 +5862,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.421s
-user	0m1.024s
-sys	0m0.949s
+real	0m0.441s
+user	0m0.882s
+sys	0m0.776s
 
 SnapFill
 Switch{
@@ -5873,9 +5873,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.403s
-user	0m1.131s
-sys	0m0.970s
+real	0m0.421s
+user	0m0.939s
+sys	0m0.759s
 ----- benchmarks_short_randlines/phone-5_short_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_short_randlines-3-4-5-6.csv start -----
@@ -5886,9 +5886,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.453s
-user	0m1.131s
-sys	0m1.020s
+real	0m0.498s
+user	0m1.007s
+sys	0m0.799s
 
 SnapFill
 Switch{
@@ -5897,9 +5897,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.598s
-user	0m1.290s
-sys	0m1.074s
+real	0m0.620s
+user	0m1.124s
+sys	0m0.913s
 ----- benchmarks_short_randlines/phone-5_short_randlines-3-4-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_short_randlines-3-6.csv start -----
@@ -5910,9 +5910,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.431s
-user	0m1.150s
-sys	0m0.972s
+real	0m0.447s
+user	0m1.072s
+sys	0m0.959s
 
 SnapFill
 Switch{
@@ -5921,9 +5921,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.447s
-user	0m1.119s
-sys	0m1.024s
+real	0m0.455s
+user	0m0.944s
+sys	0m0.765s
 ----- benchmarks_short_randlines/phone-5_short_randlines-3-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-5-short_randlines-4-5-6.csv start -----
@@ -5934,9 +5934,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.438s
-user	0m1.132s
-sys	0m1.072s
+real	0m0.442s
+user	0m0.954s
+sys	0m0.744s
 
 SnapFill
 Switch{
@@ -5945,9 +5945,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.509s
-user	0m1.171s
-sys	0m0.977s
+real	0m0.551s
+user	0m1.118s
+sys	0m0.897s
 ----- benchmarks_short_randlines/phone-5-short_randlines-4-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-5-short_randlines-4.csv start -----
@@ -5958,9 +5958,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.436s
-user	0m1.046s
-sys	0m0.912s
+real	0m0.476s
+user	0m0.992s
+sys	0m0.847s
 
 SnapFill
 Switch{
@@ -5969,9 +5969,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.403s
-user	0m1.025s
-sys	0m1.020s
+real	0m0.422s
+user	0m0.906s
+sys	0m0.730s
 ----- benchmarks_short_randlines/phone-5-short_randlines-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-5_short_randlines-5.csv start -----
@@ -5982,9 +5982,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.454s
-user	0m1.140s
-sys	0m1.012s
+real	0m0.463s
+user	0m0.947s
+sys	0m0.829s
 
 SnapFill
 Switch{
@@ -5993,33 +5993,33 @@ Switch{
 }
 Program size: 12
 
-real	0m0.408s
-user	0m1.092s
-sys	0m1.001s
+real	0m0.410s
+user	0m0.915s
+sys	0m0.856s
 ----- benchmarks_short_randlines/phone-5_short_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-5-short_randlines-6.csv start -----
 BlinkFill (Our Impl)
 Switch{
 	(True, Concat(
-		Substr(input.match("+6 775-9", 1, End), input.match("+6 775-96", 1, End)),))
+		Substr(input.match(an, -4, Start), input.match(an, -4, End)),))
 }
 Program size: 12
 
-real	0m0.399s
-user	0m1.089s
-sys	0m0.999s
+real	0m0.409s
+user	0m1.027s
+sys	0m0.899s
 
 SnapFill
 Switch{
 	(True, Concat(
-		Substr(input.match("+6 775-9", -1, End), input.match("+6 775-96", 1, End)),))
+		Substr(input.match("+6 775-9", 1, End), input.match("+6 775-96", 1, End)),))
 }
 Program size: 12
 
-real	0m0.402s
-user	0m1.075s
-sys	0m1.008s
+real	0m0.406s
+user	0m1.056s
+sys	0m0.954s
 ----- benchmarks_short_randlines/phone-5-short_randlines-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_randlines-0-1-3-4.csv start -----
@@ -6030,9 +6030,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.468s
-user	0m1.061s
-sys	0m0.968s
+real	0m0.481s
+user	0m1.100s
+sys	0m0.983s
 
 SnapFill
 Switch{
@@ -6041,9 +6041,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.652s
-user	0m1.229s
-sys	0m0.932s
+real	0m0.694s
+user	0m0.984s
+sys	0m0.639s
 ----- benchmarks_short_randlines/phone-6_randlines-0-1-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_randlines-0-1-6.csv start -----
@@ -6054,9 +6054,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.444s
-user	0m1.100s
-sys	0m1.050s
+real	0m0.452s
+user	0m1.010s
+sys	0m0.849s
 
 SnapFill
 Switch{
@@ -6065,9 +6065,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.535s
-user	0m1.142s
-sys	0m0.896s
+real	0m0.563s
+user	0m1.101s
+sys	0m0.886s
 ----- benchmarks_short_randlines/phone-6_randlines-0-1-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_randlines-0-1.csv start -----
@@ -6078,9 +6078,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.434s
-user	0m1.156s
-sys	0m1.048s
+real	0m0.440s
+user	0m1.059s
+sys	0m0.898s
 
 SnapFill
 Switch{
@@ -6089,9 +6089,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.465s
-user	0m1.193s
-sys	0m1.027s
+real	0m0.525s
+user	0m0.931s
+sys	0m0.772s
 ----- benchmarks_short_randlines/phone-6_randlines-0-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_randlines-0-2-5-6.csv start -----
@@ -6102,9 +6102,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.452s
-user	0m1.057s
-sys	0m0.917s
+real	0m0.497s
+user	0m0.856s
+sys	0m0.656s
 
 SnapFill
 Switch{
@@ -6113,9 +6113,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.602s
-user	0m1.330s
-sys	0m0.960s
+real	0m0.631s
+user	0m1.229s
+sys	0m0.983s
 ----- benchmarks_short_randlines/phone-6_randlines-0-2-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_randlines-0-2-5.csv start -----
@@ -6126,9 +6126,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.446s
-user	0m1.137s
-sys	0m1.007s
+real	0m0.449s
+user	0m1.063s
+sys	0m0.820s
 
 SnapFill
 Switch{
@@ -6137,9 +6137,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.538s
-user	0m1.108s
-sys	0m0.941s
+real	0m0.555s
+user	0m1.052s
+sys	0m0.769s
 ----- benchmarks_short_randlines/phone-6_randlines-0-2-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_randlines-0-3-6.csv start -----
@@ -6150,9 +6150,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.465s
-user	0m1.094s
-sys	0m0.959s
+real	0m0.492s
+user	0m0.997s
+sys	0m0.806s
 
 SnapFill
 Switch{
@@ -6161,9 +6161,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.513s
-user	0m1.174s
-sys	0m1.015s
+real	0m0.519s
+user	0m1.013s
+sys	0m0.816s
 ----- benchmarks_short_randlines/phone-6_randlines-0-3-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_randlines-1-3-5-6.csv start -----
@@ -6174,9 +6174,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.451s
-user	0m1.103s
-sys	0m0.952s
+real	0m0.482s
+user	0m1.088s
+sys	0m0.913s
 
 SnapFill
 Switch{
@@ -6185,9 +6185,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.617s
-user	0m1.257s
-sys	0m0.974s
+real	0m0.658s
+user	0m1.132s
+sys	0m0.811s
 ----- benchmarks_short_randlines/phone-6_randlines-1-3-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_randlines-1-6.csv start -----
@@ -6198,9 +6198,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.426s
-user	0m1.150s
-sys	0m1.046s
+real	0m0.471s
+user	0m1.124s
+sys	0m0.958s
 
 SnapFill
 Switch{
@@ -6209,9 +6209,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.442s
-user	0m1.102s
-sys	0m0.929s
+real	0m0.459s
+user	0m0.991s
+sys	0m0.802s
 ----- benchmarks_short_randlines/phone-6_randlines-1-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_randlines-2.csv start -----
@@ -6222,9 +6222,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.401s
-user	0m1.094s
-sys	0m1.018s
+real	0m0.419s
+user	0m0.938s
+sys	0m0.820s
 
 SnapFill
 Switch{
@@ -6233,9 +6233,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.445s
-user	0m1.130s
-sys	0m1.077s
+real	0m0.443s
+user	0m1.000s
+sys	0m0.857s
 ----- benchmarks_short_randlines/phone-6_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_randlines-3-4.csv start -----
@@ -6246,9 +6246,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.458s
-user	0m1.066s
-sys	0m0.991s
+real	0m0.445s
+user	0m0.955s
+sys	0m0.853s
 
 SnapFill
 Switch{
@@ -6257,9 +6257,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.470s
-user	0m1.180s
-sys	0m1.051s
+real	0m0.473s
+user	0m1.029s
+sys	0m0.808s
 ----- benchmarks_short_randlines/phone-6_randlines-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_randlines-5.csv start -----
@@ -6270,9 +6270,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.429s
-user	0m1.086s
-sys	0m1.010s
+real	0m0.411s
+user	0m0.977s
+sys	0m0.812s
 
 SnapFill
 Switch{
@@ -6281,9 +6281,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.407s
-user	0m1.092s
-sys	0m1.011s
+real	0m0.435s
+user	0m1.080s
+sys	0m0.972s
 ----- benchmarks_short_randlines/phone-6_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_randlines-6.csv start -----
@@ -6294,9 +6294,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.413s
-user	0m1.051s
-sys	0m0.884s
+real	0m0.414s
+user	0m0.961s
+sys	0m0.862s
 
 SnapFill
 Switch{
@@ -6305,9 +6305,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.461s
-user	0m1.118s
-sys	0m1.011s
+real	0m0.412s
+user	0m0.907s
+sys	0m0.766s
 ----- benchmarks_short_randlines/phone-6_randlines-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_short_randlines-0-1-3-4.csv start -----
@@ -6318,9 +6318,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.476s
-user	0m1.139s
-sys	0m1.015s
+real	0m0.478s
+user	0m0.969s
+sys	0m0.827s
 
 SnapFill
 Switch{
@@ -6329,9 +6329,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.636s
-user	0m1.354s
-sys	0m1.046s
+real	0m0.632s
+user	0m1.215s
+sys	0m0.936s
 ----- benchmarks_short_randlines/phone-6_short_randlines-0-1-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-6-short_randlines-0-1-5.csv start -----
@@ -6342,9 +6342,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.461s
-user	0m1.092s
-sys	0m0.957s
+real	0m0.452s
+user	0m0.943s
+sys	0m0.850s
 
 SnapFill
 Switch{
@@ -6353,9 +6353,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.507s
-user	0m1.221s
-sys	0m1.055s
+real	0m0.520s
+user	0m1.144s
+sys	0m0.933s
 ----- benchmarks_short_randlines/phone-6-short_randlines-0-1-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-6-short_randlines-0-1.csv start -----
@@ -6366,9 +6366,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.449s
-user	0m1.059s
-sys	0m0.920s
+real	0m0.443s
+user	0m0.979s
+sys	0m0.841s
 
 SnapFill
 Switch{
@@ -6377,9 +6377,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.459s
-user	0m1.134s
-sys	0m0.976s
+real	0m0.463s
+user	0m0.960s
+sys	0m0.712s
 ----- benchmarks_short_randlines/phone-6-short_randlines-0-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_short_randlines-0-2-3-4.csv start -----
@@ -6390,9 +6390,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.470s
-user	0m1.188s
-sys	0m0.964s
+real	0m0.465s
+user	0m1.046s
+sys	0m0.865s
 
 SnapFill
 Switch{
@@ -6401,9 +6401,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.643s
-user	0m1.332s
-sys	0m1.069s
+real	0m0.637s
+user	0m1.240s
+sys	0m0.991s
 ----- benchmarks_short_randlines/phone-6_short_randlines-0-2-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-6-short_randlines-0-2-4-6.csv start -----
@@ -6414,9 +6414,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.467s
-user	0m1.125s
-sys	0m0.924s
+real	0m0.481s
+user	0m0.953s
+sys	0m0.754s
 
 SnapFill
 Switch{
@@ -6425,9 +6425,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.622s
-user	0m1.348s
-sys	0m1.019s
+real	0m0.609s
+user	0m1.118s
+sys	0m0.843s
 ----- benchmarks_short_randlines/phone-6-short_randlines-0-2-4-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_short_randlines-0-2-4.csv start -----
@@ -6438,9 +6438,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.451s
-user	0m1.145s
-sys	0m1.075s
+real	0m0.484s
+user	0m0.903s
+sys	0m0.794s
 
 SnapFill
 Switch{
@@ -6449,9 +6449,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.513s
-user	0m1.195s
-sys	0m0.999s
+real	0m0.518s
+user	0m1.030s
+sys	0m0.750s
 ----- benchmarks_short_randlines/phone-6_short_randlines-0-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-6-short_randlines-0-4.csv start -----
@@ -6462,9 +6462,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.435s
-user	0m1.111s
-sys	0m1.021s
+real	0m0.437s
+user	0m1.104s
+sys	0m0.909s
 
 SnapFill
 Switch{
@@ -6473,9 +6473,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.479s
-user	0m1.036s
-sys	0m0.979s
+real	0m0.456s
+user	0m0.946s
+sys	0m0.813s
 ----- benchmarks_short_randlines/phone-6-short_randlines-0-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_short_randlines-0-4.csv start -----
@@ -6486,9 +6486,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.450s
-user	0m1.106s
-sys	0m0.930s
+real	0m0.431s
+user	0m0.858s
+sys	0m0.735s
 
 SnapFill
 Switch{
@@ -6497,9 +6497,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.471s
-user	0m1.153s
-sys	0m1.077s
+real	0m0.456s
+user	0m1.083s
+sys	0m0.883s
 ----- benchmarks_short_randlines/phone-6_short_randlines-0-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-6-short_randlines-0.csv start -----
@@ -6510,9 +6510,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.418s
-user	0m1.088s
-sys	0m1.018s
+real	0m0.451s
+user	0m0.998s
+sys	0m0.906s
 
 SnapFill
 Switch{
@@ -6521,9 +6521,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.419s
-user	0m1.087s
-sys	0m1.031s
+real	0m0.410s
+user	0m0.909s
+sys	0m0.796s
 ----- benchmarks_short_randlines/phone-6-short_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_short_randlines-0.csv start -----
@@ -6534,9 +6534,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.417s
-user	0m1.031s
-sys	0m0.919s
+real	0m0.409s
+user	0m0.925s
+sys	0m0.840s
 
 SnapFill
 Switch{
@@ -6545,9 +6545,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.417s
-user	0m1.103s
-sys	0m1.007s
+real	0m0.409s
+user	0m0.890s
+sys	0m0.737s
 ----- benchmarks_short_randlines/phone-6_short_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_short_randlines-1-2-3-5.csv start -----
@@ -6558,9 +6558,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.473s
-user	0m1.124s
-sys	0m1.009s
+real	0m0.486s
+user	0m1.042s
+sys	0m0.920s
 
 SnapFill
 Switch{
@@ -6569,9 +6569,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.617s
-user	0m1.325s
-sys	0m0.989s
+real	0m0.618s
+user	0m1.160s
+sys	0m0.834s
 ----- benchmarks_short_randlines/phone-6_short_randlines-1-2-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-6-short_randlines-1-3-4-6.csv start -----
@@ -6582,9 +6582,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.461s
-user	0m1.187s
-sys	0m0.967s
+real	0m0.487s
+user	0m1.069s
+sys	0m0.870s
 
 SnapFill
 Switch{
@@ -6593,9 +6593,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.664s
-user	0m1.324s
-sys	0m1.068s
+real	0m0.622s
+user	0m1.182s
+sys	0m0.846s
 ----- benchmarks_short_randlines/phone-6-short_randlines-1-3-4-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_short_randlines-1-5-6.csv start -----
@@ -6606,9 +6606,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.437s
-user	0m1.139s
-sys	0m1.066s
+real	0m0.447s
+user	0m0.949s
+sys	0m0.799s
 
 SnapFill
 Switch{
@@ -6618,8 +6618,8 @@ Switch{
 Program size: 12
 
 real	0m0.504s
-user	0m1.172s
-sys	0m0.937s
+user	0m1.025s
+sys	0m0.837s
 ----- benchmarks_short_randlines/phone-6_short_randlines-1-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_short_randlines-1-6.csv start -----
@@ -6630,9 +6630,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.426s
-user	0m1.126s
-sys	0m1.067s
+real	0m0.461s
+user	0m1.099s
+sys	0m0.967s
 
 SnapFill
 Switch{
@@ -6641,9 +6641,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.441s
-user	0m1.163s
-sys	0m1.045s
+real	0m0.453s
+user	0m1.129s
+sys	0m0.925s
 ----- benchmarks_short_randlines/phone-6_short_randlines-1-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-6-short_randlines-2-3-4-5.csv start -----
@@ -6654,9 +6654,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.454s
-user	0m1.135s
-sys	0m1.094s
+real	0m0.479s
+user	0m1.039s
+sys	0m0.938s
 
 SnapFill
 Switch{
@@ -6665,9 +6665,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.615s
-user	0m1.327s
-sys	0m1.056s
+real	0m0.656s
+user	0m1.136s
+sys	0m0.796s
 ----- benchmarks_short_randlines/phone-6-short_randlines-2-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-6-short_randlines-2-3-4.csv start -----
@@ -6678,9 +6678,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.446s
-user	0m1.171s
-sys	0m1.041s
+real	0m0.501s
+user	0m1.082s
+sys	0m0.945s
 
 SnapFill
 Switch{
@@ -6689,9 +6689,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.515s
-user	0m1.245s
-sys	0m1.040s
+real	0m0.522s
+user	0m1.041s
+sys	0m0.738s
 ----- benchmarks_short_randlines/phone-6-short_randlines-2-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-6-short_randlines-2-3-6.csv start -----
@@ -6702,9 +6702,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.445s
-user	0m1.154s
-sys	0m1.049s
+real	0m0.500s
+user	0m1.128s
+sys	0m0.929s
 
 SnapFill
 Switch{
@@ -6713,9 +6713,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.501s
-user	0m1.220s
-sys	0m1.049s
+real	0m0.505s
+user	0m1.061s
+sys	0m0.887s
 ----- benchmarks_short_randlines/phone-6-short_randlines-2-3-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_short_randlines-2-5-6.csv start -----
@@ -6726,9 +6726,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.454s
-user	0m1.086s
-sys	0m1.054s
+real	0m0.488s
+user	0m1.070s
+sys	0m0.865s
 
 SnapFill
 Switch{
@@ -6737,9 +6737,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.518s
-user	0m1.212s
-sys	0m1.060s
+real	0m0.531s
+user	0m1.059s
+sys	0m0.798s
 ----- benchmarks_short_randlines/phone-6_short_randlines-2-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_short_randlines-2-6.csv start -----
@@ -6750,9 +6750,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.432s
-user	0m1.142s
-sys	0m1.046s
+real	0m0.452s
+user	0m0.911s
+sys	0m0.774s
 
 SnapFill
 Switch{
@@ -6761,9 +6761,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.461s
-user	0m1.181s
-sys	0m1.027s
+real	0m0.473s
+user	0m0.980s
+sys	0m0.732s
 ----- benchmarks_short_randlines/phone-6_short_randlines-2-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_short_randlines-2.csv start -----
@@ -6774,9 +6774,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.415s
-user	0m1.108s
-sys	0m1.061s
+real	0m0.426s
+user	0m0.902s
+sys	0m0.778s
 
 SnapFill
 Switch{
@@ -6785,9 +6785,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.417s
-user	0m1.153s
-sys	0m1.027s
+real	0m0.413s
+user	0m0.888s
+sys	0m0.748s
 ----- benchmarks_short_randlines/phone-6_short_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-6-short_randlines-3-5.csv start -----
@@ -6798,9 +6798,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.439s
-user	0m1.138s
-sys	0m1.056s
+real	0m0.474s
+user	0m0.980s
+sys	0m0.902s
 
 SnapFill
 Switch{
@@ -6809,9 +6809,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.456s
-user	0m1.172s
-sys	0m1.043s
+real	0m0.461s
+user	0m0.915s
+sys	0m0.819s
 ----- benchmarks_short_randlines/phone-6-short_randlines-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-6-short_randlines-3.csv start -----
@@ -6822,9 +6822,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.420s
-user	0m1.139s
-sys	0m1.040s
+real	0m0.430s
+user	0m0.888s
+sys	0m0.761s
 
 SnapFill
 Switch{
@@ -6833,9 +6833,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.418s
-user	0m1.088s
-sys	0m1.073s
+real	0m0.417s
+user	0m0.949s
+sys	0m0.796s
 ----- benchmarks_short_randlines/phone-6-short_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-6_short_randlines-4.csv start -----
@@ -6846,9 +6846,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.418s
-user	0m1.148s
-sys	0m1.032s
+real	0m0.460s
+user	0m1.014s
+sys	0m0.882s
 
 SnapFill
 Switch{
@@ -6857,9 +6857,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.415s
-user	0m1.052s
-sys	0m1.034s
+real	0m0.431s
+user	0m1.081s
+sys	0m0.944s
 ----- benchmarks_short_randlines/phone-6_short_randlines-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-6-short_randlines-5.csv start -----
@@ -6870,9 +6870,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.405s
-user	0m1.116s
-sys	0m1.051s
+real	0m0.466s
+user	0m0.932s
+sys	0m0.759s
 
 SnapFill
 Switch{
@@ -6881,9 +6881,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.406s
-user	0m1.130s
-sys	0m1.020s
+real	0m0.413s
+user	0m0.928s
+sys	0m0.781s
 ----- benchmarks_short_randlines/phone-6-short_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_randlines-0-1-2-4.csv start -----
@@ -6894,9 +6894,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.477s
-user	0m1.167s
-sys	0m1.082s
+real	0m0.463s
+user	0m1.096s
+sys	0m0.881s
 
 SnapFill
 Switch{
@@ -6905,9 +6905,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.611s
-user	0m1.322s
-sys	0m1.059s
+real	0m0.642s
+user	0m1.218s
+sys	0m0.889s
 ----- benchmarks_short_randlines/phone-7_randlines-0-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_randlines-0-1-3.csv start -----
@@ -6918,9 +6918,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.442s
-user	0m1.177s
-sys	0m1.024s
+real	0m0.461s
+user	0m1.034s
+sys	0m0.815s
 
 SnapFill
 Switch{
@@ -6929,9 +6929,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.528s
-user	0m1.238s
-sys	0m1.047s
+real	0m0.540s
+user	0m1.154s
+sys	0m0.964s
 ----- benchmarks_short_randlines/phone-7_randlines-0-1-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_randlines-0-3.csv start -----
@@ -6942,9 +6942,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.438s
-user	0m1.155s
-sys	0m1.046s
+real	0m0.455s
+user	0m0.946s
+sys	0m0.816s
 
 SnapFill
 Switch{
@@ -6953,9 +6953,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.482s
-user	0m1.199s
-sys	0m1.039s
+real	0m0.505s
+user	0m1.016s
+sys	0m0.855s
 ----- benchmarks_short_randlines/phone-7_randlines-0-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_randlines-1-2-3-6.csv start -----
@@ -6966,9 +6966,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.506s
-user	0m1.178s
-sys	0m1.010s
+real	0m0.459s
+user	0m1.086s
+sys	0m0.954s
 
 SnapFill
 Switch{
@@ -6977,9 +6977,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.618s
-user	0m1.294s
-sys	0m1.041s
+real	0m0.621s
+user	0m1.216s
+sys	0m0.907s
 ----- benchmarks_short_randlines/phone-7_randlines-1-2-3-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_randlines-1-2-4.csv start -----
@@ -6990,9 +6990,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.453s
-user	0m1.132s
-sys	0m1.075s
+real	0m0.465s
+user	0m0.882s
+sys	0m0.726s
 
 SnapFill
 Switch{
@@ -7001,9 +7001,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.523s
-user	0m1.262s
-sys	0m1.013s
+real	0m0.515s
+user	0m1.191s
+sys	0m0.924s
 ----- benchmarks_short_randlines/phone-7_randlines-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_randlines-1-3-4-6.csv start -----
@@ -7014,9 +7014,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.452s
-user	0m1.144s
-sys	0m1.073s
+real	0m0.469s
+user	0m0.992s
+sys	0m0.826s
 
 SnapFill
 Switch{
@@ -7025,9 +7025,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.600s
-user	0m1.330s
-sys	0m1.025s
+real	0m0.642s
+user	0m1.156s
+sys	0m0.824s
 ----- benchmarks_short_randlines/phone-7_randlines-1-3-4-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_randlines-1.csv start -----
@@ -7038,9 +7038,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.400s
+real	0m0.428s
 user	0m1.081s
-sys	0m1.080s
+sys	0m0.932s
 
 SnapFill
 Switch{
@@ -7049,9 +7049,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.414s
-user	0m1.112s
-sys	0m1.059s
+real	0m0.424s
+user	0m0.849s
+sys	0m0.655s
 ----- benchmarks_short_randlines/phone-7_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_randlines-2-4.csv start -----
@@ -7062,9 +7062,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.428s
-user	0m1.109s
-sys	0m1.083s
+real	0m0.451s
+user	0m0.924s
+sys	0m0.763s
 
 SnapFill
 Switch{
@@ -7073,9 +7073,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.454s
-user	0m1.163s
-sys	0m1.060s
+real	0m0.473s
+user	0m1.053s
+sys	0m0.932s
 ----- benchmarks_short_randlines/phone-7_randlines-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_randlines-2-5.csv start -----
@@ -7086,9 +7086,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.459s
-user	0m1.087s
-sys	0m1.052s
+real	0m0.449s
+user	0m1.071s
+sys	0m0.880s
 
 SnapFill
 Switch{
@@ -7097,9 +7097,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.483s
-user	0m1.150s
-sys	0m1.009s
+real	0m0.472s
+user	0m1.040s
+sys	0m0.879s
 ----- benchmarks_short_randlines/phone-7_randlines-2-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_randlines-2.csv start -----
@@ -7110,9 +7110,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.405s
-user	0m1.083s
-sys	0m1.087s
+real	0m0.425s
+user	0m0.847s
+sys	0m0.726s
 
 SnapFill
 Switch{
@@ -7121,9 +7121,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.408s
-user	0m1.186s
-sys	0m0.987s
+real	0m0.427s
+user	0m0.863s
+sys	0m0.749s
 ----- benchmarks_short_randlines/phone-7_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_randlines-3-4-6.csv start -----
@@ -7134,9 +7134,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.454s
-user	0m1.165s
-sys	0m1.037s
+real	0m0.469s
+user	0m1.050s
+sys	0m0.908s
 
 SnapFill
 Switch{
@@ -7145,9 +7145,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.507s
-user	0m1.222s
-sys	0m1.047s
+real	0m0.540s
+user	0m1.109s
+sys	0m0.937s
 ----- benchmarks_short_randlines/phone-7_randlines-3-4-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_randlines-5.csv start -----
@@ -7158,9 +7158,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.401s
-user	0m1.140s
-sys	0m1.012s
+real	0m0.450s
+user	0m0.908s
+sys	0m0.795s
 
 SnapFill
 Switch{
@@ -7169,9 +7169,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.400s
-user	0m1.131s
-sys	0m1.041s
+real	0m0.422s
+user	0m0.933s
+sys	0m0.847s
 ----- benchmarks_short_randlines/phone-7_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-7-short_randlines-0-1-2-4.csv start -----
@@ -7182,9 +7182,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.499s
-user	0m1.163s
-sys	0m1.017s
+real	0m0.476s
+user	0m1.003s
+sys	0m0.809s
 
 SnapFill
 Switch{
@@ -7193,9 +7193,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.616s
-user	0m1.330s
-sys	0m1.037s
+real	0m0.649s
+user	0m1.319s
+sys	0m0.923s
 ----- benchmarks_short_randlines/phone-7-short_randlines-0-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-7-short_randlines-0-1-3-5.csv start -----
@@ -7206,9 +7206,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.511s
-user	0m1.188s
-sys	0m1.016s
+real	0m0.485s
+user	0m1.104s
+sys	0m0.876s
 
 SnapFill
 Switch{
@@ -7217,9 +7217,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.633s
-user	0m1.347s
-sys	0m1.002s
+real	0m0.648s
+user	0m1.259s
+sys	0m0.932s
 ----- benchmarks_short_randlines/phone-7-short_randlines-0-1-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_short_randlines-0-1-6.csv start -----
@@ -7230,9 +7230,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.453s
-user	0m1.154s
-sys	0m1.001s
+real	0m0.474s
+user	0m0.942s
+sys	0m0.767s
 
 SnapFill
 Switch{
@@ -7241,9 +7241,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.502s
-user	0m1.184s
-sys	0m1.091s
+real	0m0.517s
+user	0m1.068s
+sys	0m0.898s
 ----- benchmarks_short_randlines/phone-7_short_randlines-0-1-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_short_randlines-0-2-3-6.csv start -----
@@ -7254,9 +7254,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.449s
-user	0m1.131s
-sys	0m1.074s
+real	0m0.460s
+user	0m1.016s
+sys	0m0.851s
 
 SnapFill
 Switch{
@@ -7265,9 +7265,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.603s
-user	0m1.304s
-sys	0m1.069s
+real	0m0.616s
+user	0m1.133s
+sys	0m0.744s
 ----- benchmarks_short_randlines/phone-7_short_randlines-0-2-3-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-7-short_randlines-0-2-4-6.csv start -----
@@ -7278,9 +7278,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.457s
-user	0m1.142s
-sys	0m1.072s
+real	0m0.507s
+user	0m0.939s
+sys	0m0.733s
 
 SnapFill
 Switch{
@@ -7289,9 +7289,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.626s
-user	0m1.332s
-sys	0m1.047s
+real	0m0.610s
+user	0m1.087s
+sys	0m0.789s
 ----- benchmarks_short_randlines/phone-7-short_randlines-0-2-4-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_short_randlines-0-2-5.csv start -----
@@ -7302,9 +7302,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.443s
-user	0m1.159s
-sys	0m1.052s
+real	0m0.450s
+user	0m0.975s
+sys	0m0.739s
 
 SnapFill
 Switch{
@@ -7313,9 +7313,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.512s
-user	0m1.227s
-sys	0m1.052s
+real	0m0.520s
+user	0m1.080s
+sys	0m0.911s
 ----- benchmarks_short_randlines/phone-7_short_randlines-0-2-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-7-short_randlines-0-2-6.csv start -----
@@ -7326,9 +7326,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.457s
-user	0m1.176s
-sys	0m1.039s
+real	0m0.448s
+user	0m1.091s
+sys	0m0.852s
 
 SnapFill
 Switch{
@@ -7337,9 +7337,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.504s
-user	0m1.200s
-sys	0m1.075s
+real	0m0.519s
+user	0m1.119s
+sys	0m0.988s
 ----- benchmarks_short_randlines/phone-7-short_randlines-0-2-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_short_randlines-0-4-5-6.csv start -----
@@ -7350,9 +7350,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.449s
-user	0m1.170s
-sys	0m1.045s
+real	0m0.481s
+user	0m1.025s
+sys	0m0.833s
 
 SnapFill
 Switch{
@@ -7361,9 +7361,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.604s
-user	0m1.321s
-sys	0m1.045s
+real	0m0.618s
+user	0m1.159s
+sys	0m0.888s
 ----- benchmarks_short_randlines/phone-7_short_randlines-0-4-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_short_randlines-0-5.csv start -----
@@ -7374,9 +7374,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.442s
-user	0m1.154s
-sys	0m1.049s
+real	0m0.448s
+user	0m0.981s
+sys	0m0.825s
 
 SnapFill
 Switch{
@@ -7385,9 +7385,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.469s
-user	0m1.141s
-sys	0m1.097s
+real	0m0.465s
+user	0m0.962s
+sys	0m0.775s
 ----- benchmarks_short_randlines/phone-7_short_randlines-0-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_short_randlines-0.csv start -----
@@ -7398,9 +7398,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.405s
-user	0m1.101s
-sys	0m1.060s
+real	0m0.416s
+user	0m1.046s
+sys	0m0.943s
 
 SnapFill
 Switch{
@@ -7409,9 +7409,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.402s
-user	0m1.171s
-sys	0m1.005s
+real	0m0.446s
+user	0m1.050s
+sys	0m0.920s
 ----- benchmarks_short_randlines/phone-7_short_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_short_randlines-1-3-5.csv start -----
@@ -7422,9 +7422,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.440s
-user	0m1.147s
-sys	0m1.028s
+real	0m0.454s
+user	0m1.155s
+sys	0m0.919s
 
 SnapFill
 Switch{
@@ -7433,9 +7433,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.510s
-user	0m1.213s
-sys	0m1.004s
+real	0m0.525s
+user	0m0.967s
+sys	0m0.720s
 ----- benchmarks_short_randlines/phone-7_short_randlines-1-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_short_randlines-1-5.csv start -----
@@ -7446,9 +7446,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.432s
-user	0m1.157s
-sys	0m1.041s
+real	0m0.441s
+user	0m0.999s
+sys	0m0.950s
 
 SnapFill
 Switch{
@@ -7457,9 +7457,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.450s
-user	0m1.183s
-sys	0m1.033s
+real	0m0.457s
+user	0m1.083s
+sys	0m0.976s
 ----- benchmarks_short_randlines/phone-7_short_randlines-1-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_short_randlines-1-6.csv start -----
@@ -7470,9 +7470,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.422s
-user	0m1.144s
-sys	0m1.054s
+real	0m0.449s
+user	0m0.928s
+sys	0m0.761s
 
 SnapFill
 Switch{
@@ -7481,9 +7481,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.455s
-user	0m1.110s
-sys	0m1.114s
+real	0m0.458s
+user	0m1.138s
+sys	0m0.906s
 ----- benchmarks_short_randlines/phone-7_short_randlines-1-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-7-short_randlines-1.csv start -----
@@ -7494,9 +7494,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.412s
-user	0m1.102s
-sys	0m1.054s
+real	0m0.414s
+user	0m1.016s
+sys	0m0.947s
 
 SnapFill
 Switch{
@@ -7505,9 +7505,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.404s
-user	0m1.138s
-sys	0m1.024s
+real	0m0.427s
+user	0m0.878s
+sys	0m0.775s
 ----- benchmarks_short_randlines/phone-7-short_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_short_randlines-1.csv start -----
@@ -7518,9 +7518,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.404s
-user	0m1.186s
-sys	0m0.985s
+real	0m0.430s
+user	0m1.075s
+sys	0m0.967s
 
 SnapFill
 Switch{
@@ -7529,9 +7529,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.405s
-user	0m1.113s
-sys	0m1.060s
+real	0m0.413s
+user	0m1.001s
+sys	0m0.905s
 ----- benchmarks_short_randlines/phone-7_short_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_short_randlines-2-3-4-6.csv start -----
@@ -7542,9 +7542,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.453s
-user	0m1.191s
-sys	0m1.017s
+real	0m0.461s
+user	0m1.113s
+sys	0m0.933s
 
 SnapFill
 Switch{
@@ -7553,9 +7553,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.613s
-user	0m1.303s
-sys	0m1.068s
+real	0m0.638s
+user	0m1.101s
+sys	0m0.777s
 ----- benchmarks_short_randlines/phone-7_short_randlines-2-3-4-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-7-short_randlines-2-3-5.csv start -----
@@ -7566,9 +7566,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.447s
-user	0m1.148s
-sys	0m1.029s
+real	0m0.464s
+user	0m1.093s
+sys	0m0.877s
 
 SnapFill
 Switch{
@@ -7577,9 +7577,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.512s
-user	0m1.222s
-sys	0m1.058s
+real	0m0.542s
+user	0m1.165s
+sys	0m0.972s
 ----- benchmarks_short_randlines/phone-7-short_randlines-2-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-7-short_randlines-2-4.csv start -----
@@ -7590,9 +7590,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.436s
-user	0m1.141s
-sys	0m1.054s
+real	0m0.437s
+user	0m1.050s
+sys	0m0.902s
 
 SnapFill
 Switch{
@@ -7602,8 +7602,8 @@ Switch{
 Program size: 12
 
 real	0m0.454s
-user	0m1.162s
-sys	0m1.054s
+user	0m1.052s
+sys	0m0.908s
 ----- benchmarks_short_randlines/phone-7-short_randlines-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-7-short_randlines-2.csv start -----
@@ -7614,9 +7614,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.404s
-user	0m1.093s
-sys	0m1.053s
+real	0m0.410s
+user	0m1.040s
+sys	0m0.938s
 
 SnapFill
 Switch{
@@ -7625,9 +7625,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.421s
-user	0m1.109s
-sys	0m1.012s
+real	0m0.411s
+user	0m0.921s
+sys	0m0.792s
 ----- benchmarks_short_randlines/phone-7-short_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-7_short_randlines-2.csv start -----
@@ -7639,8 +7639,8 @@ Switch{
 Program size: 12
 
 real	0m0.416s
-user	0m1.154s
-sys	0m1.020s
+user	0m0.918s
+sys	0m0.887s
 
 SnapFill
 Switch{
@@ -7649,9 +7649,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.404s
-user	0m1.088s
-sys	0m1.085s
+real	0m0.447s
+user	0m0.967s
+sys	0m0.789s
 ----- benchmarks_short_randlines/phone-7_short_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-7-short_randlines-3-4-6.csv start -----
@@ -7662,9 +7662,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.457s
-user	0m1.182s
-sys	0m1.028s
+real	0m0.471s
+user	0m0.992s
+sys	0m0.815s
 
 SnapFill
 Switch{
@@ -7673,9 +7673,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.510s
-user	0m1.243s
-sys	0m1.040s
+real	0m0.563s
+user	0m1.203s
+sys	0m0.878s
 ----- benchmarks_short_randlines/phone-7-short_randlines-3-4-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-7-short_randlines-3-4.csv start -----
@@ -7686,9 +7686,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.437s
-user	0m1.137s
-sys	0m1.064s
+real	0m0.441s
+user	0m0.908s
+sys	0m0.719s
 
 SnapFill
 Switch{
@@ -7697,9 +7697,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.470s
-user	0m1.180s
-sys	0m1.042s
+real	0m0.481s
+user	0m1.081s
+sys	0m0.824s
 ----- benchmarks_short_randlines/phone-7-short_randlines-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-7-short_randlines-5-6.csv start -----
@@ -7710,9 +7710,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.429s
-user	0m1.179s
-sys	0m1.027s
+real	0m0.455s
+user	0m1.100s
+sys	0m0.939s
 
 SnapFill
 Switch{
@@ -7721,9 +7721,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.456s
-user	0m1.146s
-sys	0m1.057s
+real	0m0.457s
+user	0m1.061s
+sys	0m0.884s
 ----- benchmarks_short_randlines/phone-7-short_randlines-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-7-short_randlines-6.csv start -----
@@ -7734,9 +7734,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.404s
-user	0m1.129s
-sys	0m1.037s
+real	0m0.415s
+user	0m1.040s
+sys	0m0.889s
 
 SnapFill
 Switch{
@@ -7745,9 +7745,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.415s
-user	0m1.094s
-sys	0m1.082s
+real	0m0.436s
+user	0m1.023s
+sys	0m0.868s
 ----- benchmarks_short_randlines/phone-7-short_randlines-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_randlines-0-1-2-3.csv start -----
@@ -7758,9 +7758,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.469s
-user	0m1.207s
-sys	0m1.025s
+real	0m0.528s
+user	0m1.071s
+sys	0m0.862s
 
 SnapFill
 Switch{
@@ -7769,9 +7769,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.664s
-user	0m1.378s
-sys	0m1.011s
+real	0m0.635s
+user	0m1.319s
+sys	0m0.961s
 ----- benchmarks_short_randlines/phone-8_randlines-0-1-2-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_randlines-0-1-2.csv start -----
@@ -7782,9 +7782,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.446s
-user	0m1.189s
-sys	0m1.028s
+real	0m0.448s
+user	0m1.044s
+sys	0m0.907s
 
 SnapFill
 Switch{
@@ -7793,9 +7793,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.514s
-user	0m1.238s
-sys	0m1.047s
+real	0m0.536s
+user	0m1.070s
+sys	0m0.887s
 ----- benchmarks_short_randlines/phone-8_randlines-0-1-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_randlines-0-1-4.csv start -----
@@ -7806,9 +7806,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.441s
-user	0m1.157s
-sys	0m1.053s
+real	0m0.479s
+user	0m1.107s
+sys	0m0.945s
 
 SnapFill
 Switch{
@@ -7817,9 +7817,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.516s
-user	0m1.225s
-sys	0m1.058s
+real	0m0.555s
+user	0m1.145s
+sys	0m0.909s
 ----- benchmarks_short_randlines/phone-8_randlines-0-1-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_randlines-0-2-5-6.csv start -----
@@ -7830,9 +7830,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.463s
-user	0m1.149s
-sys	0m1.003s
+real	0m0.477s
+user	0m1.066s
+sys	0m0.900s
 
 SnapFill
 Switch{
@@ -7841,9 +7841,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.623s
-user	0m1.324s
-sys	0m1.059s
+real	0m0.625s
+user	0m1.221s
+sys	0m0.868s
 ----- benchmarks_short_randlines/phone-8_randlines-0-2-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_randlines-0.csv start -----
@@ -7854,9 +7854,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.405s
-user	0m1.151s
-sys	0m1.023s
+real	0m0.422s
+user	0m1.043s
+sys	0m0.957s
 
 SnapFill
 Switch{
@@ -7865,9 +7865,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.403s
-user	0m1.123s
-sys	0m1.048s
+real	0m0.456s
+user	0m0.987s
+sys	0m0.892s
 ----- benchmarks_short_randlines/phone-8_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_randlines-1-3.csv start -----
@@ -7878,9 +7878,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.446s
-user	0m1.137s
-sys	0m1.068s
+real	0m0.449s
+user	0m1.119s
+sys	0m0.908s
 
 SnapFill
 Switch{
@@ -7889,9 +7889,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.469s
-user	0m1.199s
-sys	0m1.030s
+real	0m0.471s
+user	0m1.030s
+sys	0m0.847s
 ----- benchmarks_short_randlines/phone-8_randlines-1-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_randlines-1-6.csv start -----
@@ -7902,9 +7902,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.425s
-user	0m1.162s
-sys	0m1.031s
+real	0m0.470s
+user	0m0.986s
+sys	0m0.839s
 
 SnapFill
 Switch{
@@ -7913,9 +7913,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.457s
-user	0m1.191s
-sys	0m1.030s
+real	0m0.451s
+user	0m1.045s
+sys	0m0.933s
 ----- benchmarks_short_randlines/phone-8_randlines-1-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_randlines-3-4-5-6.csv start -----
@@ -7926,9 +7926,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.463s
-user	0m1.163s
-sys	0m1.052s
+real	0m0.529s
+user	0m0.948s
+sys	0m0.750s
 
 SnapFill
 Switch{
@@ -7937,9 +7937,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.609s
-user	0m1.277s
-sys	0m1.094s
+real	0m0.630s
+user	0m1.172s
+sys	0m0.884s
 ----- benchmarks_short_randlines/phone-8_randlines-3-4-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_randlines-3-6.csv start -----
@@ -7950,9 +7950,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.433s
-user	0m1.094s
-sys	0m1.090s
+real	0m0.437s
+user	0m0.995s
+sys	0m0.860s
 
 SnapFill
 Switch{
@@ -7961,9 +7961,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.448s
-user	0m1.136s
-sys	0m1.079s
+real	0m0.502s
+user	0m1.083s
+sys	0m0.897s
 ----- benchmarks_short_randlines/phone-8_randlines-3-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_randlines-3.csv start -----
@@ -7974,9 +7974,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.420s
-user	0m1.098s
-sys	0m1.080s
+real	0m0.457s
+user	0m0.843s
+sys	0m0.845s
 
 SnapFill
 Switch{
@@ -7985,9 +7985,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.414s
-user	0m1.133s
-sys	0m1.051s
+real	0m0.430s
+user	0m1.077s
+sys	0m0.945s
 ----- benchmarks_short_randlines/phone-8_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_randlines-4-5-6.csv start -----
@@ -7998,9 +7998,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.450s
-user	0m1.149s
-sys	0m1.059s
+real	0m0.475s
+user	0m1.044s
+sys	0m0.854s
 
 SnapFill
 Switch{
@@ -8009,9 +8009,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.509s
-user	0m1.227s
-sys	0m1.030s
+real	0m0.500s
+user	0m1.092s
+sys	0m0.987s
 ----- benchmarks_short_randlines/phone-8_randlines-4-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_randlines-5.csv start -----
@@ -8022,9 +8022,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.416s
-user	0m1.091s
-sys	0m1.078s
+real	0m0.408s
+user	0m0.969s
+sys	0m0.941s
 
 SnapFill
 Switch{
@@ -8033,9 +8033,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.406s
-user	0m1.115s
-sys	0m1.054s
+real	0m0.472s
+user	0m1.005s
+sys	0m0.959s
 ----- benchmarks_short_randlines/phone-8_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_short_randlines-0-1-3-5.csv start -----
@@ -8046,9 +8046,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.455s
-user	0m1.183s
-sys	0m1.041s
+real	0m0.454s
+user	0m1.124s
+sys	0m1.031s
 
 SnapFill
 Switch{
@@ -8057,9 +8057,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.643s
-user	0m1.345s
-sys	0m1.059s
+real	0m0.659s
+user	0m1.163s
+sys	0m0.947s
 ----- benchmarks_short_randlines/phone-8_short_randlines-0-1-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_short_randlines-0-1-3.csv start -----
@@ -8070,9 +8070,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.445s
-user	0m1.144s
-sys	0m1.069s
+real	0m0.457s
+user	0m0.992s
+sys	0m0.851s
 
 SnapFill
 Switch{
@@ -8081,9 +8081,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.535s
-user	0m1.234s
-sys	0m1.057s
+real	0m0.533s
+user	0m1.243s
+sys	0m1.029s
 ----- benchmarks_short_randlines/phone-8_short_randlines-0-1-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_short_randlines-0-1-6.csv start -----
@@ -8094,9 +8094,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.455s
-user	0m1.195s
-sys	0m1.023s
+real	0m0.447s
+user	0m1.169s
+sys	0m1.041s
 
 SnapFill
 Switch{
@@ -8105,9 +8105,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.521s
-user	0m1.221s
-sys	0m1.059s
+real	0m0.516s
+user	0m1.233s
+sys	0m1.052s
 ----- benchmarks_short_randlines/phone-8_short_randlines-0-1-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_short_randlines-0-1.csv start -----
@@ -8118,9 +8118,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.447s
-user	0m1.165s
-sys	0m1.011s
+real	0m0.446s
+user	0m1.141s
+sys	0m1.071s
 
 SnapFill
 Switch{
@@ -8129,9 +8129,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.467s
-user	0m1.167s
-sys	0m1.061s
+real	0m0.475s
+user	0m1.074s
+sys	0m0.894s
 ----- benchmarks_short_randlines/phone-8_short_randlines-0-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_short_randlines-0-2-3.csv start -----
@@ -8142,9 +8142,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.455s
-user	0m1.166s
-sys	0m1.056s
+real	0m0.462s
+user	0m1.126s
+sys	0m0.988s
 
 SnapFill
 Switch{
@@ -8153,9 +8153,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.546s
-user	0m1.232s
-sys	0m1.055s
+real	0m0.548s
+user	0m1.151s
+sys	0m0.885s
 ----- benchmarks_short_randlines/phone-8_short_randlines-0-2-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_short_randlines-0-2-5-6.csv start -----
@@ -8166,9 +8166,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.496s
-user	0m1.150s
-sys	0m1.063s
+real	0m0.486s
+user	0m0.942s
+sys	0m0.791s
 
 SnapFill
 Switch{
@@ -8177,9 +8177,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.610s
-user	0m1.330s
-sys	0m1.048s
+real	0m0.644s
+user	0m1.014s
+sys	0m0.774s
 ----- benchmarks_short_randlines/phone-8_short_randlines-0-2-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_short_randlines-0-3-5-6.csv start -----
@@ -8190,9 +8190,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.462s
-user	0m1.195s
-sys	0m1.026s
+real	0m0.465s
+user	0m1.161s
+sys	0m1.016s
 
 SnapFill
 Switch{
@@ -8201,9 +8201,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.620s
-user	0m1.335s
-sys	0m1.054s
+real	0m0.635s
+user	0m1.297s
+sys	0m1.059s
 ----- benchmarks_short_randlines/phone-8_short_randlines-0-3-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_short_randlines-0.csv start -----
@@ -8214,9 +8214,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.408s
-user	0m1.131s
-sys	0m1.045s
+real	0m0.430s
+user	0m1.030s
+sys	0m0.990s
 
 SnapFill
 Switch{
@@ -8225,9 +8225,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.406s
-user	0m1.195s
-sys	0m0.978s
+real	0m0.427s
+user	0m1.087s
+sys	0m0.914s
 ----- benchmarks_short_randlines/phone-8_short_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_short_randlines-1-5.csv start -----
@@ -8238,9 +8238,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.427s
-user	0m1.143s
-sys	0m1.051s
+real	0m0.467s
+user	0m0.954s
+sys	0m0.771s
 
 SnapFill
 Switch{
@@ -8249,9 +8249,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.460s
-user	0m1.155s
-sys	0m1.053s
+real	0m0.465s
+user	0m1.031s
+sys	0m0.904s
 ----- benchmarks_short_randlines/phone-8_short_randlines-1-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_short_randlines-2-5.csv start -----
@@ -8262,9 +8262,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.429s
-user	0m1.144s
-sys	0m1.042s
+real	0m0.437s
+user	0m1.091s
+sys	0m1.032s
 
 SnapFill
 Switch{
@@ -8273,9 +8273,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.448s
-user	0m1.141s
-sys	0m1.071s
+real	0m0.468s
+user	0m1.093s
+sys	0m0.963s
 ----- benchmarks_short_randlines/phone-8_short_randlines-2-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_short_randlines-3.csv start -----
@@ -8286,9 +8286,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.405s
-user	0m1.075s
-sys	0m1.094s
+real	0m0.417s
+user	0m1.058s
+sys	0m0.944s
 
 SnapFill
 Switch{
@@ -8297,9 +8297,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.403s
-user	0m1.107s
-sys	0m1.065s
+real	0m0.407s
+user	0m1.156s
+sys	0m1.013s
 ----- benchmarks_short_randlines/phone-8_short_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-8_short_randlines-5.csv start -----
@@ -8310,9 +8310,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.401s
-user	0m1.150s
-sys	0m1.022s
+real	0m0.430s
+user	0m1.127s
+sys	0m1.019s
 
 SnapFill
 Switch{
@@ -8321,9 +8321,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.401s
-user	0m1.121s
-sys	0m1.052s
+real	0m0.413s
+user	0m1.147s
+sys	0m1.023s
 ----- benchmarks_short_randlines/phone-8_short_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_randlines-0-1-2-4.csv start -----
@@ -8340,9 +8340,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.741s
-user	0m1.395s
-sys	0m1.091s
+real	0m0.743s
+user	0m1.375s
+sys	0m0.907s
 
 SnapFill
 Switch{
@@ -8357,9 +8357,9 @@ Switch{
 }
 Program size: 45
 
-real	0m1.008s
-user	0m1.671s
-sys	0m1.038s
+real	0m1.006s
+user	0m1.736s
+sys	0m1.001s
 ----- benchmarks_short_randlines/phone-9_randlines-0-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_randlines-0-1-3-6.csv start -----
@@ -8376,9 +8376,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.607s
-user	0m1.334s
-sys	0m1.045s
+real	0m0.645s
+user	0m1.240s
+sys	0m0.901s
 
 SnapFill
 Switch{
@@ -8393,9 +8393,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.880s
-user	0m1.589s
-sys	0m1.053s
+real	0m0.913s
+user	0m1.505s
+sys	0m0.923s
 ----- benchmarks_short_randlines/phone-9_randlines-0-1-3-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_randlines-0-1-5.csv start -----
@@ -8412,9 +8412,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.542s
-user	0m1.243s
-sys	0m1.058s
+real	0m0.551s
+user	0m1.299s
+sys	0m0.987s
 
 SnapFill
 Switch{
@@ -8429,9 +8429,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.658s
-user	0m1.369s
-sys	0m1.032s
+real	0m0.678s
+user	0m1.065s
+sys	0m0.675s
 ----- benchmarks_short_randlines/phone-9_randlines-0-1-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_randlines-0-2-4.csv start -----
@@ -8448,9 +8448,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.546s
-user	0m1.244s
-sys	0m1.070s
+real	0m0.569s
+user	0m1.256s
+sys	0m1.039s
 
 SnapFill
 Switch{
@@ -8465,9 +8465,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.655s
-user	0m1.374s
-sys	0m1.024s
+real	0m0.666s
+user	0m1.251s
+sys	0m0.986s
 ----- benchmarks_short_randlines/phone-9_randlines-0-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_randlines-0-2.csv start -----
@@ -8484,9 +8484,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.489s
-user	0m1.213s
-sys	0m1.045s
+real	0m0.490s
+user	0m1.207s
+sys	0m1.003s
 
 SnapFill
 Switch{
@@ -8501,9 +8501,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.523s
-user	0m1.198s
-sys	0m1.083s
+real	0m0.520s
+user	0m1.120s
+sys	0m0.913s
 ----- benchmarks_short_randlines/phone-9_randlines-0-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_randlines-1-3.csv start -----
@@ -8520,9 +8520,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.496s
-user	0m1.224s
-sys	0m1.032s
+real	0m0.507s
+user	0m1.236s
+sys	0m1.034s
 
 SnapFill
 Switch{
@@ -8537,9 +8537,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.517s
-user	0m1.197s
-sys	0m1.087s
+real	0m0.536s
+user	0m1.161s
+sys	0m0.880s
 ----- benchmarks_short_randlines/phone-9_randlines-1-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_randlines-1-6.csv start -----
@@ -8556,9 +8556,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.475s
-user	0m1.168s
-sys	0m1.070s
+real	0m0.483s
+user	0m1.193s
+sys	0m1.059s
 
 SnapFill
 Switch{
@@ -8573,9 +8573,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.486s
-user	0m1.225s
-sys	0m1.022s
+real	0m0.510s
+user	0m1.121s
+sys	0m0.932s
 ----- benchmarks_short_randlines/phone-9_randlines-1-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_randlines-2-4-5-6.csv start -----
@@ -8592,9 +8592,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.706s
-user	0m1.432s
-sys	0m1.032s
+real	0m0.698s
+user	0m1.317s
+sys	0m0.965s
 
 SnapFill
 Switch{
@@ -8609,9 +8609,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.932s
-user	0m1.663s
-sys	0m1.024s
+real	0m0.952s
+user	0m1.687s
+sys	0m1.010s
 ----- benchmarks_short_randlines/phone-9_randlines-2-4-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_randlines-2-4-5.csv start -----
@@ -8628,9 +8628,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.568s
-user	0m1.310s
-sys	0m0.987s
+real	0m0.564s
+user	0m1.125s
+sys	0m0.828s
 
 SnapFill
 Switch{
@@ -8645,9 +8645,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.659s
-user	0m1.356s
-sys	0m1.066s
+real	0m0.655s
+user	0m1.335s
+sys	0m1.044s
 ----- benchmarks_short_randlines/phone-9_randlines-2-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_randlines-2.csv start -----
@@ -8658,9 +8658,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.415s
-user	0m1.138s
-sys	0m1.041s
+real	0m0.440s
+user	0m1.060s
+sys	0m0.888s
 
 SnapFill
 Switch{
@@ -8669,9 +8669,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.452s
-user	0m1.115s
-sys	0m1.029s
+real	0m0.429s
+user	0m1.043s
+sys	0m0.891s
 ----- benchmarks_short_randlines/phone-9_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_randlines-3.csv start -----
@@ -8682,9 +8682,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.430s
-user	0m1.094s
-sys	0m1.031s
+real	0m0.418s
+user	0m1.096s
+sys	0m0.962s
 
 SnapFill
 Switch{
@@ -8693,9 +8693,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.426s
-user	0m1.114s
-sys	0m1.061s
+real	0m0.416s
+user	0m1.160s
+sys	0m1.034s
 ----- benchmarks_short_randlines/phone-9_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_randlines-6.csv start -----
@@ -8706,9 +8706,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.422s
-user	0m1.107s
-sys	0m1.043s
+real	0m0.410s
+user	0m0.983s
+sys	0m0.873s
 
 SnapFill
 Switch{
@@ -8717,9 +8717,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.420s
-user	0m1.135s
-sys	0m1.041s
+real	0m0.428s
+user	0m1.056s
+sys	0m1.002s
 ----- benchmarks_short_randlines/phone-9_randlines-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-9-short_randlines-0-1-2-4.csv start -----
@@ -8736,9 +8736,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.721s
-user	0m1.413s
-sys	0m1.059s
+real	0m0.749s
+user	0m1.358s
+sys	0m0.900s
 
 SnapFill
 Switch{
@@ -8753,9 +8753,9 @@ Switch{
 }
 Program size: 45
 
-real	0m1.035s
-user	0m1.720s
-sys	0m1.048s
+real	0m1.033s
+user	0m1.766s
+sys	0m1.043s
 ----- benchmarks_short_randlines/phone-9-short_randlines-0-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-9-short_randlines-0-1-2.csv start -----
@@ -8772,9 +8772,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.575s
-user	0m1.244s
-sys	0m1.051s
+real	0m0.601s
+user	0m1.145s
+sys	0m0.880s
 
 SnapFill
 Switch{
@@ -8789,9 +8789,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.685s
-user	0m1.389s
-sys	0m1.050s
+real	0m0.689s
+user	0m1.289s
+sys	0m0.894s
 ----- benchmarks_short_randlines/phone-9-short_randlines-0-1-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-9-short_randlines-0-1-3-5.csv start -----
@@ -8808,9 +8808,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.686s
-user	0m1.334s
-sys	0m1.084s
+real	0m0.662s
+user	0m1.366s
+sys	0m1.053s
 
 SnapFill
 Switch{
@@ -8825,9 +8825,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.944s
-user	0m1.652s
-sys	0m1.046s
+real	0m0.957s
+user	0m1.536s
+sys	0m0.892s
 ----- benchmarks_short_randlines/phone-9-short_randlines-0-1-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_short_randlines-0-1-4-5.csv start -----
@@ -8844,9 +8844,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.631s
-user	0m1.354s
-sys	0m1.037s
+real	0m0.659s
+user	0m1.408s
+sys	0m0.968s
 
 SnapFill
 Switch{
@@ -8861,9 +8861,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.937s
-user	0m1.641s
-sys	0m1.048s
+real	0m0.938s
+user	0m1.574s
+sys	0m0.909s
 ----- benchmarks_short_randlines/phone-9_short_randlines-0-1-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-9-short_randlines-0-1.csv start -----
@@ -8880,9 +8880,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.502s
-user	0m1.078s
-sys	0m0.925s
+real	0m0.517s
+user	0m1.253s
+sys	0m1.012s
 
 SnapFill
 Switch{
@@ -8897,9 +8897,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.520s
-user	0m1.221s
-sys	0m1.051s
+real	0m0.572s
+user	0m1.108s
+sys	0m0.855s
 ----- benchmarks_short_randlines/phone-9-short_randlines-0-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-9-short_randlines-0-3-4.csv start -----
@@ -8916,9 +8916,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.544s
-user	0m1.273s
-sys	0m1.027s
+real	0m0.565s
+user	0m1.053s
+sys	0m0.780s
 
 SnapFill
 Switch{
@@ -8933,9 +8933,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.661s
-user	0m1.398s
-sys	0m1.029s
+real	0m0.662s
+user	0m1.331s
+sys	0m1.090s
 ----- benchmarks_short_randlines/phone-9-short_randlines-0-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_short_randlines-0-3-4.csv start -----
@@ -8952,9 +8952,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.540s
-user	0m1.286s
-sys	0m1.005s
+real	0m0.548s
+user	0m1.285s
+sys	0m1.026s
 
 SnapFill
 Switch{
@@ -8969,9 +8969,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.664s
-user	0m1.375s
-sys	0m1.030s
+real	0m0.670s
+user	0m1.303s
+sys	0m0.964s
 ----- benchmarks_short_randlines/phone-9_short_randlines-0-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-9-short_randlines-0-4.csv start -----
@@ -8988,9 +8988,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.494s
-user	0m1.209s
-sys	0m1.053s
+real	0m0.489s
+user	0m1.194s
+sys	0m1.023s
 
 SnapFill
 Switch{
@@ -9005,9 +9005,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.532s
-user	0m1.214s
-sys	0m0.978s
+real	0m0.525s
+user	0m1.058s
+sys	0m0.796s
 ----- benchmarks_short_randlines/phone-9-short_randlines-0-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_short_randlines-1-2-4.csv start -----
@@ -9024,9 +9024,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.590s
-user	0m1.319s
-sys	0m1.027s
+real	0m0.578s
+user	0m1.255s
+sys	0m1.066s
 
 SnapFill
 Switch{
@@ -9041,9 +9041,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.703s
-user	0m1.390s
-sys	0m0.965s
+real	0m0.719s
+user	0m1.290s
+sys	0m0.943s
 ----- benchmarks_short_randlines/phone-9_short_randlines-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-9-short_randlines-1-2-5-6.csv start -----
@@ -9060,9 +9060,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.697s
-user	0m1.321s
-sys	0m1.007s
+real	0m0.717s
+user	0m1.340s
+sys	0m0.869s
 
 SnapFill
 Switch{
@@ -9077,9 +9077,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.966s
-user	0m1.688s
-sys	0m1.029s
+real	0m0.971s
+user	0m1.620s
+sys	0m0.950s
 ----- benchmarks_short_randlines/phone-9-short_randlines-1-2-5-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_short_randlines-1-2-6.csv start -----
@@ -9096,9 +9096,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.567s
-user	0m1.285s
-sys	0m1.052s
+real	0m0.633s
+user	0m1.158s
+sys	0m0.829s
 
 SnapFill
 Switch{
@@ -9113,9 +9113,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.679s
-user	0m1.374s
-sys	0m1.050s
+real	0m0.666s
+user	0m1.384s
+sys	0m1.016s
 ----- benchmarks_short_randlines/phone-9_short_randlines-1-2-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-9-short_randlines-1.csv start -----
@@ -9126,9 +9126,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.413s
-user	0m1.146s
-sys	0m1.035s
+real	0m0.428s
+user	0m1.027s
+sys	0m0.998s
 
 SnapFill
 Switch{
@@ -9137,9 +9137,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.410s
-user	0m1.147s
-sys	0m0.966s
+real	0m0.415s
+user	0m1.184s
+sys	0m0.987s
 ----- benchmarks_short_randlines/phone-9-short_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_short_randlines-1.csv start -----
@@ -9150,9 +9150,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.409s
-user	0m1.101s
-sys	0m1.067s
+real	0m0.411s
+user	0m1.150s
+sys	0m1.010s
 
 SnapFill
 Switch{
@@ -9161,9 +9161,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.420s
-user	0m1.107s
-sys	0m0.998s
+real	0m0.426s
+user	0m1.058s
+sys	0m0.963s
 ----- benchmarks_short_randlines/phone-9_short_randlines-1.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_short_randlines-2-3-4-5.csv start -----
@@ -9180,9 +9180,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.694s
-user	0m1.355s
-sys	0m1.020s
+real	0m0.677s
+user	0m1.407s
+sys	0m0.999s
 
 SnapFill
 Switch{
@@ -9197,9 +9197,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.965s
-user	0m1.649s
-sys	0m1.051s
+real	0m0.992s
+user	0m1.527s
+sys	0m0.825s
 ----- benchmarks_short_randlines/phone-9_short_randlines-2-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_short_randlines-2-3-4-6.csv start -----
@@ -9216,9 +9216,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.626s
-user	0m1.272s
-sys	0m1.087s
+real	0m0.633s
+user	0m1.308s
+sys	0m1.031s
 
 SnapFill
 Switch{
@@ -9233,9 +9233,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.877s
-user	0m1.612s
-sys	0m1.030s
+real	0m0.884s
+user	0m1.590s
+sys	0m1.056s
 ----- benchmarks_short_randlines/phone-9_short_randlines-2-3-4-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_short_randlines-2-3.csv start -----
@@ -9252,9 +9252,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.500s
-user	0m1.220s
-sys	0m0.994s
+real	0m0.516s
+user	0m1.275s
+sys	0m0.987s
 
 SnapFill
 Switch{
@@ -9269,9 +9269,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.518s
-user	0m1.228s
-sys	0m1.042s
+real	0m0.548s
+user	0m1.254s
+sys	0m1.018s
 ----- benchmarks_short_randlines/phone-9_short_randlines-2-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-9-short_randlines-2-5.csv start -----
@@ -9288,9 +9288,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.489s
-user	0m1.243s
-sys	0m1.012s
+real	0m0.530s
+user	0m0.968s
+sys	0m0.795s
 
 SnapFill
 Switch{
@@ -9305,9 +9305,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.512s
-user	0m1.158s
-sys	0m1.019s
+real	0m0.562s
+user	0m1.141s
+sys	0m0.958s
 ----- benchmarks_short_randlines/phone-9-short_randlines-2-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-9-short_randlines-2.csv start -----
@@ -9318,9 +9318,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.411s
-user	0m1.131s
-sys	0m1.044s
+real	0m0.432s
+user	0m1.011s
+sys	0m0.934s
 
 SnapFill
 Switch{
@@ -9329,9 +9329,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.412s
-user	0m1.119s
-sys	0m1.058s
+real	0m0.428s
+user	0m1.051s
+sys	0m0.950s
 ----- benchmarks_short_randlines/phone-9-short_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/phone-9-short_randlines-3-4-5.csv start -----
@@ -9348,9 +9348,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.547s
-user	0m1.243s
-sys	0m1.076s
+real	0m0.557s
+user	0m1.239s
+sys	0m1.077s
 
 SnapFill
 Switch{
@@ -9365,9 +9365,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.659s
-user	0m1.340s
-sys	0m1.082s
+real	0m0.669s
+user	0m1.332s
+sys	0m0.990s
 ----- benchmarks_short_randlines/phone-9-short_randlines-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-9-short_randlines-3.csv start -----
@@ -9378,9 +9378,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.414s
-user	0m1.121s
-sys	0m1.062s
+real	0m0.426s
+user	0m1.018s
+sys	0m0.900s
 
 SnapFill
 Switch{
@@ -9389,9 +9389,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.413s
-user	0m1.116s
-sys	0m1.063s
+real	0m0.455s
+user	0m0.935s
+sys	0m0.856s
 ----- benchmarks_short_randlines/phone-9-short_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_short_randlines-4-5.csv start -----
@@ -9408,9 +9408,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.478s
-user	0m1.156s
-sys	0m1.091s
+real	0m0.486s
+user	0m1.207s
+sys	0m1.044s
 
 SnapFill
 Switch{
@@ -9425,9 +9425,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.503s
-user	0m1.208s
-sys	0m1.062s
+real	0m0.504s
+user	0m1.155s
+sys	0m0.940s
 ----- benchmarks_short_randlines/phone-9_short_randlines-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_short_randlines-4-6.csv start -----
@@ -9444,9 +9444,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.468s
-user	0m1.174s
-sys	0m1.064s
+real	0m0.472s
+user	0m1.087s
+sys	0m0.924s
 
 SnapFill
 Switch{
@@ -9461,9 +9461,9 @@ Switch{
 }
 Program size: 45
 
-real	0m0.486s
-user	0m1.195s
-sys	0m1.058s
+real	0m0.525s
+user	0m1.223s
+sys	0m0.972s
 ----- benchmarks_short_randlines/phone-9_short_randlines-4-6.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_short_randlines-4.csv start -----
@@ -9474,9 +9474,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.426s
-user	0m1.128s
-sys	0m1.031s
+real	0m0.450s
+user	0m0.954s
+sys	0m0.808s
 
 SnapFill
 Switch{
@@ -9485,9 +9485,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.415s
-user	0m1.135s
-sys	0m1.033s
+real	0m0.434s
+user	0m1.123s
+sys	0m1.035s
 ----- benchmarks_short_randlines/phone-9_short_randlines-4.csv end -----
 
 ----- benchmarks_short_randlines/phone-9_short_randlines-5.csv start -----
@@ -9498,9 +9498,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.415s
-user	0m1.119s
-sys	0m1.064s
+real	0m0.458s
+user	0m0.959s
+sys	0m0.856s
 
 SnapFill
 Switch{
@@ -9509,9 +9509,9 @@ Switch{
 }
 Program size: 5
 
-real	0m0.413s
-user	0m1.129s
-sys	0m1.026s
+real	0m0.423s
+user	0m1.136s
+sys	0m1.040s
 ----- benchmarks_short_randlines/phone-9_short_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone_randlines-0-1-2-3.csv start -----
@@ -9523,8 +9523,8 @@ Switch{
 Program size: 12
 
 real	0m0.426s
-user	0m1.150s
-sys	0m1.043s
+user	0m1.082s
+sys	0m1.053s
 
 SnapFill
 Switch{
@@ -9533,9 +9533,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.483s
-user	0m1.235s
-sys	0m1.011s
+real	0m0.468s
+user	0m1.136s
+sys	0m0.921s
 ----- benchmarks_short_randlines/phone_randlines-0-1-2-3.csv end -----
 
 ----- benchmarks_short_randlines/phone_randlines-0-1-3-5.csv start -----
@@ -9546,9 +9546,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.430s
-user	0m1.128s
-sys	0m1.063s
+real	0m0.415s
+user	0m1.098s
+sys	0m1.079s
 
 SnapFill
 Switch{
@@ -9557,9 +9557,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.467s
-user	0m1.186s
-sys	0m1.048s
+real	0m0.468s
+user	0m1.162s
+sys	0m1.079s
 ----- benchmarks_short_randlines/phone_randlines-0-1-3-5.csv end -----
 
 ----- benchmarks_short_randlines/phone_randlines-0-1-5.csv start -----
@@ -9570,9 +9570,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.427s
-user	0m1.140s
-sys	0m1.038s
+real	0m0.426s
+user	0m1.053s
+sys	0m0.972s
 
 SnapFill
 Switch{
@@ -9581,9 +9581,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.448s
-user	0m1.145s
-sys	0m1.060s
+real	0m0.456s
+user	0m1.127s
+sys	0m1.081s
 ----- benchmarks_short_randlines/phone_randlines-0-1-5.csv end -----
 
 ----- benchmarks_short_randlines/phone_randlines-0-1.csv start -----
@@ -9594,9 +9594,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.408s
-user	0m1.112s
-sys	0m1.062s
+real	0m0.427s
+user	0m0.868s
+sys	0m0.754s
 
 SnapFill
 Switch{
@@ -9605,9 +9605,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.427s
-user	0m1.160s
-sys	0m1.028s
+real	0m0.423s
+user	0m1.146s
+sys	0m1.007s
 ----- benchmarks_short_randlines/phone_randlines-0-1.csv end -----
 
 ----- benchmarks_short_randlines/phone_randlines-0.csv start -----
@@ -9618,9 +9618,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.394s
-user	0m1.104s
-sys	0m1.050s
+real	0m0.406s
+user	0m1.004s
+sys	0m0.914s
 
 SnapFill
 Switch{
@@ -9629,9 +9629,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.415s
-user	0m1.101s
-sys	0m1.072s
+real	0m0.405s
+user	0m1.121s
+sys	0m1.050s
 ----- benchmarks_short_randlines/phone_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/phone_randlines-1-2-5.csv start -----
@@ -9642,9 +9642,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.430s
-user	0m1.118s
-sys	0m1.067s
+real	0m0.413s
+user	0m1.103s
+sys	0m1.059s
 
 SnapFill
 Switch{
@@ -9653,9 +9653,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.451s
-user	0m1.142s
-sys	0m1.015s
+real	0m0.448s
+user	0m1.056s
+sys	0m0.960s
 ----- benchmarks_short_randlines/phone_randlines-1-2-5.csv end -----
 
 ----- benchmarks_short_randlines/phone_randlines-1-2.csv start -----
@@ -9666,9 +9666,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.409s
-user	0m1.124s
-sys	0m1.050s
+real	0m0.418s
+user	0m1.102s
+sys	0m1.082s
 
 SnapFill
 Switch{
@@ -9677,9 +9677,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.413s
-user	0m1.120s
-sys	0m1.065s
+real	0m0.428s
+user	0m1.164s
+sys	0m1.028s
 ----- benchmarks_short_randlines/phone_randlines-1-2.csv end -----
 
 ----- benchmarks_short_randlines/phone_randlines-1-3-4-5.csv start -----
@@ -9690,9 +9690,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.418s
-user	0m1.126s
-sys	0m1.062s
+real	0m0.456s
+user	0m0.932s
+sys	0m0.767s
 
 SnapFill
 Switch{
@@ -9701,9 +9701,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.465s
-user	0m1.156s
-sys	0m1.080s
+real	0m0.502s
+user	0m1.041s
+sys	0m0.838s
 ----- benchmarks_short_randlines/phone_randlines-1-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone_randlines-1-4.csv start -----
@@ -9714,9 +9714,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.407s
-user	0m1.139s
-sys	0m1.033s
+real	0m0.432s
+user	0m1.000s
+sys	0m0.913s
 
 SnapFill
 Switch{
@@ -9725,9 +9725,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.416s
-user	0m1.139s
-sys	0m1.036s
+real	0m0.442s
+user	0m1.142s
+sys	0m1.020s
 ----- benchmarks_short_randlines/phone_randlines-1-4.csv end -----
 
 ----- benchmarks_short_randlines/phone_randlines-2-3-4.csv start -----
@@ -9738,9 +9738,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.415s
-user	0m1.131s
-sys	0m1.017s
+real	0m0.427s
+user	0m1.030s
+sys	0m0.910s
 
 SnapFill
 Switch{
@@ -9749,9 +9749,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.434s
-user	0m1.111s
-sys	0m1.087s
+real	0m0.445s
+user	0m1.170s
+sys	0m1.031s
 ----- benchmarks_short_randlines/phone_randlines-2-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone_randlines-3.csv start -----
@@ -9762,9 +9762,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.409s
-user	0m1.094s
-sys	0m1.027s
+real	0m0.410s
+user	0m1.017s
+sys	0m0.890s
 
 SnapFill
 Switch{
@@ -9773,9 +9773,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.410s
-user	0m1.118s
-sys	0m1.052s
+real	0m0.406s
+user	0m1.122s
+sys	0m1.046s
 ----- benchmarks_short_randlines/phone_randlines-3.csv end -----
 
 ----- benchmarks_short_randlines/phone_randlines-5.csv start -----
@@ -9786,9 +9786,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.409s
-user	0m1.085s
-sys	0m1.085s
+real	0m0.454s
+user	0m0.949s
+sys	0m0.736s
 
 SnapFill
 Switch{
@@ -9797,9 +9797,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.410s
-user	0m1.143s
-sys	0m1.029s
+real	0m0.409s
+user	0m1.036s
+sys	0m0.905s
 ----- benchmarks_short_randlines/phone_randlines-5.csv end -----
 
 ----- benchmarks_short_randlines/phone_short_randlines-0-1-2-4.csv start -----
@@ -9810,9 +9810,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.421s
-user	0m1.117s
-sys	0m1.067s
+real	0m0.424s
+user	0m1.135s
+sys	0m1.025s
 
 SnapFill
 Switch{
@@ -9821,9 +9821,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.471s
-user	0m1.183s
-sys	0m1.054s
+real	0m0.474s
+user	0m1.215s
+sys	0m1.029s
 ----- benchmarks_short_randlines/phone_short_randlines-0-1-2-4.csv end -----
 
 ----- benchmarks_short_randlines/phone_short_randlines-0-2-3.csv start -----
@@ -9834,9 +9834,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.414s
-user	0m1.146s
-sys	0m1.038s
+real	0m0.431s
+user	0m1.143s
+sys	0m1.048s
 
 SnapFill
 Switch{
@@ -9845,9 +9845,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.436s
-user	0m1.132s
-sys	0m1.064s
+real	0m0.450s
+user	0m1.060s
+sys	0m0.993s
 ----- benchmarks_short_randlines/phone_short_randlines-0-2-3.csv end -----
 
 ----- benchmarks_short_randlines/phone_short_randlines-0-3-4-5.csv start -----
@@ -9858,9 +9858,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.433s
-user	0m1.148s
-sys	0m1.050s
+real	0m0.437s
+user	0m1.087s
+sys	0m0.954s
 
 SnapFill
 Switch{
@@ -9869,9 +9869,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.482s
-user	0m1.198s
-sys	0m1.049s
+real	0m0.494s
+user	0m1.119s
+sys	0m0.872s
 ----- benchmarks_short_randlines/phone_short_randlines-0-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone_short_randlines-0.csv start -----
@@ -9882,9 +9882,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.397s
-user	0m1.130s
-sys	0m1.032s
+real	0m0.427s
+user	0m0.917s
+sys	0m0.845s
 
 SnapFill
 Switch{
@@ -9893,9 +9893,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.397s
-user	0m1.088s
-sys	0m1.052s
+real	0m0.405s
+user	0m1.078s
+sys	0m1.054s
 ----- benchmarks_short_randlines/phone_short_randlines-0.csv end -----
 
 ----- benchmarks_short_randlines/phone_short_randlines-1-2-5.csv start -----
@@ -9906,9 +9906,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.409s
-user	0m1.087s
-sys	0m1.088s
+real	0m0.430s
+user	0m1.063s
+sys	0m0.885s
 
 SnapFill
 Switch{
@@ -9917,9 +9917,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.446s
-user	0m1.211s
-sys	0m0.989s
+real	0m0.444s
+user	0m1.198s
+sys	0m1.007s
 ----- benchmarks_short_randlines/phone_short_randlines-1-2-5.csv end -----
 
 ----- benchmarks_short_randlines/phone_short_randlines-1-2.csv start -----
@@ -9930,9 +9930,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.423s
-user	0m1.182s
-sys	0m0.990s
+real	0m0.409s
+user	0m1.192s
+sys	0m0.988s
 
 SnapFill
 Switch{
@@ -9941,9 +9941,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.426s
-user	0m1.145s
-sys	0m1.039s
+real	0m0.430s
+user	0m1.056s
+sys	0m0.963s
 ----- benchmarks_short_randlines/phone_short_randlines-1-2.csv end -----
 
 ----- benchmarks_short_randlines/phone_short_randlines-2-3-4-5.csv start -----
@@ -9954,9 +9954,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.414s
-user	0m1.122s
-sys	0m1.059s
+real	0m0.431s
+user	0m1.107s
+sys	0m1.046s
 
 SnapFill
 Switch{
@@ -9965,9 +9965,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.486s
-user	0m1.176s
-sys	0m1.044s
+real	0m0.480s
+user	0m1.157s
+sys	0m1.053s
 ----- benchmarks_short_randlines/phone_short_randlines-2-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone_short_randlines-2.csv start -----
@@ -9978,9 +9978,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.405s
-user	0m1.152s
-sys	0m1.007s
+real	0m0.414s
+user	0m0.930s
+sys	0m0.769s
 
 SnapFill
 Switch{
@@ -9989,9 +9989,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.412s
-user	0m1.155s
-sys	0m1.025s
+real	0m0.402s
+user	0m0.932s
+sys	0m0.828s
 ----- benchmarks_short_randlines/phone_short_randlines-2.csv end -----
 
 ----- benchmarks_short_randlines/phone_short_randlines-3-4-5.csv start -----
@@ -10002,9 +10002,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.417s
-user	0m1.143s
-sys	0m1.039s
+real	0m0.420s
+user	0m1.111s
+sys	0m1.032s
 
 SnapFill
 Switch{
@@ -10013,9 +10013,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.448s
-user	0m1.136s
-sys	0m1.061s
+real	0m0.470s
+user	0m0.985s
+sys	0m0.881s
 ----- benchmarks_short_randlines/phone_short_randlines-3-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone_short_randlines-3-4.csv start -----
@@ -10026,9 +10026,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.422s
-user	0m1.171s
-sys	0m1.017s
+real	0m0.411s
+user	0m1.015s
+sys	0m0.893s
 
 SnapFill
 Switch{
@@ -10037,9 +10037,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.414s
-user	0m1.120s
-sys	0m1.057s
+real	0m0.418s
+user	0m1.147s
+sys	0m1.040s
 ----- benchmarks_short_randlines/phone_short_randlines-3-4.csv end -----
 
 ----- benchmarks_short_randlines/phone_short_randlines-4-5.csv start -----
@@ -10050,9 +10050,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.419s
-user	0m1.107s
-sys	0m1.072s
+real	0m0.410s
+user	0m1.151s
+sys	0m1.020s
 
 SnapFill
 Switch{
@@ -10061,9 +10061,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.440s
-user	0m1.107s
-sys	0m1.056s
+real	0m0.419s
+user	0m1.094s
+sys	0m1.050s
 ----- benchmarks_short_randlines/phone_short_randlines-4-5.csv end -----
 
 ----- benchmarks_short_randlines/phone_short_randlines-5.csv start -----
@@ -10074,9 +10074,9 @@ Switch{
 }
 Program size: 12
 
-real	0m0.412s
-user	0m1.125s
-sys	0m1.044s
+real	0m0.449s
+user	0m0.924s
+sys	0m0.908s
 
 SnapFill
 Switch{
@@ -10085,8 +10085,8 @@ Switch{
 }
 Program size: 12
 
-real	0m0.417s
-user	0m1.138s
-sys	0m1.029s
+real	0m0.403s
+user	0m0.932s
+sys	0m0.813s
 ----- benchmarks_short_randlines/phone_short_randlines-5.csv end -----
 
